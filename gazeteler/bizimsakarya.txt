@@ -1,0 +1,35 @@
+#seeds;
+http://www.bizimsakarya.com.tr
+http://www.bizimsakarya.com.tr/guncel-haberler.html
+http://www.bizimsakarya.com.tr/ekonomi-haberleri.html
+http://www.bizimsakarya.com.tr/spor-haberleri.html
+http://www.bizimsakarya.com.tr/yasam-haberleri.html
+http://www.bizimsakarya.com.tr/kultur-sanat-haberleri.html
+http://www.bizimsakarya.com.tr/siyaset-haberleri.html
+http://www.bizimsakarya.com.tr/roportaj-haberleri.html
+http://www.bizimsakarya.com.tr/saglik-haberleri.html
+http://www.bizimsakarya.com.tr/egitim-haberleri.html
+http://www.bizimsakarya.com.tr/VideoGalerileri.html
+
+#include in index;
+^https?://([a-z]+\.)?bizimsakarya\.com\.tr/[0-9]+.*\-haberi\.html$
+^https?://([a-z]+\.)?bizimsakarya\.com\.tr/video\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?bizimsakarya\.com\.tr/m\-.*\-[0-9]+\.html$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?bizimsakarya\.com\.tr/video\-.*\-[0-9]+\.html$
+
+#column patterns;
+^https?://([a-z]+\.)?bizimsakarya\.com\.tr/m\-.*\-[0-9]+\.html$
+
+#category patterns;
+
+#date elements;

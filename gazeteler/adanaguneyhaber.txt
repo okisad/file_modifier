@@ -1,0 +1,41 @@
+#seeds;
+http://www.adanaguneyhaber.com/
+http://www.adanaguneyhaber.com/kategori/gundem/
+http://www.adanaguneyhaber.com/kategori/siyaset/
+http://www.adanaguneyhaber.com/kategori/ekonomi/
+http://www.adanaguneyhaber.com/kategori/egitim/
+http://www.adanaguneyhaber.com/kategori/ulusal/
+http://www.adanaguneyhaber.com/kategori/spor/
+http://www.adanaguneyhaber.com/kategori/asayis/
+http://www.adanaguneyhaber.com/kategori/teknoloji/
+http://www.adanaguneyhaber.com/kategori/yasam/
+http://www.adanaguneyhaber.com/kategori/aktualite/
+http://www.adanaguneyhaber.com/kategori/saglik/
+http://www.adanaguneyhaber.com/kategori/otomotiv/
+http://www.adanaguneyhaber.com/#
+http://www.adanaguneyhaber.com/kategori/genel/
+http://www.adanaguneyhaber.com/kategori/tum-mansetler/
+
+#include in index;
+^https?://([a-z]+\.)?adanaguneyhaber\.com/.*/$
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?adanaguneyhaber\.com/[0-9]+/$
+^https?://([a-z]+\.)?adanaguneyhaber\.com/finans/$
+^https?://([a-z]+\.)?adanaguneyhaber\.com/hava-durumu/$
+^https?://([a-z]+\.)?adanaguneyhaber\.com/gazete-mansetleri/$
+^https?://([a-z]+\.)?adanaguneyhaber\.com/kategori/.*/$
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

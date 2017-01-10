@@ -1,0 +1,36 @@
+#seeds;
+http://www.srtmedya.com/
+http://www.srtmedya.com/index.html
+http://www.srtmedya.com/11-.htm
+http://www.srtmedya.com/2-spor-haberleri.htm
+http://www.srtmedya.com/9-ekonomi.htm
+http://www.srtmedya.com/5-guncel.htm
+http://www.srtmedya.com/4-asayis-haberleri.htm
+http://www.srtmedya.com/8-ilce-haberleri.htm
+http://www.srtmedya.com/10-kulaktan-kulaga.htm
+http://www.srtmedya.com/1-yerel-haberler.htm
+http://www.srtmedya.com/3-roportaj.htm
+http://www.srtmedya.com/6-siyaset-haberleri.htm
+http://www.srtmedya.com/7-diger-haberler.htm
+http://www.srtmedya.com/VideoGalerileri.html
+http://www.srtmedya.com/VideoGalerisi-haber-9.html
+
+#include in index;
+^https?://([a-z]+\.)?srtmedya\.com/[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?srtmedya\.com/m\-.*\-[0-9]+\.html$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?srtmedya\.com/m\-.*\-[0-9]+\.html$
+
+#category patterns;
+
+#date elements;

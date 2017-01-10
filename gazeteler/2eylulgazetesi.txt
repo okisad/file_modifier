@@ -1,0 +1,34 @@
+#seeds;
+http://2eylul.com.tr/
+http://www.2eylul.com.tr/index.html
+http://2eylul.com.tr/gundem
+http://2eylul.com.tr/asayis
+http://2eylul.com.tr/ekonomi
+http://2eylul.com.tr/spor
+http://2eylul.com.tr/yasam
+http://2eylul.com.tr/egitim
+http://2eylul.com.tr/bolge
+http://www.2eylul.com.tr/roportajlar.html
+http://www.2eylul.com.tr/yazi-dizisi-s217.html
+http://www.2eylul.com.tr/yazarlar.html
+
+#include in index;
+^https?://([a-z]+\.)?2eylul\.com\.tr/.*/.*-h[0-9]+\.html$
+^https?://([a-z]+\.)?2eylul\.com\.tr/.*-makale,[0-9]+\.html$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?2eylul\.com\.tr/.*-makale,[0-9]+\.html$
+
+#category patterns;
+^https?://([a-z]+\.)?2eylul\.com\.tr/(.*?)/.*-h[0-9]+\.html$
+
+#date elements;

@@ -1,0 +1,35 @@
+#seeds;
+http://www.5ocaknews.com/
+http://www.5ocaknews.com/haberler/spor/1
+http://www.5ocaknews.com/haberler/yasam/1
+http://www.5ocaknews.com/haberler/siyaset/1
+http://www.5ocaknews.com/haberler/saglik/1
+http://www.5ocaknews.com/haberler/ekonomi/1
+http://www.5ocaknews.com/haberler/kultur-sanat/1
+http://www.5ocaknews.com/haberler/guncel/1
+http://www.5ocaknews.com/haberler/adana-guncel/1
+http://www.5ocaknews.com/haberler/ozel-haber/1
+http://www.5ocaknews.com/haberler/asayis/1
+
+#include in index;
+^https?://([a-z]+\.)?5ocaknews\.com/haberler/.*/.*\.html$
+^https?://([a-z]+\.)?5ocaknews\.com/haberler/kose-yazilari/.*\.html$
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?5ocaknews\.com/haberler/.*/1\.html$
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?5ocaknews\.com/haberler/kose-yazilari/.*\.html$
+
+#category patterns;
+^https?://([a-z]+\.)?5ocaknews\.com/haberler/(.*?)/.*\.html$
+
+#date elements;

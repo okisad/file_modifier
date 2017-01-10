@@ -1,0 +1,20 @@
+#seeds;
+www.kayserihaber.com.tr
+
+#include in index;
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

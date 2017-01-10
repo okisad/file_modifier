@@ -1,0 +1,35 @@
+#seeds;
+http://www.akdenizguncel.net/
+http://www.akdenizguncel.net/haberler.asp?katID=6
+http://www.akdenizguncel.net/haberler.asp?katID=5
+http://www.akdenizguncel.net/haberler.asp?katID=15
+http://www.akdenizguncel.net/haberler.asp?katID=14
+http://www.akdenizguncel.net/haberler.asp?katID=4
+http://www.akdenizguncel.net/haberler.asp?katID=13
+http://www.akdenizguncel.net/haberler.asp?katID=17
+http://www.akdenizguncel.net/haberler.asp?katID=18
+http://www.akdenizguncel.net/tummansetler.asp
+
+#include in index;
+^https?://([a-z]+\.)?akdenizguncel\.net/haber\_detay\.asp\?haberID\=[0-9]+$
+^https?://([a-z]+\.)?akdenizguncel\.net/video\_detay\.asp\?haberID\=[0-9]+$
+^https?://([a-z]+\.)?akdenizguncel\.net/yazar\.asp\?yaziID\=[0-9]+$
+
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?akdenizguncel\.net/video\_detay\.asp\?haberID\=[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?akdenizguncel\.net/yazar\.asp\?yaziID\=[0-9]+$
+
+#category patterns;
+
+#date elements;

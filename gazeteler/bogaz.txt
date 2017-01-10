@@ -1,0 +1,26 @@
+#seeds;
+http://www.bogazgazetesi.com.tr/
+
+#include in index;
+^https?://([a-z]+\.)?bogazgazetesi\.com\.tr/haber/[0-9]+\-.*$
+^https?://([a-z]+\.)?bogazgazetesi\.com\.tr/yazar/[0-9]+\-.*$
+^https?://([a-z]+\.)?bogazgazetesi\.com\.tr/haber/[0-9]+\-.*\-video$
+
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?bogazgazetesi\.com\.tr/haber/[0-9]+\-.*\-video$
+
+#column patterns;
+^https?://([a-z]+\.)?bogazgazetesi\.com\.tr/yazar/[0-9]+\-.*$
+
+#category patterns;
+
+#date elements;

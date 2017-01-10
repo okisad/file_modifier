@@ -1,0 +1,40 @@
+#seeds;
+http://www.akcaabatgazetesi.com.tr/anasayfa
+http://www.akcaabatgazetesi.com.tr/kategori-gundem-15.html
+http://www.akcaabatgazetesi.com.tr/kategori-ekonomi-3.html
+http://www.akcaabatgazetesi.com.tr/kategori-saglik-9.html
+http://www.akcaabatgazetesi.com.tr/kategori-yasam-8.html
+http://www.akcaabatgazetesi.com.tr/kategori-kultur-6.html
+http://www.akcaabatgazetesi.com.tr/kategori-spor-5.html
+http://www.akcaabatgazetesi.com.tr/kategori-siyaset-10.html
+http://www.akcaabatgazetesi.com.tr/kategori-egitim-11.html
+http://www.akcaabatgazetesi.com.tr/kategori-teknoloji-4.html
+http://www.akcaabatgazetesi.com.tr/kategori-dunya-2.html
+http://www.akcaabatgazetesi.com.tr/kategori-asayis-7.html
+http://www.akcaabatgazetesi.com.tr/kategori-bilim-17.html
+http://www.akcaabatgazetesi.com.tr/kategori-sanat-18.html
+http://www.akcaabatgazetesi.com.tr/kategori-cocuk-19.html
+http://www.akcaabatgazetesi.com.tr/kategori-turizm-21.html
+http://www.akcaabatgazetesi.com.tr/yazarlar.html
+http://www.akcaabatgazetesi.com.tr/videolar.html
+
+#include in index;
+^https?://([a-z]+\.)?akcaabatgazetesi\.com\.tr/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?akcaabatgazetesi\.com\.tr/yazar\-.*\-[0-9]+\.html$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?akcaabatgazetesi\.com\.tr/yazar\-.*\-[0-9]+\.html$
+
+#category patterns;
+
+#date elements;

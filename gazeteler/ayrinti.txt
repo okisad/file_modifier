@@ -1,0 +1,36 @@
+#seeds;
+http://www.polatliayrinti.com/
+http://www.polatliayrinti.com/category/guncel/
+http://www.polatliayrinti.com/category/siyaset/
+http://www.polatliayrinti.com/category/dunya/
+http://www.polatliayrinti.com/category/ekonomi/
+http://www.polatliayrinti.com/category/egitim/
+http://www.polatliayrinti.com/category/spor/
+http://www.polatliayrinti.com/yazarlar/
+http://www.polatliayrinti.com/category/polatli/
+http://www.polatliayrinti.com/category/son-dakika/
+http://www.polatliayrinti.com/category/surmanset/
+http://www.polatliayrinti.com/category/video-galeri/
+
+
+
+#include in index;
+^https?://([a-z]+\.)?polatliayrinti\.com/[0-9]+/[0-9]+/[0-9]+/.*/$
+^https?://([a-z]+\.)?polatliayrinti\.com/[0-9]+/[0-9]+/[0-9]+/kose\-yazisi.*/$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?polatliayrinti\.com/[0-9]+/[0-9]+/[0-9]+/kose\-yazisi.*/$
+
+#category patterns;
+
+#date elements;

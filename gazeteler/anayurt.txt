@@ -1,0 +1,34 @@
+#seeds;
+http://anayurtgazetesi.com/kategori/Turkiye/48/
+http://anayurtgazetesi.com/kategori/Dis-Haberler/8/
+http://anayurtgazetesi.com/kategori/Ekonomi/42/
+http://anayurtgazetesi.com/kategori/Spor/10/
+http://anayurtgazetesi.com/kategori/Magazin/1/
+http://anayurtgazetesi.com/kategori/Kultur-Sanat/47/
+http://anayurtgazetesi.com/kategori/Guncel-Dizi/9/
+http://anayurtgazetesi.com/
+http://anayurtgazetesi.com/tv/
+http://anayurtgazetesi.com/yazarlar/
+
+#include in index;
+^https?://([a-z]+\.)?anayurtgazetesi\.com/haber/.*/[0-9]+$
+^https?://([a-z]+\.)?anayurtgazetesi\.com/yazar/.*/[0-9]+$
+^https?://([a-z]+\.)?anayurtgazetesi\.com/video/.*/[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?anayurtgazetesi\.com/video/.*/[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?anayurtgazetesi\.com/yazar/.*/[0-9]+$
+
+#category patterns;
+
+#date elements;

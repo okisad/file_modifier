@@ -1,0 +1,29 @@
+#seeds;
+http://gazetedokuzeylul.com/
+http://gazetedokuzeylul.com/?cat=3
+http://gazetedokuzeylul.com/?cat=6
+http://gazetedokuzeylul.com/?cat=5
+http://gazetedokuzeylul.com/?cat=7
+http://gazetedokuzeylul.com/?cat=8
+http://gazetedokuzeylul.com/?cat=15
+http://gazetedokuzeylul.com/?cat=9
+http://gazetedokuzeylul.com/?page_id=342
+
+#include in index;
+^https?://([a-z]+\.)?gazetedokuzeylul\.com/\?p\=[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

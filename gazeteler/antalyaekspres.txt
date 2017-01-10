@@ -1,0 +1,39 @@
+#seeds;
+http://antalyaekspres.com.tr/index
+http://antalyaekspres.com.tr/kategori/siyaset/46/1
+http://antalyaekspres.com.tr/kategori/gundem/36/1
+http://antalyaekspres.com.tr/kategori/spor/49/1
+http://antalyaekspres.com.tr/kategori/ekonomi/50/1
+http://antalyaekspres.com.tr/kategori/yerel-gundem/51/1
+http://antalyaekspres.com.tr/kategori/kultur-sanat/52/1
+http://antalyaekspres.com.tr/kategori/dunya/54/1
+http://antalyaekspres.com.tr/kategori/saglik/55/1
+http://antalyaekspres.com.tr/kategori/magazin/56/1
+http://antalyaekspres.com.tr/kategori/egitim/57/1
+http://antalyaekspres.com.tr/kategori/video-haberler/58/1
+http://antalyaekspres.com.tr/kategori/turizm/60/1
+http://antalyaekspres.com.tr/kategori/roportaj/59/1
+
+
+#include in index;
+^https?://([a-z]+\.)?antalyaekspres\.com\.tr/haber/.*/[0-9]+$
+^https?://([a-z]+\.)?antalyaekspres\.com\.tr/yazi/.*/.*/[0-9]+$
+
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?antalyaekspres\.com\.tr/haber/video-haber/[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?antalyaekspres\.com\.tr/yazi/.*/.*/[0-9]+$
+
+#category patterns;
+
+#date elements;

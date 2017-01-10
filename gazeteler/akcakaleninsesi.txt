@@ -1,0 +1,25 @@
+#seeds;
+http://www.akcakalepress.com/
+http://www.akcakalepress.com/?page_id=260
+http://www.akcakalepress.com/?page_id=172
+http://www.akcakalepress.com/?cat=13
+http://www.akcakalepress.com/?cat=12
+
+#include in index;
+^https?://([a-z]+\.)?akcakalepress\.com/\?p\=[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

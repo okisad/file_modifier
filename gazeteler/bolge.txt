@@ -1,0 +1,47 @@
+#seeds;
+http://www.bolgegazetesi.org/
+http://www.bolgegazetesi.org/haberler/ekonomi/
+http://www.bolgegazetesi.org/haberler/siyaset/
+http://www.bolgegazetesi.org/haberler/spor/
+http://www.bolgegazetesi.org/haberler/magazin/
+http://www.bolgegazetesi.org/haberler/egitim/
+http://www.bolgegazetesi.org/haberler/dunya/
+http://www.bolgegazetesi.org/yazarlar/
+http://www.bolgegazetesi.org/galeriler/
+http://www.bolgegazetesi.org/videolar/
+http://www.bolgegazetesi.org/haberler/saglik/
+http://www.bolgegazetesi.org/haberler/teknoloji/
+http://www.bolgegazetesi.org/haberler/yasam/
+http://www.bolgegazetesi.org/haberler/kultur-sanat/
+http://www.bolgegazetesi.org/haberler/yerel/
+http://www.bolgegazetesi.org/haberler/diger/
+http://www.bolgegazetesi.org/haberler/roportaj/
+http://www.bolgegazetesi.org/haberler/biyografi/
+http://www.bolgegazetesi.org/haberler/yasam-kocu/
+http://www.bolgegazetesi.org/haberler/kadin/
+http://www.bolgegazetesi.org/haberler/guncel/
+http://www.bolgegazetesi.org/sondakika-haberler/
+http://www.bolgegazetesi.org/mansetler/
+http://www.bolgegazetesi.org/neler-oluyor.html
+http://www.bolgegazetesi.org/yazarlar/
+
+#include in index;
+^https?://([a-z]+\.)?bolgegazetesi\.org/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?bolgegazetesi\.org/kose\-yazisi/[0-9]+/.*\.html$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?bolgegazetesi\.org/kose\-yazisi/[0-9]+/.*\.html$
+
+#category patterns;
+
+#date elements;

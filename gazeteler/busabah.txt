@@ -1,0 +1,46 @@
+#seeds;
+http://www.busabahmalatya.com/
+http://www.busabahmalatya.com/gundem
+http://www.busabahmalatya.com/dunya
+http://www.busabahmalatya.com/ekonomi
+http://www.busabahmalatya.com/teknoloji
+http://www.busabahmalatya.com/spor
+http://www.busabahmalatya.com/kultur
+http://www.busabahmalatya.com/yasam
+http://www.busabahmalatya.com/saglik
+http://www.busabahmalatya.com/ozel-haber
+http://www.busabahmalatya.com/egitim
+http://www.busabahmalatya.com/roportaj
+http://www.busabahmalatya.com/kadin
+http://www.busabahmalatya.com/emlak
+http://www.busabahmalatya.com/3sayfa
+http://www.busabahmalatya.com/siyaset
+http://www.busabahmalatya.com/medya
+http://www.busabahmalatya.com/bilim-tek
+http://www.busabahmalatya.com/malatya
+http://www.busabahmalatya.com/yerel
+http://www.busabahmalatya.com/yazarlar
+http://www.busabahmalatya.com/vefat
+
+#include in index;
+^https?://([a-z]+\.)?busabahmalatya\.com/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?busabahmalatya\.com/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?busabahmalatya\.com/.*\-makale\,[0-9]+\.html$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?busabahmalatya\.com/.*\-video\,[0-9]+\.html$
+
+#column patterns;
+^https?://([a-z]+\.)?busabahmalatya\.com/.*\-makale\,[0-9]+\.html$
+
+#category patterns;
+^https?://([a-z]+\.)?busabahmalatya\.com/(.*?)/.*\-h[0-9]+\.html$
+
+#date elements;

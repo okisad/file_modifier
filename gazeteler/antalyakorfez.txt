@@ -1,0 +1,36 @@
+#seeds;
+http://www.antalyakorfez.com/
+http://www.antalyakorfez.com/politika/1/1
+http://www.antalyakorfez.com/guncel/2/1
+http://www.antalyakorfez.com/ekonomi/4/1
+http://www.antalyakorfez.com/yasam/5/1
+http://www.antalyakorfez.com/spor/6/1
+http://www.antalyakorfez.com/cevre/10/1
+http://www.antalyakorfez.com/telekulak/15/1
+http://www.antalyakorfez.com/sektorel/16/1
+http://www.antalyakorfez.com/dosya/22/1
+http://www.antalyakorfez.com/roportaj/26/1
+http://www.antalyakorfez.com/bugununhaberleri/49
+http://www.antalyakorfez.com/yazarlar/35
+
+#include in index;
+^https?://([a-z]+\.)?antalyakorfez\.com/.*/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?antalyakorfez\.com/yazarlar/[0-9]+/[0-9]+/.*$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?antalyakorfez\.com/yazarlar/[0-9]+/[0-9]+/.*$
+
+#category patterns;
+^https?://([a-z]+\.)?antalyakorfez\.com/(.*?)/[0-9]+/[0-9]+/.*$
+
+#date elements;

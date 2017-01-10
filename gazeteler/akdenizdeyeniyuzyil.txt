@@ -1,0 +1,39 @@
+#seeds;
+http://www.akdenizdeyeniyuzyil.net/anasayfa.html
+http://www.akdenizdeyeniyuzyil.net/kategori-15-gundem.html
+http://www.akdenizdeyeniyuzyil.net/kategori-3-ekonomi.html
+http://www.akdenizdeyeniyuzyil.net/kategori-9-saglik.html
+http://www.akdenizdeyeniyuzyil.net/kategori-8-yasam.html
+http://www.akdenizdeyeniyuzyil.net/kategori-6-kultur.html
+http://www.akdenizdeyeniyuzyil.net/kategori-25-roportaj.html
+http://www.akdenizdeyeniyuzyil.net/kategori-5-spor.html
+http://www.akdenizdeyeniyuzyil.net/kategori-10-siyaset.html
+http://www.akdenizdeyeniyuzyil.net/kategori-11-egitim.html
+http://www.akdenizdeyeniyuzyil.net/kategori-4-teknoloji.html
+http://www.akdenizdeyeniyuzyil.net/kategori-2-dunya.html
+http://www.akdenizdeyeniyuzyil.net/kategori-16-turizm.html
+http://www.akdenizdeyeniyuzyil.net/kategori-7-asayis.html
+http://www.akdenizdeyeniyuzyil.net/kategori-18-sanat.html
+http://www.akdenizdeyeniyuzyil.net/videolar.html
+
+#include in index;
+^https?://([a-z]+\.)?akdenizdeyeniyuzyil\.net/haber\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?akdenizdeyeniyuzyil\.net/yazar\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?akdenizdeyeniyuzyil\.net/video\-[0-9]+\-.*\.html#galeri$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?akdenizdeyeniyuzyil\.net/video\-[0-9]+\-.*\.html#galeri$
+
+#column patterns;
+^https?://([a-z]+\.)?akdenizdeyeniyuzyil\.net/yazar\-[0-9]+\-.*\.html$
+
+#category patterns;
+
+#date elements;

@@ -1,0 +1,25 @@
+#seeds;
+http://www.gazetevitamin.com/index
+
+#include in index;
+^https?://([a-z]+\.)?gazetevitamin\.com/haber/[0-9]+\-.*$
+^https?://([a-z]+\.)?gazetevitamin\.com/haber/[0-9]+\-.*\-video$
+^https?://([a-z]+\.)?gazetevitamin\.com/yazar/[0-9]+\-.*$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?gazetevitamin\.com/haber/[0-9]+\-.*\-video$
+
+#column patterns;
+^https?://([a-z]+\.)?gazetevitamin\.com/yazar/[0-9]+\-.*$
+
+#category patterns;
+
+#date elements;

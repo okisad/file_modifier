@@ -1,0 +1,30 @@
+#seeds;
+http://www.akdenizgercek.com/
+http://www.akdenizgercek.com/haberler.asp?katID=2
+http://www.akdenizgercek.com/haberler.asp?katID=21
+http://www.akdenizgercek.com/haberler.asp?katID=4
+http://www.akdenizgercek.com/haberler.asp?katID=5
+http://www.akdenizgercek.com/haberler.asp?katID=7
+http://www.akdenizgercek.com/haberler.asp?katID=12
+http://www.akdenizgercek.com/haberler.asp?katID=13
+http://www.akdenizgercek.com/haberler.asp?katID=3
+
+#include in index;
+^https?://([a-z]+\.)?akdenizgercek\.com/haber\_detay\.asp\?haberID\=[0-9]+$
+^https?://([a-z]+\.)?akdenizgercek\.com/yazar\.asp\?yaziID\=[0-9]+$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?akdenizgercek\.com/yazar\.asp\?yaziID\=[0-9]+$
+
+#category patterns;
+
+#date elements;

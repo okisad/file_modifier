@@ -1,0 +1,36 @@
+#seeds;
+http://aydinguzelhisar.com/
+http://aydinguzelhisar.com/haberler/aydin-24-saat/
+http://aydinguzelhisar.com/haberler/aydin-ilceler/
+http://aydinguzelhisar.com/haberler/egitim/
+http://aydinguzelhisar.com/haberler/spor/
+http://aydinguzelhisar.com/haberler/siyaset/
+http://aydinguzelhisar.com/haberler/gundem/
+http://aydinguzelhisar.com/haberler/ekonomi/
+http://aydinguzelhisar.com/haberler/yasam/
+http://aydinguzelhisar.com/haberler/teknoloji/
+http://aydinguzelhisar.com/haberler/saglik/
+http://aydinguzelhisar.com/video-galeri.html
+http://aydinguzelhisar.com/yazarlar.html
+
+#include in index;
+^https?://([a-z]+\.)?aydinguzelhisar\.com/.*/[0-9]+/.*\.html$
+
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?aydinguzelhisar\.com/video/[0-9]+/.*\.html$
+
+#column patterns;
+^https?://([a-z]+\.)?aydinguzelhisar\.com/kose\-yazisi/[0-9]+/.*\.html$
+
+#category patterns;
+
+#date elements;

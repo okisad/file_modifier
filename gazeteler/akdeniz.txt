@@ -1,0 +1,32 @@
+#seeds;
+http://akdenizgazetesi.net/
+http://akdenizgazetesi.net/?cat=1
+http://akdenizgazetesi.net/?cat=5
+http://akdenizgazetesi.net/?cat=4
+http://akdenizgazetesi.net/?cat=3
+http://akdenizgazetesi.net/?cat=2
+http://akdenizgazetesi.net/?cat=9
+http://akdenizgazetesi.net/?cat=13
+http://akdenizgazetesi.net/?cat=10
+http://akdenizgazetesi.net/?cat=15
+http://akdenizgazetesi.net/?cat=16
+http://akdenizgazetesi.net/?cat=14
+
+#include in index;
+^https?://([a-z]+\.)?akdenizgazetesi\.net/\?p\=[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

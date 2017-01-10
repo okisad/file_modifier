@@ -1,0 +1,32 @@
+#seeds;
+http://www.bozyazigazetesi.net/
+http://www.bozyazigazetesi.net/Kategori/mersin/
+http://www.bozyazigazetesi.net/Kategori/guncel/
+http://www.bozyazigazetesi.net/Kategori/ozel-haber/
+http://www.bozyazigazetesi.net/Kategori/siyaset/
+http://www.bozyazigazetesi.net/Kategori/ekonomi/
+http://www.bozyazigazetesi.net/Kategori/roportaj/
+http://www.bozyazigazetesi.net/Kategori/kultur-sanat/
+http://www.bozyazigazetesi.net/Kategori/saglik/
+http://www.bozyazigazetesi.net/Kategori/spor/
+http://www.bozyazigazetesi.net/Kategori/kose-yazarlari/
+http://www.bozyazigazetesi.net/Kategori/video-galeri/
+
+#include in index;
+^https?://([a-z]+\.)?bozyazigazetesi\.net/.*/$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

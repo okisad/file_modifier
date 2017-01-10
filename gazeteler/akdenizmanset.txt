@@ -1,0 +1,52 @@
+#seeds;
+http://www.akdenizmanset.com.tr/
+http://www.akdenizmanset.com.tr/webtv/
+http://www.akdenizmanset.com.tr/yazarlar.html
+http://www.akdenizmanset.com.tr/ekonomi
+http://www.akdenizmanset.com.tr/spor
+http://www.akdenizmanset.com.tr/magazin
+http://www.akdenizmanset.com.tr/guncel
+http://www.akdenizmanset.com.tr/asayis
+http://www.akdenizmanset.com.tr/ozel-haber
+http://www.akdenizmanset.com.tr/video-haber
+http://www.akdenizmanset.com.tr/#
+http://www.akdenizmanset.com.tr/politika
+http://www.akdenizmanset.com.tr/kultur-sanat
+http://www.akdenizmanset.com.tr/turizm
+http://www.akdenizmanset.com.tr/egitim
+http://www.akdenizmanset.com.tr/ilceler
+http://www.akdenizmanset.com.tr/ramazan-ozel
+http://www.akdenizmanset.com.tr/yerel
+http://www.akdenizmanset.com.tr/genel
+http://www.akdenizmanset.com.tr/ulusal
+http://www.akdenizmanset.com.tr/saglik
+http://www.akdenizmanset.com.tr/cevre
+http://www.akdenizmanset.com.tr/bilim-ve-teknoloji
+http://www.akdenizmanset.com.tr/dunya
+http://www.akdenizmanset.com.tr/bolge
+http://www.akdenizmanset.com.tr/guvenlik
+http://www.akdenizmanset.com.tr/bilim-teknoloji
+
+#include in index;
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/.*\-video\,[0-9]+\.html$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/.*\-video\,[0-9]+\.html$
+
+#column patterns;
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/.*\-makale\,[0-9]+\.html$
+
+#category patterns;
+^https?://([a-z]+\.)?akdenizmanset\.com\.tr/(.*?)/.*-h[0-9]+\.html$
+
+#date elements;
