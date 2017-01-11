@@ -1,7 +1,22 @@
 #seeds;
-www.gazetebir.com.tr
+http://www.gazetebir.com.tr/
+http://www.gazetebir.com.tr/video/
+http://www.gazetebir.com.tr/yazar/
+http://www.gazetebir.com.tr/Kategori/ekonomi
+http://www.gazetebir.com.tr/Kategori/spor
+http://www.gazetebir.com.tr/Kategori/guncel
+http://www.gazetebir.com.tr/Kategori/kultur-sanat
+http://www.gazetebir.com.tr/Kategori/saglik
+http://www.gazetebir.com.tr/Kategori/turizm
+http://www.gazetebir.com.tr/Kategori/egitim
+http://www.gazetebir.com.tr/Kategori/politika
+http://www.gazetebir.com.tr/Kategori/video-haber
+http://www.gazetebir.com.tr/Kategori/antalya-gunlugu
 
 #include in index;
+^https?://([a-z]+\.)?gazetebir\.com\.tr/haber/.*/$
+^https?://([a-z]+\.)?gazetebir\.com\.tr/makale/.*/$
+^https?://([a-z]+\.)?gazetebir\.com\.tr/video/.*/$
 
 
 #exclude from crawl;
@@ -12,8 +27,10 @@ www.gazetebir.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gazetebir\.com\.tr/video/.*/$
 
 #column patterns;
+^https?://([a-z]+\.)?gazetebir\.com\.tr/makale/.*/$
 
 #category patterns;
 

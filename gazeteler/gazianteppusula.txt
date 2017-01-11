@@ -1,7 +1,22 @@
 #seeds;
-www.gazianteppusula.com
+http://www.gazianteppusula.com/
+http://www.gazianteppusula.com/kategori/ekonomi-haberleri-1.html
+http://www.gazianteppusula.com/kategori/dunya-haberleri-2.html
+http://www.gazianteppusula.com/kategori/siyaset-haberleri-3.html
+http://www.gazianteppusula.com/kategori/gundem-haberleri-4.html
+http://www.gazianteppusula.com/kategori/medya-haberleri-5.html
+http://www.gazianteppusula.com/kategori/yerel-haberleri-6.html
+http://www.gazianteppusula.com/kategori/turkiye-gundemi-haberleri-14.html
+http://www.gazianteppusula.com/kategori/spor-haberleri-8.html
+http://www.gazianteppusula.com/kategori/magazin-haberleri-10.html
+http://www.gazianteppusula.com/kategori/advertorial-haberleri-15.html
+http://www.gazianteppusula.com/kategori/saglik-haberleri-16.html
+http://www.gazianteppusula.com/webtv.html
 
 #include in index;
+^https?://([a-z]+\.)?gazianteppusula\.com/webtv/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?gazianteppusula\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?gazianteppusula\.com/koseyazisi/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,8 +27,10 @@ www.gazianteppusula.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gazianteppusula\.com/webtv/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?gazianteppusula\.com/koseyazisi/.*\-[0-9]+\.html$
 
 #category patterns;
 

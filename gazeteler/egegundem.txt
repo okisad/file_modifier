@@ -1,7 +1,33 @@
 #seeds;
-www.egegundem.com.tr
+http://egegundem.com.tr
+http://www.egegundem.com.tr/category/balikesir/
+http://www.egegundem.com.tr/category/altieylul/
+http://www.egegundem.com.tr/category/karesi/
+http://www.egegundem.com.tr/category/bandirma/
+http://www.egegundem.com.tr/category/edremit/
+http://www.egegundem.com.tr/category/burhaniye/
+http://www.egegundem.com.tr/category/ayvalik/
+http://www.egegundem.com.tr/category/havran/
+http://www.egegundem.com.tr/category/sindirgi/
+http://www.egegundem.com.tr/category/kepsut/
+http://www.egegundem.com.tr/category/gomec/
+http://www.egegundem.com.tr/category/bigadic/
+http://www.egegundem.com.tr/category/balya/
+http://www.egegundem.com.tr/category/savastepe/
+http://www.egegundem.com.tr/category/ivrindi/
+http://www.egegundem.com.tr/category/susurluk/
+http://www.egegundem.com.tr/category/erdek/
+http://www.egegundem.com.tr/category/dursunbey/
+http://www.egegundem.com.tr/category/manyas/
+http://www.egegundem.com.tr/category/marmara/
+http://www.egegundem.com.tr/category/gonen/
+http://www.egegundem.com.tr/category/yazarlar/
+http://www.egegundem.com.tr/category/ayvacik/
+http://www.egegundem.com.tr/category/kucukkuyu/
+http://www.egegundem.com.tr/category/video-galeri/
 
 #include in index;
+^https?://([a-z]+\.)?egegundem\.com\.tr/[0-9]+/[0-9]+/[0-9]+/.*/$
 
 
 #exclude from crawl;

@@ -1,7 +1,20 @@
 #seeds;
-www.eskisehiryenigungazetesi.com.tr
+http://www.eskisehiryenigungazetesi.com.tr/
+http://www.eskisehiryenigungazetesi.com.tr/gundem
+http://www.eskisehiryenigungazetesi.com.tr/asayis
+http://www.eskisehiryenigungazetesi.com.tr/ekonomi
+http://www.eskisehiryenigungazetesi.com.tr/spor
+http://www.eskisehiryenigungazetesi.com.tr/kultur-sanat
+http://www.eskisehiryenigungazetesi.com.tr/yasam
+http://www.eskisehiryenigungazetesi.com.tr/saglik
+http://www.eskisehiryenigungazetesi.com.tr/bolge
+http://www.eskisehiryenigungazetesi.com.tr/video-galeri.html
+http://www.eskisehiryenigungazetesi.com.tr/yazarlar.html
 
 #include in index;
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +25,11 @@ www.eskisehiryenigungazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
-
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/.*\-makale\,[0-9]+\.html$
 #category patterns;
+^https?://([a-z]+\.)?eskisehiryenigungazetesi\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

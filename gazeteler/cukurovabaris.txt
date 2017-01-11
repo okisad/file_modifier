@@ -1,8 +1,25 @@
 #seeds;
-www.cukurovabarisgazetesi.net
+http://www.cukurovabarisgazetesi.net
+http://www.cukurovabarisgazetesi.net/kategori/gundem-1.html
+http://www.cukurovabarisgazetesi.net/kategori/siyaset-1.html
+http://www.cukurovabarisgazetesi.net/kategori/dunya-1.html
+http://www.cukurovabarisgazetesi.net/kategori/ekonomi-1.html
+http://www.cukurovabarisgazetesi.net/kategori/spor-1.html
+http://www.cukurovabarisgazetesi.net/kategori/saglik-1.html
+http://www.cukurovabarisgazetesi.net/kategori/magazin-1.html
+http://www.cukurovabarisgazetesi.net/kategori/medya-1.html
+http://www.cukurovabarisgazetesi.net/kategori/egitim-1.html
+http://www.cukurovabarisgazetesi.net/kategori/yasam-1.html
+http://www.cukurovabarisgazetesi.net/kategori/teknoloji-1.html
+http://www.cukurovabarisgazetesi.net/kategori/kultur-sanat-1.html
+http://www.cukurovabarisgazetesi.net/yazarlar.html
+http://www.cukurovabarisgazetesi.net/gunun-haberleri.html
+http://www.cukurovabarisgazetesi.net/videogaleri/
 
 #include in index;
-
+^https?://([a-z]+\.)?cukurovabarisgazetesi\.net/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?cukurovabarisgazetesi\.net/videogaleri/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?cukurovabarisgazetesi\.net/yazar/.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +29,9 @@ www.cukurovabarisgazetesi.net
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?cukurovabarisgazetesi\.net/videogaleri/.*\-[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?cukurovabarisgazetesi\.net/yazar/.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

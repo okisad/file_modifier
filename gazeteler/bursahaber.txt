@@ -1,8 +1,28 @@
 #seeds;
-www.bursahaber.com
+http://www.bursahaber.com/
+http://www.bursahaber.com/webtv/
+http://www.bursahaber.com/yazarlar/
+http://www.bursahaber.com/bursaspor
+http://www.bursahaber.com/bursa-haber
+http://www.bursahaber.com/guncel
+http://www.bursahaber.com/yurt
+http://www.bursahaber.com/spor
+http://www.bursahaber.com/magazin
+http://www.bursahaber.com/ekonomi
+http://www.bursahaber.com/#
+http://www.bursahaber.com/genel/
+http://www.bursahaber.com/teknoloji/
+http://www.bursahaber.com/saglik/
+http://www.bursahaber.com/yerel/
+http://www.bursahaber.com/egitim/
+http://www.bursahaber.com/yasam/
+http://www.bursahaber.com/dunya/
+http://www.bursahaber.com/ozel-dosya/
 
 #include in index;
-
+^https?://([a-z]+\.)?bursahaber\.com/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?bursahaber\.com/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?bursahaber\.com/.*\-makale\,[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +32,12 @@ www.bursahaber.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?bursahaber\.com/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?bursahaber\.com/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?bursahaber\.com/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

@@ -1,8 +1,23 @@
 #seeds;
-www.anadolugazetesi.net
+http://www.anadolugazetesi.net/
+http://www.anadolugazetesi.net/gundem
+http://www.anadolugazetesi.net/spor
+http://www.anadolugazetesi.net/magazin
+http://www.anadolugazetesi.net/ekonomi
+http://www.anadolugazetesi.net/kultur-sanat
+http://www.anadolugazetesi.net/saglik
+http://www.anadolugazetesi.net/turkiye
+http://www.anadolugazetesi.net/tam-metin
+http://anadolugazetesi.net/kategori/roportaj
+http://www.anadolugazetesi.net/biyografi
+http://www.anadolugazetesi.net/dunya
+http://www.anadolugazetesi.net/video/
+http://www.anadolugazetesi.net/yazar/
 
 #include in index;
-
+^https?://([a-z]+\.)?anadolugazetesi\.net/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?anadolugazetesi\.net/makale/.*\.html$
+^https?://([a-z]+\.)?anadolugazetesi\.net/video/.*\.html$
 
 #exclude from crawl;
 
@@ -12,8 +27,9 @@ www.anadolugazetesi.net
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?anadolugazetesi\.net/video/.*\.html$
 #column patterns;
+^https?://([a-z]+\.)?anadolugazetesi\.net/makale/.*\.html$
 
 #category patterns;
 

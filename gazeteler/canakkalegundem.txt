@@ -1,7 +1,20 @@
 #seeds;
-www.canakkalegundem.net
+http://canakkalegundem.net/
+http://canakkalegundem.net/category/guncel/
+http://canakkalegundem.net/category/siyaset/
+http://canakkalegundem.net/category/ekonomi/
+http://canakkalegundem.net/category/spor/
+http://canakkalegundem.net/category/kadin/
+http://canakkalegundem.net/category/kultur-sanat/
+http://canakkalegundem.net/category/egitim/
+http://canakkalegundem.net/category/saglik/
+http://canakkalegundem.net/category/magazin/
+http://canakkalegundem.net/category/yazarlar/
+http://canakkalegundem.net/category/tech/
+http://canakkalegundem.net/category/roportaj/
 
 #include in index;
+^https?://([a-z]+\.)?canakkalegundem\.net/[0-9]+/[0-9]+/[0-9]+/.*/$
 
 
 #exclude from crawl;

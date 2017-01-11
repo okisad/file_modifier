@@ -1,10 +1,24 @@
 #seeds;
-www.egetelgraf.com
+http://www.egetelgraf.com/
+http://www.egetelgraf.com/category/haberler/politika/
+http://www.egetelgraf.com/category/haberler/dunya/
+http://www.egetelgraf.com/category/haberler/ekonomi/
+http://www.egetelgraf.com/category/haberler/spor/
+http://www.egetelgraf.com/category/haberler/magazin-kultur-sanat/
+http://www.egetelgraf.com/category/haberler/saglik/
+
 
 #include in index;
+^https?://([a-z]+\.)?egetelgraf\.com/.*/$
+^https?://([a-z]+\.)?egetelgraf\.com/.*\-video.*\-haber/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?egetelgraf\.com/category/.*/$
+^https?://([a-z]+\.)?egetelgraf\.com/kunye/$
+^https?://([a-z]+\.)?egetelgraf\.com/iletisim/$
+^https?://([a-z]+\.)?egetelgraf\.com/[0-9]+\-[0-9]+\-[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,6 +26,7 @@ www.egetelgraf.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?egetelgraf\.com/.*\-video.*\-haber/$
 
 #column patterns;
 

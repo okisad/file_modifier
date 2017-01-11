@@ -1,10 +1,29 @@
 #seeds;
-www.buyukkayseri.com
+http://www.buyukkayseri.com/
+http://www.buyukkayseri.com/haber/kategori/ekonomi-84.html
+http://www.buyukkayseri.com/haber/kategori/politika-83.html
+http://www.buyukkayseri.com/haber/kategori/egitim-88.html
+http://www.buyukkayseri.com/haber/kategori/spor-86.html
+http://www.buyukkayseri.com/haber/kategori/guncel-33.html
+http://www.buyukkayseri.com/haber/kategori/is_dunyasi-85.html
+http://www.buyukkayseri.com/haber/kategori/saglik-87.html
+http://www.buyukkayseri.com/haber/kategori/-90.html
+http://www.buyukkayseri.com/haber/kategori/yasam-91.html
+http://www.buyukkayseri.com/haber/kategori/kultur-92.html
+http://www.buyukkayseri.com/roportajlar
+http://www.buyukkayseri.com/video-galeri/
 
 #include in index;
 
+^https?://([a-z]+\.)?buyukkayseri\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?buyukkayseri\.com/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?buyukkayseri\.com/video\-galeri/.*\-[0-9]+\.html$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?buyukkayseri\.com/video\-galeri/kategori/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?buyukkayseri\.com/video\-galeri/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?buyukkayseri\.com/haber/kategori/[0-9]+/.*\-[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +31,11 @@ www.buyukkayseri.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?buyukkayseri\.com/video\-galeri/.*\-[0-9]+\.html$
+
 
 #column patterns;
+^https?://([a-z]+\.)?buyukkayseri\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

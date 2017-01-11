@@ -1,7 +1,20 @@
 #seeds;
-www.avrupagazetecilik.com.tr
+http://www.avrupagazetecilik.com.tr/kategori/yasam
+http://www.avrupagazetecilik.com.tr
+http://www.avrupagazetecilik.com.tr/kategori/genel
+http://www.avrupagazetecilik.com.tr/kategori/gundem
+http://www.avrupagazetecilik.com.tr/kategori/trakya
+http://www.avrupagazetecilik.com.tr/#
+http://www.avrupagazetecilik.com.tr/kategori/video-galeri
+http://www.avrupagazetecilik.com.tr/kategori/ekonomi
+http://www.avrupagazetecilik.com.tr/kategori/saglik
+http://www.avrupagazetecilik.com.tr/kategori/siyaset
+http://www.avrupagazetecilik.com.tr/kategori/spor
+http://www.avrupagazetecilik.com.tr/kategori/teknoloji
+http://www.avrupagazetecilik.com.tr/kategori/magazin
 
 #include in index;
+^https?://([a-z]+\.)?avrupagazetecilik\.com\.tr/.*\.html$
 
 
 #exclude from crawl;

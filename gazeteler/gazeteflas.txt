@@ -1,7 +1,32 @@
 #seeds;
-www.gazeteflas.com
+http://flasmedya.com/#
+http://flasmedya.com/
+http://flasmedya.com/aydin/spor/43/
+http://flasmedya.com/aydin/aydin/42/
+http://flasmedya.com/aydin/bugunku_gazete_flas/47/
+http://flasmedya.com/aydin/bozdogan/41/
+http://flasmedya.com/aydin/didim/38/
+http://flasmedya.com/aydin/karacasu/35/
+http://flasmedya.com/aydin/kosk/32/
+http://flasmedya.com/aydin/nazilli/29/
+http://flasmedya.com/aydin/yenipazar/26/
+http://flasmedya.com/aydin/soke/28/
+http://flasmedya.com/aydin/kusadasi/31/
+http://flasmedya.com/aydin/karpuzlu/34/
+http://flasmedya.com/aydin/germencik/37/
+http://flasmedya.com/aydin/buharkent/40/
+http://flasmedya.com/aydin/mansetler/48/
+http://flasmedya.com/aydin/flas_tv/44/
+http://flasmedya.com/aydin/gundem/46/
+http://flasmedya.com/aydin/cine/39/
+http://flasmedya.com/aydin/incirliova/36/
+http://flasmedya.com/aydin/kocarli/33/
+http://flasmedya.com/aydin/kuyucak/30/
+http://flasmedya.com/aydin/sultanhisar/27/
 
 #include in index;
+^https?://([a-z]+\.)?flasmedya\.com/.*/[0-9]+/$
+^https?://([a-z]+\.)?flasmedya\.com/yazarlar/.*/.*/[0-9]+/$
 
 
 #exclude from crawl;
@@ -14,6 +39,7 @@ www.gazeteflas.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?flasmedya\.com/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 

@@ -1,10 +1,33 @@
 #seeds;
-www.polatliduatepegazetesi.com
+http://polatliduatepegazetesi.com/
+http://polatliduatepegazetesi.com/haberler/guncel-polatli-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-saglik-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-siyaset-haberleri/
+http://polatliduatepegazetesi.com/haberler/bilim-teknoloji-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-egitim-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-kultur-sanat-haberleri/
+http://polatliduatepegazetesi.com/haberler/turizm-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-tarim-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-spor-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-yasam-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-magazin-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-ekonomi-haberleri/
+http://polatliduatepegazetesi.com/haberler/genel-dunya-haberleri/
+http://polatliduatepegazetesi.com/haberler/polatli-sinemasi-haberleri/
+http://polatliduatepegazetesi.com/haberler/galeriler/video-galeriler/
+http://polatliduatepegazetesi.com/haberler/kose-yazilari/
 
 #include in index;
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/.*/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/author/.*/$
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/kunye/$
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/iletisim/$
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/haberler/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?polatliduatepegazetesi\.com/haberler/galeriler/$
+
 
 # generic exclusions
 .*\.pdf$

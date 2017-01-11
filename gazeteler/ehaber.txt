@@ -1,7 +1,15 @@
 #seeds;
-www.kayseriehaber.com
+http://www.kayseriehaber.com/index.html
+http://www.kayseriehaber.com/yazarlar.html
+http://www.kayseriehaber.com/spor
+http://www.kayseriehaber.com/guncel-haber
+http://www.kayseriehaber.com/video-galeri.html
+http://www.kayseriehaber.com/tum-mansetler.html
 
 #include in index;
+^https?://([a-z]+\.)?kayseriehaber\.com/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?kayseriehaber\.com/.*\-makale\,[0-9]+\.html
+^https?://([a-z]+\.)?kayseriehaber\.com/.*\-video\,[0-9]+\.html
 
 
 #exclude from crawl;
@@ -12,9 +20,11 @@ www.kayseriehaber.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?kayseriehaber\.com/.*\-video\,[0-9]+\.html
 #column patterns;
+^https?://([a-z]+\.)?kayseriehaber\.com/.*\-makale\,[0-9]+\.html
 
 #category patterns;
+^https?://([a-z]+\.)?kayseriehaber\.com/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

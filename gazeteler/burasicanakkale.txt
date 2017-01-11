@@ -1,5 +1,5 @@
 #seeds;
-www.burasicanakkale.com.tr
+http://www.burasicanakkale.com.tr/index
 
 #include in index;
 ^https?://([a-z]+\.)?burasicanakkale\.com\.tr/haber/[0-9]+\-.*$

@@ -1,7 +1,21 @@
 #seeds;
-www.bursahayat.com.tr
+http://www.bursahayat.com.tr/
+http://www.bursahayat.com.tr/bursa
+http://www.bursahayat.com.tr/gundem
+http://www.bursahayat.com.tr/asayis
+http://www.bursahayat.com.tr/spor
+http://www.bursahayat.com.tr/ekonomi
+http://www.bursahayat.com.tr/siyaset
+http://www.bursahayat.com.tr/dunya
+http://www.bursahayat.com.tr/saglik
+http://www.bursahayat.com.tr/magazin
+http://www.bursahayat.com.tr/hayatin-icinden
+http://www.bursahayat.com.tr/egitim
+http://www.bursahayat.com.tr/yasam
 
 #include in index;
+^https?://([a-z]+\.)?bursahayat\.com\.tr/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?bursahayat\.com\.tr/yazarlar/.*/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -14,6 +28,7 @@ www.bursahayat.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?bursahayat\.com\.tr/yazarlar/.*/.*\-[0-9]+\.html$
 
 #category patterns;
 

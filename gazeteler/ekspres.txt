@@ -1,8 +1,20 @@
 #seeds;
-www.gazeteekspres.com
+http://www.gazeteekspres.com
+http://www.gazeteekspres.com/yazarlar.html
+http://www.gazeteekspres.com/kategori-gundem-1.html
+http://www.gazeteekspres.com/kategori-siyaset-2.html
+http://www.gazeteekspres.com/kategori-spor-3.html
+http://www.gazeteekspres.com/kategori-ekonomi-4.html
+http://www.gazeteekspres.com/kategori-kultursanat-5.html
+http://www.gazeteekspres.com/kategori-egitim-6.html
+http://www.gazeteekspres.com/kategori-saglik-7.html
+http://www.gazeteekspres.com/kategori-yasam-9.html
+
+
 
 #include in index;
-
+^https?://([a-z]+\.)?gazeteekspres\.com/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?gazeteekspres\.com/yazar\-.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -14,6 +26,7 @@ www.gazeteekspres.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?gazeteekspres\.com/yazar\-.*\-[0-9]+\.html$
 
 #category patterns;
 

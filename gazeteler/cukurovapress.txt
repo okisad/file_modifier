@@ -1,7 +1,27 @@
 #seeds;
-www.cukurovapress.com
+http://www.cukurovapress.com/
+http://www.cukurovapress.com/kategori/SIYASET/5
+http://www.cukurovapress.com/kategori/EKONOMI/6
+http://www.cukurovapress.com/kategori/KULIS/7
+http://www.cukurovapress.com/kategori/DUNYA/8
+http://www.cukurovapress.com/kategori/SPOR/10
+http://www.cukurovapress.com/kategori/YASAM/11
+http://www.cukurovapress.com/kategori/GUNCEL/12
+http://www.cukurovapress.com/kategori/YEREL/14
+http://www.cukurovapress.com/kategori/MAGAZIN/15
+http://www.cukurovapress.com/kategori/TEKNOLOJI/16
+http://www.cukurovapress.com/kategori/BILIM/17
+http://www.cukurovapress.com/kategori/KULTUR-SANAT/23
+http://www.cukurovapress.com/video-galeri
+http://www.cukurovapress.com/video-galeri-altkategori/2
+http://www.cukurovapress.com/video-galeri-altkategori/6
+http://www.cukurovapress.com/video-galeri-altkategori/7
+http://www.cukurovapress.com/video-galeri-altkategori/9
 
 #include in index;
+^https?://([a-z]+\.)?cukurovapress\.com/haberdetay/.*/[0-9]+$
+^https?://([a-z]+\.)?cukurovapress\.com/video\-galeri\-detay/[0-9]+/[0-9]+$
+^https?://([a-z]+\.)?cukurovapress\.com/yazaruyeyazi/.*/[0-9]+$
 
 
 #exclude from crawl;
@@ -12,9 +32,9 @@ www.cukurovapress.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?cukurovapress\.com/video\-galeri\-detay/[0-9]+/[0-9]+$
 #column patterns;
-
+^https?://([a-z]+\.)?cukurovapress\.com/yazaruyeyazi/.*/[0-9]+$
 #category patterns;
 
 #date elements;

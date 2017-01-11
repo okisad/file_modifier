@@ -1,7 +1,19 @@
 #seeds;
-www.dokuzsutun.com.tr
+http://www.dokuzsutun.com.tr/
+http://www.dokuzsutun.com.tr/anasayfa-haberleri-13hk.htm
+http://www.dokuzsutun.com.tr/guncel-haberleri-10hk.htm
+http://www.dokuzsutun.com.tr/ekonomi-haberleri-11hk.htm
+http://www.dokuzsutun.com.tr/spor-haberleri-12hk.htm
+http://www.dokuzsutun.com.tr/video-galeri.htm
+http://www.dokuzsutun.com.tr/magazin-3gk.htm
+http://www.dokuzsutun.com.tr/yazarlar.htm
+http://www.dokuzsutun.com.tr/mansetler.htm
+http://www.dokuzsutun.com.tr/gunun-haberleri.htm
 
 #include in index;
+^https?://([a-z]+\.)?dokuzsutun\.com\.tr/.*\-[0-9]+h\.htm$
+^https?://([a-z]+\.)?dokuzsutun\.com\.tr/.*\-[0-9]+yy\.htm$
+^https?://([a-z]+\.)?dokuzsutun\.com\.tr/.*\-[0-9]+v\.htm$
 
 
 #exclude from crawl;
@@ -12,8 +24,10 @@ www.dokuzsutun.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?dokuzsutun\.com\.tr/.*\-[0-9]+v\.htm$
 
 #column patterns;
+/Users/oktaysadoglu/Desktop/artiwise/projects/file_modifier/gazeteler/dokuzsutun.txt
 
 #category patterns;
 

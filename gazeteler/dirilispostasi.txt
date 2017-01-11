@@ -1,10 +1,26 @@
 #seeds;
-www.dirilişpostasi.com
+http://dirilispostasi.com/nc-18-kurumsal-haberler.html
+http://dirilispostasi.com/category/son_dakika
+http://dirilispostasi.com/
+http://dirilispostasi.com/nc-1-basyazi.html
+http://dirilispostasi.com/nc-23-teknoloji.html
+http://dirilispostasi.com/nc-2-turkiye.html
+http://dirilispostasi.com/nc-3-dunya.html
+http://dirilispostasi.com/yazarlar
+http://dirilispostasi.com/nc-4-iktisat.html
+http://dirilispostasi.com/nc-5-mulkat-roportaj.html
+http://dirilispostasi.com/nc-6-fikriyat.html
+http://dirilispostasi.com/nc-16-dizi-yazi.html
+http://dirilispostasi.com/nc-15-kultur-sanat.html
+http://dirilispostasi.com/videos
 
 #include in index;
-
+^https?://([a-z]+\.)?dirilispostasi\.com/n\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?dirilispostasi\.com/a\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?dirilispostasi\.com/v\-[0-9]+\-.*\.html$
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +28,10 @@ www.dirilişpostasi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?dirilispostasi\.com/v\-[0-9]+\-.*/.html$
 
 #column patterns;
+^https?://([a-z]+\.)?dirilispostasi\.com/a\-[0-9]+\-.*/.html$
 
 #category patterns;
 

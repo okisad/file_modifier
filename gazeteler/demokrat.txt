@@ -1,8 +1,18 @@
 #seeds;
-www.demokrat.com.tr 
+http://www.demokratgazetesi.com.tr/
+http://www.balikesirdemokrat.com.tr/manset/0/video_haber.html
+http://www.balikesirdemokrat.com.tr/gundem
+http://www.balikesirdemokrat.com.tr/siyaset
+http://www.balikesirdemokrat.com.tr/spor
+http://www.balikesirdemokrat.com.tr/ekonomi
+http://www.balikesirdemokrat.com.tr/teknoloji
+http://www.balikesirdemokrat.com.tr/saglik_yasam
+http://www.balikesirdemokrat.com.tr/yazarlar
 
 #include in index;
-
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/haber/.*/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/yazi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/manset/[0-9]+/.*\.html$
 
 #exclude from crawl;
 
@@ -12,9 +22,9 @@ www.demokrat.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/manset/[0-9]+/.*\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/yazi/[0-9]+/.*\.html$
 #category patterns;
-
+^https?://([a-z]+\.)?balikesirdemokrat\.com\.tr/haber/(.*?)/[0-9]+/.*\.html$
 #date elements;

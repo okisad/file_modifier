@@ -1,7 +1,22 @@
 #seeds;
-www.demokratkocaeli.com
+http://www.demokratkocaeli.com
+http://www.demokratkocaeli.com/kategoriler/15/guncel-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/3/siyaset-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/4/asayis-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/5/sivil-toplum-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/6/ekonomi-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/7/egitim-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/9/kent-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/10/spor-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/11/roportaj-haberleri.html
+http://www.demokratkocaeli.com/Video_Galeri
+http://www.demokratkocaeli.com/kategoriler/13/yazar-haber.html
+http://www.demokratkocaeli.com/kategoriler/14/ilce-haberleri.html
+http://www.demokratkocaeli.com/kategoriler/16/gundem.html
 
 #include in index;
+^https?://([a-z]+\.)?demokratkocaeli\.com/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?demokratkocaeli\.com/videolar/[0-9]+/.*\.html$
 
 
 #exclude from crawl;
@@ -12,7 +27,7 @@ www.demokratkocaeli.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?demokratkocaeli\.com/videolar/[0-9]+/.*\.html$
 #column patterns;
 
 #category patterns;

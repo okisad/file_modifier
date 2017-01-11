@@ -1,7 +1,20 @@
 #seeds;
-www.aydindenge.com.tr
+http://www.aydindenge.com.tr/
+http://www.aydindenge.com.tr/kategori/guncel
+http://www.aydindenge.com.tr/kategori/asayis
+http://www.aydindenge.com.tr/kategori/ekonomi
+http://www.aydindenge.com.tr/kategori/siyaset
+http://www.aydindenge.com.tr/kategori/spor
+http://www.aydindenge.com.tr/kategori/kultur-sanat
+http://www.aydindenge.com.tr/kategori/egitim-bilim
+http://www.aydindenge.com.tr/kategori/saglik
+http://www.aydindenge.com.tr/kategori/magazin
+http://www.aydindenge.com.tr/kategori/ege
+http://www.aydindenge.com.tr/kategori/yurt
 
 #include in index;
+^https?://([a-z]+\.)?aydindenge\.com\.tr/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?aydindenge\.com\.tr/yazi/.*/[0-9]+/[0-9]+/[0-9]+/.*$
 
 
 #exclude from crawl;
@@ -14,7 +27,9 @@ www.aydindenge.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?aydindenge\.com\.tr/yazi/.*/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #category patterns;
+^https?://([a-z]+\.)?aydindenge\.com\.tr/(.*?)/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #date elements;

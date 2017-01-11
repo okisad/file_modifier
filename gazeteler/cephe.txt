@@ -1,7 +1,34 @@
 #seeds;
-www.cephegazetesi.com.tr
+http://www.cephegazetesi.com.tr/search/label/Gündem
+http://www.cephegazetesi.com.tr/search/label/Politika
+http://www.cephegazetesi.com.tr/search/label/Yerel Politika
+http://www.cephegazetesi.com.tr/search/label/Kent Haberleri
+http://www.cephegazetesi.com.tr/#
+http://www.cephegazetesi.com.tr/search/label/Beydağ
+http://www.cephegazetesi.com.tr/search/label/Tire
+http://www.cephegazetesi.com.tr/search/label/Torbalı
+http://www.cephegazetesi.com.tr/search/label/Kiraz
+http://www.cephegazetesi.com.tr/search/label/Bayındır
+http://www.cephegazetesi.com.tr/search/label/Selçuk
+http://www.cephegazetesi.com.tr/#
+http://www.cephegazetesi.com.tr/search/label/İzmir
+http://www.cephegazetesi.com.tr/search/label/İzmir İlçeler
+http://www.cephegazetesi.com.tr/search/label/Ege
+http://www.cephegazetesi.com.tr/search/label/Yazarlar
+http://www.cephegazetesi.com.tr/search/label/Ali Tutku Kaytaran
+http://www.cephegazetesi.com.tr/search/label/An%C4%B1l%20Selek
+http://www.cephegazetesi.com.tr/search/label/Adnan Saygılıer
+http://www.cephegazetesi.com.tr/search/label/Özlem Erakyol
+http://www.cephegazetesi.com.tr/search/label/Mustafa Bilgiç
+http://www.cephegazetesi.com.tr/search/label/Halis Koç
+http://www.cephegazetesi.com.tr/search/label/Bekir Keskin
+http://www.cephegazetesi.com.tr/search/label/Resul Köstekçi
+http://www.cephegazetesi.com.tr/search/label/Tarkan Kızartıcı
+http://www.cephegazetesi.com.tr/search/label/Rifat Gürevin
+http://www.cephegazetesi.com.tr/search/label/Videolar?&max-results=8
 
 #include in index;
+^https?://([a-z]+\.)?cephegazetesi\.com\.tr/[0-9]+/[0-9]+/.*\.html$
 
 
 #exclude from crawl;

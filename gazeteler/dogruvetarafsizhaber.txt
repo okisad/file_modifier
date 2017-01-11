@@ -1,10 +1,22 @@
 #seeds;
-www.habergazetesi.com.tr
+http://www.habergazetesi.com.tr/
+http://www.habergazetesi.com.tr/spor-haberleri?kt=10048
+http://www.habergazetesi.com.tr/haberleri/gundem
+http://www.habergazetesi.com.tr/haberleri/siyaset
+http://www.habergazetesi.com.tr/haberleri/yasam
+http://www.habergazetesi.com.tr/haberleri/guncel
+http://www.habergazetesi.com.tr/spor-haberleri
+http://www.habergazetesi.com.tr/haberleri/magazin
+http://www.habergazetesi.com.tr/videolar
 
 #include in index;
-
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/.*/[0-9]+/.*$
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/yazarlar/[0-9]+/.*$
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/video/[0-9]+/.*$
 
 #exclude from crawl;
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/bilgiler/[0-9]+/.*$
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/galeri/[0-9]+/.*$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +24,9 @@ www.habergazetesi.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/video/[0-9]+/.*$
 #column patterns;
-
+^https?://([a-z]+\.)?habergazetesi\.com\.tr/yazarlar/[0-9]+/.*$
 #category patterns;
 
 #date elements;

@@ -1,8 +1,18 @@
 #seeds;
-www.buyuklımanpostası.com
+http://www.buyuklimanpostasi.com/#
+http://www.buyuklimanpostasi.com/ana-kategori
+http://www.buyuklimanpostasi.com/vakfikebir
+http://www.buyuklimanpostasi.com/carsibasi
+http://www.buyuklimanpostasi.com/besikduzu
+http://www.buyuklimanpostasi.com/salpazari
+http://www.buyuklimanpostasi.com/tonya
+http://www.buyuklimanpostasi.com/spor
+http://www.buyuklimanpostasi.com/webtv/
+http://www.buyuklimanpostasi.com/yazarlar.html
 
 #include in index;
-
+^https?://([a-z]+\.)?buyuklimanpostasi\.com/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?buyuklimanpostasi\.com/.*\-makale\,[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -14,7 +24,9 @@ www.buyuklımanpostası.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?buyuklimanpostasi\.com/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?buyuklimanpostasi\.com/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;
