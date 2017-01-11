@@ -1,7 +1,19 @@
 #seeds;
-www.gaziantepdenge.com
+http://www.gaziantepdenge.com/
+http://www.gaziantepdenge.com/kategori/yerel-haber-haberleri-1.html
+http://www.gaziantepdenge.com/kategori/turkiye-gundemi-haberleri-2.html
+http://www.gaziantepdenge.com/kategori/saglik-haberleri-3.html
+http://www.gaziantepdenge.com/kategori/dunya-haberleri-6.html
+http://www.gaziantepdenge.com/kategori/ekonomi-haberleri-7.html
+http://www.gaziantepdenge.com/kategori/siyaset-haberleri-8.html
+http://www.gaziantepdenge.com/kategori/yasam-haberleri-9.html
+http://www.gaziantepdenge.com/kategori/teknoloji-haberleri-10.html
+http://www.gaziantepdenge.com/kategori/spor-haberleri-12.html
+http://www.gaziantepdenge.com/webtv.html
 
 #include in index;
+^https?://([a-z]+\.)?gaziantepdenge\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?gaziantepdenge\.com/koseyazisi/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -14,6 +26,7 @@ www.gaziantepdenge.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?gaziantepdenge\.com/koseyazisi/.*\-[0-9]+\.html$
 
 #category patterns;
 

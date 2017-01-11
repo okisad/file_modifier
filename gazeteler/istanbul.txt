@@ -1,10 +1,34 @@
 #seeds;
-www.istanbulgazetesi.com.tr
+http://www.istanbulgazetesi.com.tr/
+http://www.istanbulgazetesi.com.tr/kategori/gundem/
+http://www.istanbulgazetesi.com.tr/kose-yazarlari/
+http://www.istanbulgazetesi.com.tr/kategori/siyaset/
+http://www.istanbulgazetesi.com.tr/kategori/ekonomi/
+http://www.istanbulgazetesi.com.tr/kategori/spor/
+http://www.istanbulgazetesi.com.tr/kategori/dunya/
+http://www.istanbulgazetesi.com.tr/kategori/turkiye/
+http://www.istanbulgazetesi.com.tr/kategori/istanbul/
+http://www.istanbulgazetesi.com.tr/kategori/magazin/
+http://www.istanbulgazetesi.com.tr/kategori/saglik/
+http://www.istanbulgazetesi.com.tr/kategori/yasam/
+http://www.istanbulgazetesi.com.tr/kategori/kultur-sanat/
+http://www.istanbulgazetesi.com.tr/kategori/teknoloji/
+http://www.istanbulgazetesi.com.tr/kategori/otomobil/
 
 #include in index;
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/.*/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/kategori/.*/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/reklam/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/guvenlik\-ve\-gizlilik/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/sitene\-ekle/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/kunye/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/hakkimizda/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/iletisim/$
+^https?://([a-z]+\.)?istanbulgazetesi\.com\.tr/yazar/.*/$
+
 
 # generic exclusions
 .*\.pdf$

@@ -1,7 +1,30 @@
 #seeds;
-www.halkinsesi.com.tr
+http://www.halkinsesi.com.tr/
+http://www.halkinsesi.com.tr/#
+http://www.halkinsesi.com.tr/webtv/
+http://www.halkinsesi.com.tr/yazarlar.html
+http://www.halkinsesi.com.tr/zonguldak
+http://www.halkinsesi.com.tr/genel
+http://www.halkinsesi.com.tr/politika
+http://www.halkinsesi.com.tr/spor
+http://www.halkinsesi.com.tr/asayis
+http://www.halkinsesi.com.tr/kultur-sanat
+http://www.halkinsesi.com.tr/roportaj
+http://www.halkinsesi.com.tr/saglik
+http://www.halkinsesi.com.tr/egitim
+http://www.halkinsesi.com.tr/ekonomi
+http://www.halkinsesi.com.tr/yasam
+http://www.halkinsesi.com.tr/ulusal
+http://www.halkinsesi.com.tr/cevre
+http://www.halkinsesi.com.tr/bilim-ve-teknoloji
+http://www.halkinsesi.com.tr/magazin
+http://www.halkinsesi.com.tr/dunya
+
 
 #include in index;
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/.*\-video\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +35,12 @@ www.halkinsesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?halkinsesi\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

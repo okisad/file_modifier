@@ -1,8 +1,29 @@
 #seeds;
-www.ilksesgazetesi.com
+http://www.ilksesgazetesi.com/
+http://www.ilksesgazetesi.com/kategori/gundem-1.html
+http://www.ilksesgazetesi.com/kategori/guncel-1.html
+http://www.ilksesgazetesi.com/kategori/asayis-1.html
+http://www.ilksesgazetesi.com/kategori/ekonomi-1.html
+http://www.ilksesgazetesi.com/kategori/spor-1.html
+http://www.ilksesgazetesi.com/kategori/siyaset-1.html
+http://www.ilksesgazetesi.com/kategori/saglik-1.html
+http://www.ilksesgazetesi.com/kategori/egitim-1.html
+http://www.ilksesgazetesi.com/kategori/dunya-1.html
+http://www.ilksesgazetesi.com/videogaleri/
+http://www.ilksesgazetesi.com/kategori/kultur-sanat-1.html
+http://www.ilksesgazetesi.com/kategori/yasam-1.html
+http://www.ilksesgazetesi.com/kategori/teknoloji-1.html
+http://www.ilksesgazetesi.com/kategori/kitap-1.html
+http://www.ilksesgazetesi.com/kategori/cevre-1.html
+http://www.ilksesgazetesi.com/kategori/kent-1.html
+http://www.ilksesgazetesi.com/yazarlar.html
+http://www.ilksesgazetesi.com/kategori/medya-1.html
 
 #include in index;
 
+^https?://([a-z]+\.)?ilksesgazetesi\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?ilksesgazetesi\.com/videogaleri/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?ilksesgazetesi\.com/yazar/.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,8 +33,10 @@ www.ilksesgazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ilksesgazetesi\.com/videogaleri/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?ilksesgazetesi\.com/yazar/.*\-[0-9]+\.html$
 
 #category patterns;
 

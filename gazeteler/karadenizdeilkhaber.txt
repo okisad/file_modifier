@@ -1,8 +1,23 @@
 #seeds;
-www.ilkhaber.net
+http://www.ilkhaber.net/
+http://www.ilkhaber.net/#
+http://www.ilkhaber.net/yazarlar.html
+http://www.ilkhaber.net/gundem
+http://www.ilkhaber.net/bolgesel
+http://www.ilkhaber.net/spor
+http://www.ilkhaber.net/siyaset
+http://www.ilkhaber.net/turkiye
+http://www.ilkhaber.net/teknoloji
+http://www.ilkhaber.net/magazin
+http://www.ilkhaber.net/saglik
+http://www.ilkhaber.net/ekonomi
+http://www.ilkhaber.net/dunya
+http://www.ilkhaber.net/webtv/
 
 #include in index;
-
+^https?://([a-z]+\.)?ilkhaber\.net/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?ilkhaber\.net/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?ilkhaber\.net/.*\-makale\,[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +27,12 @@ www.ilkhaber.net
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ilkhaber\.net/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?ilkhaber\.net/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?ilkhaber\.net/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

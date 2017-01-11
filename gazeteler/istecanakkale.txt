@@ -1,10 +1,37 @@
 #seeds;
-www.istecanakkalegazetesi.com
+http://www.istecanakkalegazetesi.com/
+http://www.istecanakkalegazetesi.com/ozel-haber/
+http://www.istecanakkalegazetesi.com/guncel/
+http://www.istecanakkalegazetesi.com/ekonomi/
+http://www.istecanakkalegazetesi.com/yasam/
+http://www.istecanakkalegazetesi.com/siyaset/
+http://www.istecanakkalegazetesi.com/magazin/
+http://www.istecanakkalegazetesi.com/kadin/
+http://www.istecanakkalegazetesi.com/spor/
+http://www.istecanakkalegazetesi.com/ilceler/
+http://www.istecanakkalegazetesi.com/teknoloji/
+http://www.istecanakkalegazetesi.com/dunya/
+http://www.istecanakkalegazetesi.com/asayis/
+http://www.istecanakkalegazetesi.com/kultur/
+http://www.istecanakkalegazetesi.com/medya/
+http://www.istecanakkalegazetesi.com/bilim---tek/
+http://www.istecanakkalegazetesi.com/roportaj/
+http://www.istecanakkalegazetesi.com/ulusal-haber/
+http://www.istecanakkalegazetesi.com/yerel/
+http://www.istecanakkalegazetesi.com/kose-yazarlari/
+http://www.istecanakkalegazetesi.com/video-galeri/
 
 #include in index;
 
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/video\-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/yazarlar/.*/.*/[0-9]+/$
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/.*/[0-9]+/$
 
 #exclude from crawl;
+
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/.*/sayfa/[0-9]+/$
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/foto\-galeri/.*/[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +39,10 @@ www.istecanakkalegazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/video\-detay/.*/[0-9]+/$
 
 #column patterns;
+^https?://([a-z]+\.)?istecanakkalegazetesi\.com/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 

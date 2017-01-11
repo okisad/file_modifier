@@ -1,7 +1,17 @@
 #seeds;
-www.gunboyugazetesi.com.tr
+http://www.gunboyugazetesi.com.tr/
+http://www.gunboyugazetesi.com.tr/guncel-haberleri-12hk.htm
+http://www.gunboyugazetesi.com.tr/ekonomi-haberleri-10hk.htm
+http://www.gunboyugazetesi.com.tr/dunya-haberleri-11hk.htm
+http://www.gunboyugazetesi.com.tr/politika-haberleri-16hk.htm
+http://www.gunboyugazetesi.com.tr/yasam-haberleri-15hk.htm
+http://www.gunboyugazetesi.com.tr/video-galeri.htm
+http://www.gunboyugazetesi.com.tr/yazarlar.htm
 
 #include in index;
+^https?://([a-z]+\.)?gunboyugazetesi\.com\.tr/.*\-[0-9]+yy\.htm$
+^https?://([a-z]+\.)?gunboyugazetesi\.com\.tr/.*\-[0-9]+h\.htm$
+^https?://([a-z]+\.)?gunboyugazetesi\.com\.tr/.*\-[0-9]+v\.htm$
 
 
 #exclude from crawl;
@@ -12,8 +22,10 @@ www.gunboyugazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gunboyugazetesi\.com\.tr/.*\-[0-9]+v\.htm$
 
 #column patterns;
+^https?://([a-z]+\.)?gunboyugazetesi\.com\.tr/.*\-[0-9]+yy\.htm$
 
 #category patterns;
 

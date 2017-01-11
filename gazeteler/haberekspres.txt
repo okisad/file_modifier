@@ -1,8 +1,25 @@
 #seeds;
-www.haberekspres.com.tr
+http://www.haberekspres.com.tr/
+http://www.haberekspres.com.tr/gundem/
+http://www.haberekspres.com.tr/izmir/
+http://www.haberekspres.com.tr/ege/
+http://www.haberekspres.com.tr/ekonomi/
+http://www.haberekspres.com.tr/politika/
+http://www.haberekspres.com.tr/dunya/
+http://www.haberekspres.com.tr/spor/
+http://www.haberekspres.com.tr/kultur-sanat/
+http://www.haberekspres.com.tr/magazin/
+http://www.haberekspres.com.tr/saglik/
+http://www.haberekspres.com.tr/teknoloji/
+http://www.haberekspres.com.tr/cevre/
+http://www.haberekspres.com.tr/webtv/
+http://www.haberekspres.com.tr/yazarlar.html
 
 #include in index;
 
+^https?://([a-z]+\.)?haberekspres\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?haberekspres\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?haberekspres\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +29,12 @@ www.haberekspres.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?haberekspres\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?haberekspres\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?haberekspres\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

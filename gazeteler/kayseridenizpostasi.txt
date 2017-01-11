@@ -1,10 +1,94 @@
 #seeds;
-www.denizpostasi.com
+http://www.denizpostasi.com/index.php/roportajlar-makaleler
+http://www.denizpostasi.com/
+http://www.denizpostasi.com/index.php/haber
+http://www.denizpostasi.com/index.php/haber/kayserihaberleri/gundem
+http://www.denizpostasi.com/index.php/haber/kayserihaberleri/siyaset
+http://www.denizpostasi.com/index.php/haber/kayserihaberleri/asayis
+http://www.denizpostasi.com/index.php/haber/kayserihaberleri/mansetdenem
+http://www.denizpostasi.com/index.php/haber/kayserihaberleri/ekonomi
+http://www.denizpostasi.com/index.php/teknoloji
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/kisisel-teknoloji
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/guvenlik
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/is-teknolojisi
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/yesil-enerji
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/uzay
+http://www.denizpostasi.com/index.php/teknoloji/teknoloji-haberleri/bilim
+http://www.denizpostasi.com/index.php/ic-anadolu-bolgesi
+http://www.denizpostasi.com/index.php/ic-anadolu-bolgesi/ic-anadolu-bolgesi-haberleri/sivas-haberleri
+http://www.denizpostasi.com/index.php/ic-anadolu-bolgesi/ic-anadolu-bolgesi-haberleri/nigde-haberleri
+http://www.denizpostasi.com/index.php/ic-anadolu-bolgesi/ic-anadolu-bolgesi-haberleri/nevsehir-haberleri
+http://www.denizpostasi.com/index.php/ic-anadolu-bolgesi/ic-anadolu-bolgesi-haberleri/yozgat-haberleri
+http://www.denizpostasi.com/index.php/saglik
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/hastaliginiz
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/siz-aileniz
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/diyet-fitness
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/saglik-kozmetik-guzellik
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/dogal-saglik
+http://www.denizpostasi.com/index.php/saglik/saglik-haberleri/spor-egzersiz
+http://www.denizpostasi.com/index.php/ilceler
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/develi-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/bunyan-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/incesu-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/yesilhisar-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/yahyali-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/hacilar-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/talas-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/akkisla-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/sarioglan-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/felahiye-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/ozvatan-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/sariz-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/pinarbasi-haberleri
+http://www.denizpostasi.com/index.php/ilceler/ilce-haberleri/tomarza-haberleri
+http://www.denizpostasi.com/index.php/yazarlar
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/azim-deniz
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/mehmet-torun
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/mustafa-ibakorkmaz
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/tamer-tahir-avcı
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/yusuf-kartal
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/seref-kahraman
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/ilhan-deniz
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/konuk-yazar-2
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/ilter-sagirsoy
+http://www.denizpostasi.com/index.php/yazarlar/yazarlarimiz/konuk-yazar
+http://www.denizpostasi.com/index.php/seyahat
+http://www.denizpostasi.com/index.php/seyahat/gezi-haberleri/turistik-eglence-gezileri
+http://www.denizpostasi.com/index.php/seyahat/gezi-haberleri/is-seyahati
+http://www.denizpostasi.com/index.php/seyahat/gezi-haberleri/seyahat-ipuclari
+http://www.denizpostasi.com/index.php/artist
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/sinema
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/tv
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/graphics
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/music
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/photography
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/books
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/games
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/architecture
+http://www.denizpostasi.com/index.php/artist/kultur-sanat-haberleri/theatre
+http://www.denizpostasi.com/index.php/spor
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/fulbol
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/hentbol-voleybol
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/motorsporlari
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/kis-sporlari
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/basketbol
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/dovus-sporlari
+http://www.denizpostasi.com/index.php/spor/spor-haberleri/amator-sporlar
+http://www.denizpostasi.com/index.php/video-haber
 
 #include in index;
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/haber/.*$
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/.*/.*/.*/[0-9]+\-.*$
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/video\-haber/[0-9]+\-.*$
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/yazalar/yazarlarimiz/.*/[0-9]+\-.*$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/haber/kayserihaberleri/.*\?start\=[0-9]+$
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/haber/kayserihaberleri/.*\#.*$
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +96,12 @@ www.denizpostasi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/video\-haber/[0-9]+\-.*$
 
 #column patterns;
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/yazalar/yazarlarimiz/.*/[0-9]+\-.*$
 
 #category patterns;
+^https?://([a-z]+\.)?denizpostasi\.com/index\.php/(.*?)/.*/.*/[0-9]+\-.*$
 
 #date elements;

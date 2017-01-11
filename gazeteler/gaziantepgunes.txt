@@ -1,0 +1,36 @@
+#seeds;
+http://www.gaziantepgunes.com/
+http://www.gaziantepgunes.com/content.asp?haber=22265706
+http://www.gaziantepgunes.com/content.asp?haber=22265722
+http://www.gaziantepgunes.com/content.asp?haber=22265734
+http://www.gaziantepgunes.com/content.asp?haber=22265976
+http://www.gaziantepgunes.com/content.asp?haber=22265774
+http://www.gaziantepgunes.com/content.asp?haber=22265762
+http://www.gaziantepgunes.com/content.asp?haber=42452728
+http://www.gaziantepgunes.com/content.asp?haber=42452740
+http://www.gaziantepgunes.com/content.asp?haber=22265950
+http://www.gaziantepgunes.com/content.asp?haber=22265966
+http://www.gaziantepgunes.com/content.asp?haber=42454962
+http://www.gaziantepgunes.com/yazarlar.asp
+
+#include in index;
+^https?://([a-z]+\.)?gaziantepgunes\.com/[0-9]+/.*$
+^https?://([a-z]+\.)?gaziantepgunes\.com/haberdetay\.asp\?haber\=[0-9]+$
+^https?://([a-z]+\.)?gaziantepgunes\.com/yazar\.asp\?yazar\=[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?gaziantepgunes\.com/yazar\.asp\?yazar\=[0-9]+$
+
+#category patterns;
+
+#date elements;

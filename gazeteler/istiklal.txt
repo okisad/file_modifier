@@ -1,8 +1,42 @@
 #seeds;
-www.polatliistiklal.com
+http://www.istiklal.com.tr/
+http://www.istiklal.com.tr/gundem
+http://www.istiklal.com.tr/siyaset
+http://www.istiklal.com.tr/ekonomi
+http://www.istiklal.com.tr/dunya
+http://www.istiklal.com.tr/yasam
+http://www.istiklal.com.tr/spor
+http://www.istiklal.com.tr/video-galeri
+http://www.istiklal.com.tr/yazarlar
+http://www.istiklal.com.tr/medya
+http://www.istiklal.com.tr/teknoloji
+http://www.istiklal.com.tr/saglik
+http://www.istiklal.com.tr/egitim
+http://www.istiklal.com.tr/kultur-sanat
+http://www.istiklal.com.tr/otomobil
+http://www.istiklal.com.tr/politika
+http://www.istiklal.com.tr/genel
+http://www.istiklal.com.tr/sondakika
+http://www.istiklal.com.tr/video-galeri/genel
+http://www.istiklal.com.tr/video-galeri/komik
+http://www.istiklal.com.tr/video-galeri/haber
+http://www.istiklal.com.tr/video-galeri/yasam
+http://www.istiklal.com.tr/video-galeri/spor
+http://www.istiklal.com.tr/video-galeri/fragmanlar
+http://www.istiklal.com.tr/video-galeri/dizi
+http://www.istiklal.com.tr/video-galeri/doga
+http://www.istiklal.com.tr/video-galeri/teknoloji
+http://www.istiklal.com.tr/video-galeri/saglik
+http://www.istiklal.com.tr/video-galeri/kultur-sanat
+http://www.istiklal.com.tr/video-galeri/medya
+http://www.istiklal.com.tr/video-galeri/dunya
+http://www.istiklal.com.tr/video-galeri/din
 
 #include in index;
 
+^https?://([a-z]+\.)?istiklal\.com\.tr/haber/.*/[0-9]+$
+^https?://([a-z]+\.)?istiklal\.com\.tr/kose\-yazisi/.*/[0-9]+$
+^https?://([a-z]+\.)?istiklal\.com\.tr/video/.*/[0-9]+$
 
 #exclude from crawl;
 
@@ -12,8 +46,10 @@ www.polatliistiklal.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?istiklal\.com\.tr/video/.*/[0-9]+$
 
 #column patterns;
+^https?://([a-z]+\.)?istiklal\.com\.tr/kose\-yazisi/.*/[0-9]+$
 
 #category patterns;
 

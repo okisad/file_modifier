@@ -1,10 +1,28 @@
 #seeds;
-www.karadenizgazete.com.tr
+http://www.karadenizgazete.com.tr/
+http://www.karadenizgazete.com.tr/gundem
+http://www.karadenizgazete.com.tr/egitim
+http://www.karadenizgazete.com.tr/magazin
+http://www.karadenizgazete.com.tr/yasam
+http://www.karadenizgazete.com.tr/saglik
+http://www.karadenizgazete.com.tr/teknoloji
+http://www.karadenizgazete.com.tr/sanat
+http://www.karadenizgazete.com.tr/spor
+http://www.karadenizgazete.com.tr/dunya
+http://www.karadenizgazete.com.tr/medya
+http://www.karadenizgazete.com.tr/ekonomi
+http://www.karadenizgazete.com.tr/siyaset
+http://www.karadenizgazete.com.tr/bolgesel
+http://www.karadenizgazete.com.tr/yazarlar
+http://www.karadenizgazete.com.tr/#
 
 #include in index;
+^https?://([a-z]+\.)?karadenizgazete\.com\.tr/.*/.*/[0-9]+$
+^https?://([a-z]+\.)?karadenizgazete\.com\.tr/video\-haber/.*/[0-9]+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?karadenizgazete\.com\.tr/yazar/.*/[0-9]+$
 
 # generic exclusions
 .*\.pdf$

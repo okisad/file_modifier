@@ -1,8 +1,20 @@
 #seeds;
-www.kayserihaber.com.tr
+http://www.kayserihaber.com.tr/
+http://www.kayserihaber.com.tr/haber/kategori/spor-223.html
+http://www.kayserihaber.com.tr/haber/kategori/guncel-222.html
+http://www.kayserihaber.com.tr/haber/kategori/siyasi-237.html
+http://www.kayserihaber.com.tr/haber/kategori/ekonomi-238.html
+http://www.kayserihaber.com.tr/haber/kategori/saglik-239.html
+http://www.kayserihaber.com.tr/haber/kategori/kultursanat-240.html
+http://www.kayserihaber.com.tr/haber/kategori/yasam-243.html
+http://www.kayserihaber.com.tr/haber/kategori/asayis-244.html
+http://www.kayserihaber.com.tr/haber/kategori/teknoloji-245.html
+http://www.kayserihaber.com.tr/haber/kategori/egitim-246.html
+http://www.kayserihaber.com.tr/haber/kategori/roportajlar-247.html
 
 #include in index;
-
+^https?://([a-z]+\.)?kayserihaber\.com/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?kayserihaber\.com/haber/.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -14,6 +26,7 @@ www.kayserihaber.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?kayserihaber\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

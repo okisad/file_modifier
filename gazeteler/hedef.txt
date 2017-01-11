@@ -1,7 +1,21 @@
 #seeds;
-www.canakkalehedef.com
+http://www.canakkalehedef.com/
+http://www.canakkalehedef.com/category/guncel
+http://www.canakkalehedef.com/category/asayis
+http://www.canakkalehedef.com/category/politika
+http://www.canakkalehedef.com/category/belediye
+http://www.canakkalehedef.com/category/ekonomi
+http://www.canakkalehedef.com/category/egitim
+http://www.canakkalehedef.com/category/saglik
+http://www.canakkalehedef.com/category/turizm
+http://www.canakkalehedef.com/category/ilceler
+http://www.canakkalehedef.com/category/magazin
+http://www.canakkalehedef.com/category/spor
+http://www.canakkalehedef.com/category/video-galeri
+http://www.canakkalehedef.com/tum-yazarlar
 
 #include in index;
+^https?://([a-z]+\.)?canakkalehedef\.com/.*\.html$
 
 
 #exclude from crawl;

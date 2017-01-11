@@ -1,0 +1,36 @@
+#seeds;
+http://www.aydinhedef.com.tr/
+http://www.aydinhedef.com.tr/#
+http://www.aydinhedef.com.tr/kategori/asayis
+http://www.aydinhedef.com.tr/kategori/ekonomi
+http://www.aydinhedef.com.tr/kategori/siyaset
+http://www.aydinhedef.com.tr/kategori/spor
+http://www.aydinhedef.com.tr/kategori/kultur-sanat
+http://www.aydinhedef.com.tr/kategori/egitim-bilim
+http://www.aydinhedef.com.tr/kategori/saglik
+http://www.aydinhedef.com.tr/kategori/magazin
+http://www.aydinhedef.com.tr/kategori/teknoloji
+http://www.aydinhedef.com.tr/kategori/ege
+http://www.aydinhedef.com.tr/kategori/yurt
+http://www.aydinhedef.com.tr/kategori/guncel
+
+#include in index;
+^https?://([a-z]+\.)?aydinhedef\.com\.tr/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?aydinhedef\.com\.tr/yazi/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?aydinhedef\.com\.tr/yazi/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+
+#category patterns;
+^https?://([a-z]+\.)?aydinhedef\.com\.tr/(.*?)/[0-9]+/[0-9]+/[0-9]+/.*$
+
+#date elements;

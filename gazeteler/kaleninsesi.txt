@@ -1,8 +1,20 @@
 #seeds;
-www.kaleninsesi.com
+http://www.kaleninsesi.com/
+http://www.kaleninsesi.com/gundem/
+http://www.kaleninsesi.com/ekonomi/
+http://www.kaleninsesi.com/siyaset/
+http://www.kaleninsesi.com/saglik/
+http://www.kaleninsesi.com/spor/
+http://www.kaleninsesi.com/comu/
+http://www.kaleninsesi.com/magazin/
+http://kaleninsesigazetesi.web.tv/
+
 
 #include in index;
 
+^https?://([a-z]+\.)?kaleninsesi\.com/.*\-n[0-9]+/$
+^https?://([a-z]+\.)?kaleninsesi\.com/makale/.*\-[0-9]+/$
+^https?://([a-z]+\.)?kaleninsesigazetesi\.web\.tv/video/.*$
 
 #exclude from crawl;
 
@@ -12,9 +24,10 @@ www.kaleninsesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kaleninsesigazetesi\.web\.tv/video/.*$
 
 #column patterns;
-
+^https?://([a-z]+\.)?kaleninsesi\.com/makale/.*\-[0-9]+/$
 #category patterns;
 
 #date elements;

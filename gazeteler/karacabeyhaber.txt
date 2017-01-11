@@ -1,8 +1,18 @@
 #seeds;
-www.karacabeyhaber.com
+http://www.karacabeyhaber.com/
+http://www.karacabeyhaber.com/kategori/1
+http://www.karacabeyhaber.com/kategori/2
+http://www.karacabeyhaber.com/kategori/3
+http://www.karacabeyhaber.com/kategori/4
+http://www.karacabeyhaber.com/kategori/5
+http://www.karacabeyhaber.com/yazarlar
+http://www.karacabeyhaber.com/videolar
 
 #include in index;
 
+^https?://([a-z]+\.)?karacabeyhaber\.com/video/.*/[0-9]+\.html$
+^https?://([a-z]+\.)?karacabeyhaber\.com/yazar/.*/[0-9]+\.html$
+^https?://([a-z]+\.)?karacabeyhaber\.com/haber/[0-9]+/.*\.html$
 
 #exclude from crawl;
 
@@ -12,9 +22,9 @@ www.karacabeyhaber.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?karacabeyhaber\.com/video/.*/[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?karacabeyhaber\.com/yazar/.*/[0-9]+\.html$
 #category patterns;
 
 #date elements;

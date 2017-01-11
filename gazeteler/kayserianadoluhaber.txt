@@ -1,7 +1,22 @@
 #seeds;
-www.kayserianadoluhaber.com.tr
+http://www.kayserianadoluhaber.com.tr/
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-guncel-185.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-siyaset-186.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-ekonomi-187.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-medya-189.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-egitim-190.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-yasam-191.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-saglik-192.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-kultur_sanat-193.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-bilim_teknoloji-194.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-roportaj-195.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-spor-208.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-kayserispor-209.aspx
+http://www.kayserianadoluhaber.com.tr/kayseri-kategorili-haberler-erciyesspor-210.aspx
 
 #include in index;
+^https?://([a-z]+\.)?kayserianadoluhaber\.com\.tr/kayseri\-haberler\-.*\-[0-9]+\.aspx$
+^https?://([a-z]+\.)?kayserianadoluhaber\.com\.tr/kayseri\-makale\-.*\-[0-9]+\.aspx$
 
 
 #exclude from crawl;
@@ -14,6 +29,7 @@ www.kayserianadoluhaber.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?kayserianadoluhaber\.com\.tr/kayseri\-makale\-.*\-[0-9]+\.aspx$
 
 #category patterns;
 

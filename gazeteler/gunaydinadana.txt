@@ -1,10 +1,27 @@
 #seeds;
-www.gunaydingazetesi.com.tr
+http://www.gunaydingazetesi.com.tr/
+http://www.gunaydingazetesi.com.tr/yurttan/
+http://www.gunaydingazetesi.com.tr/guncel/
+http://www.gunaydingazetesi.com.tr/spor/
+http://www.gunaydingazetesi.com.tr/siyaset/
+http://www.gunaydingazetesi.com.tr/ekonomi/
+http://www.gunaydingazetesi.com.tr/saglik/
+http://www.gunaydingazetesi.com.tr/teknoloji/
+http://www.gunaydingazetesi.com.tr/sanat-magazin/
+http://www.gunaydingazetesi.com.tr/dunya/
+http://www.gunaydingazetesi.com.tr/kose-yazarlari/
+http://www.gunaydingazetesi.com.tr/video-galeri/
+http://www.gunaydingazetesi.com.tr/gunun-haberleri/
+
 
 #include in index;
+^https?://([a-z]+\.)?gunaydingazetesi\.com\.tr/.*/[0-9]+/$
+^https?://([a-z]+\.)?gunaydingazetesi\.com\.tr/yazarlar/.*/[0-9]+/$
+^https?://([a-z]+\.)?gunaydingazetesi\.com\.tr/video\-detay/.*/[0-9]+/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gunaydingazetesi\.com\.tr/foto\-galeri/.*/[0-9]+/$
 
 # generic exclusions
 .*\.pdf$

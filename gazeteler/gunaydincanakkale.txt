@@ -1,7 +1,18 @@
 #seeds;
-www.gunaydincanakkale.com.tr
+http://www.gunaydincanakkale.com/
+http://www.gunaydincanakkale.com/kategori/haberler/asayis/
+http://www.gunaydincanakkale.com/kategori/haberler/cevre/
+http://www.gunaydincanakkale.com/kategori/haberler/egitim/
+http://www.gunaydincanakkale.com/kategori/haberler/ekonomi/
+http://www.gunaydincanakkale.com/kategori/haberler/is-dunyasi/
+http://www.gunaydincanakkale.com/kategori/haberler/kultur-sanat/
+http://www.gunaydincanakkale.com/kategori/haberler/saglik/
+http://www.gunaydincanakkale.com/kategori/haberler/siyaset/
+http://www.gunaydincanakkale.com/kategori/haberler/spor/
+http://www.gunaydincanakkale.com/kategori/haberler/turizm/
 
 #include in index;
+^https?://([a-z]+\.)?gunaydincanakkale\.com/[0-9]+/.*/$
 
 
 #exclude from crawl;

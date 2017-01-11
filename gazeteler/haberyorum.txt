@@ -1,8 +1,17 @@
 #seeds;
-www.haberyorumgazetesi.com.tr
+http://haberyorumgazetesi.com/
+http://haberyorumgazetesi.com/haber/kategori/politika-83.html
+http://haberyorumgazetesi.com/haber/kategori/ekonomi-84.html
+http://haberyorumgazetesi.com/haber/kategori/egitim-88.html
+http://haberyorumgazetesi.com/haber/kategori/spor-86.html
+http://haberyorumgazetesi.com/haber/kategori/saglik-87.html
+http://haberyorumgazetesi.com/haber/kategori/guncel-33.html
+http://haberyorumgazetesi.com/video-galeri/
 
 #include in index;
-
+^https?://([a-z]+\.)?haberyorumgazetesi\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?haberyorumgazetesi\.com/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?haberyorumgazetesi\.com/video-galeri/.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,8 +21,10 @@ www.haberyorumgazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?haberyorumgazetesi\.com/video-galeri/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?haberyorumgazetesi\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

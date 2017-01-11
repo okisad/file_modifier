@@ -1,7 +1,21 @@
 #seeds;
-www.gencgazete.net
+http://gencgazete.net/
+http://gencgazete.net/kategori/3sayfa-2/
+http://gencgazete.net/kategori/siyaset-3/
+http://gencgazete.net/kategori/spor-4/
+http://gencgazete.net/kategori/kultur-sanat-5/
+http://gencgazete.net/kategori/ekonomi-6/
+http://gencgazete.net/kategori/saglik-7/
+http://gencgazete.net/kategori/egitim-8/
+http://gencgazete.net/kategori/bursa-9/
+http://gencgazete.net/kategori/teknoloji-10/
+http://gencgazete.net/kategori/guncel-14/
+http://gencgazete.net/kategori/inanc-20/
+http://gencgazete.net/tum-yazarlar/
 
 #include in index;
+^https?://([a-z]+\.)?gencgazete\.net/haber/.*\-[0-9]+/$
+^https?://([a-z]+\.)?gencgazete\.net/kose\-yazisi/.*\-[0-9]+/$
 
 
 #exclude from crawl;
@@ -14,6 +28,7 @@ www.gencgazete.net
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?gencgazete\.net/kose\-yazisi/.*\-[0-9]+/$
 
 #category patterns;
 

@@ -1,7 +1,19 @@
 #seeds;
-www.marasmanset.com
+http://www.marasmanset.com/
+http://www.marasmanset.com/kategori/1/guncel.html
+http://www.marasmanset.com/kategori/2/siyaset.html
+http://www.marasmanset.com/kategori/3/spor.html
+http://www.marasmanset.com/kategori/4/egitim.html
+http://www.marasmanset.com/kategori/6/asayis.html
+http://www.marasmanset.com/kategori/7/saglik.html
+http://www.marasmanset.com/kategori/8/teknoloji.html
+http://www.marasmanset.com/kategori/9/kultur-sanat.html
+http://www.marasmanset.com/arsiv/2/yazarlar.html
 
 #include in index;
+
+^https?://([a-z]+\.)?marasmanset\.com/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?marasmanset\.com/yazarlar/[0-9]+/.*\.html$
 
 
 #exclude from crawl;
@@ -14,6 +26,7 @@ www.marasmanset.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?marasmanset\.com/yazarlar/[0-9]+/.*\.html$
 
 #category patterns;
 

@@ -1,7 +1,21 @@
 #seeds;
-www.marasbugun.com
+http://www.marasbugun.com/
+http://www.marasbugun.com/kategori/guncel
+http://www.marasbugun.com/kategori/ekonomi
+http://www.marasbugun.com/kategori/dunya
+http://www.marasbugun.com/kategori/spor
+http://www.marasbugun.com/kategori/politika
+http://www.marasbugun.com/kategori/saglik
+http://www.marasbugun.com/yazarlarimiz
+http://www.marasbugun.com/video-galeri
+http://www.marasbugun.com/kategori/magazin
+http://www.marasbugun.com/kategori/kultur-sanat
+
 
 #include in index;
+
+^https?://([a-z]+\.)?marasbugun\.com/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?marasbugun\.com/video\_galeri/.*$
 
 
 #exclude from crawl;
@@ -12,6 +26,7 @@ www.marasbugun.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?marasbugun\.com/video\_galeri/.*$
 
 #column patterns;
 

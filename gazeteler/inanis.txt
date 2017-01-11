@@ -1,7 +1,25 @@
 #seeds;
-www.inanisgazetesi.com
+http://www.inanisgazetesi.com/
+http://www.inanisgazetesi.com/videolar.html
+http://www.inanisgazetesi.com/yazarlar.html
+http://www.inanisgazetesi.com/kategori-gundem-15.html
+http://www.inanisgazetesi.com/kategori-ekonomi-3.html
+http://www.inanisgazetesi.com/kategori-saglik-9.html
+http://www.inanisgazetesi.com/kategori-yasam-8.html
+http://www.inanisgazetesi.com/kategori-kultur-6.html
+http://www.inanisgazetesi.com/kategori-spor-5.html
+http://www.inanisgazetesi.com/kategori-siyaset-10.html
+http://www.inanisgazetesi.com/kategori-egitim-11.html
+http://www.inanisgazetesi.com/kategori-teknoloji-4.html
+http://www.inanisgazetesi.com/kategori-dunya-2.html
+http://www.inanisgazetesi.com/kategori-asayis-7.html
+http://www.inanisgazetesi.com/kategori-bilim-17.html
 
 #include in index;
+
+^https?://([a-z]+\.)?inanisgazetesi\.com/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?inanisgazetesi\.com/yazar\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?inanisgazetesi\.com/videolar\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +30,9 @@ www.inanisgazetesi.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?inanisgazetesi\.com/videolar\-.*\-[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?inanisgazetesi\.com/yazar\-.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

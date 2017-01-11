@@ -1,8 +1,20 @@
 #seeds;
-www.ilkkursungazetesi.org
+http://www.ilkkursungazetesi.org/
+http://www.ilkkursungazetesi.org/kategori/1/yerel
+http://www.ilkkursungazetesi.org/kategori/2/egitim
+http://www.ilkkursungazetesi.org/kategori/3/siyaset
+http://www.ilkkursungazetesi.org/kategori/4/tarim
+http://www.ilkkursungazetesi.org/kategori/5/saglik
+http://www.ilkkursungazetesi.org/kategori/6/teknoloji
+http://www.ilkkursungazetesi.org/kategori/7/spor
+http://www.ilkkursungazetesi.org/kategori/11/kultur-sanat
+http://www.ilkkursungazetesi.org/video-galeri
+http://www.ilkkursungazetesi.org/yazarlar
 
 #include in index;
-
+^https?://([a-z]+\.)?ilkkursungazetesi\.org/haber/[0-9]+/.*$
+^https?://([a-z]+\.)?ilkkursungazetesi\.org/yazi/[0-9]+/.*$
+^https?://([a-z]+\.)?ilkkursungazetesi\.org/video/[0-9]+/.*$
 
 #exclude from crawl;
 
@@ -12,8 +24,10 @@ www.ilkkursungazetesi.org
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ilkkursungazetesi\.org/video/[0-9]+/.*$
 
 #column patterns;
+^https?://([a-z]+\.)?ilkkursungazetesi\.org/yazi/[0-9]+/.*$
 
 #category patterns;
 

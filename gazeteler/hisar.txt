@@ -1,7 +1,27 @@
 #seeds;
-www.afyonhisargazetesi.com
+http://www.afyonhisargazetesi.com/
+http://www.afyonhisargazetesi.com/kategori-15-gundem.html
+http://www.afyonhisargazetesi.com/kategori-3-ekonomi.html
+http://www.afyonhisargazetesi.com/kategori-9-saglik.html
+http://www.afyonhisargazetesi.com/kategori-8-yasam.html
+http://www.afyonhisargazetesi.com/kategori-6-kultur.html
+http://www.afyonhisargazetesi.com/kategori-5-spor.html
+http://www.afyonhisargazetesi.com/kategori-10-siyaset.html
+http://www.afyonhisargazetesi.com/kategori-11-egitim.html
+http://www.afyonhisargazetesi.com/kategori-4-teknoloji.html
+http://www.afyonhisargazetesi.com/kategori-2-dunya.html
+http://www.afyonhisargazetesi.com/kategori-7-asayis.html
+http://www.afyonhisargazetesi.com/kategori-16-turizm.html
+http://www.afyonhisargazetesi.com/kategori-17-bilim.html
+http://www.afyonhisargazetesi.com/kategori-18-sanat.html
+http://www.afyonhisargazetesi.com/kategori-19-cocuk.html
+http://www.afyonhisargazetesi.com/videolar.html
 
 #include in index;
+
+^https?://([a-z]+\.)?afyonhisargazetesi\.com/haber\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?afyonhisargazetesi\.com/yazar\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?afyonhisargazetesi\.com/video\-[0-9]+\-.*\.html$
 
 
 #exclude from crawl;
@@ -12,9 +32,10 @@ www.afyonhisargazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?afyonhisargazetesi\.com/video\-[0-9]+\-.*\.html$
 
 #column patterns;
-
+^https?://([a-z]+\.)?afyonhisargazetesi\.com/yazar\-[0-9]+\-.*\.html$
 #category patterns;
 
 #date elements;

@@ -1,0 +1,27 @@
+#seeds;
+http://www.polatliistiklal.com/
+http://www.polatliistiklal.com/gundem/
+http://www.polatliistiklal.com/homepage-infinite-scroll/spor/
+http://www.polatliistiklal.com/kose-yazarlarimiz/
+http://www.polatliistiklal.com/category/genel/
+
+#include in index;
+
+^https?://([a-z]+\.)?polatliistiklal\.com/[0-9]+/[0-9]+/[0-9]+/.*/$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?istiklal\.com\.tr/video/.*/[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?istiklal\.com\.tr/kose\-yazisi/.*/[0-9]+$
+
+#category patterns;
+
+#date elements;

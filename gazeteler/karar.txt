@@ -1,10 +1,25 @@
 #seeds;
-www.karar.com
+http://www.karar.com/
+http://www.karar.com/#
+http://www.karar.com/yazarlar
+http://www.karar.com/guncel-haberler
+http://www.karar.com/dunya-haberleri
+http://www.karar.com/ekonomi-haberleri
+http://www.karar.com/spor-haberleri
+http://www.karar.com/hayat-haberleri
+http://www.karar.com/karar-tv
+http://www.karar.com/detay-haber
 
 #include in index;
 
+^https?://([a-z]+\.)?karar\.com/.*/.*\-[0-9]+$
+^https?://([a-z]+\.)?karar\.com/yazarlar/.*/.*\-[0-9]+$
+^https?://([a-z]+\.)?karar\.com/.*\-videolari/.*$
+
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?karar\.com/.*\-gazetesi/.*$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +27,12 @@ www.karar.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?karar\.com/.*\-videolari/.*$
 
 #column patterns;
+^https?://([a-z]+\.)?karar\.com/yazarlar/.*/.*\-[0-9]+$
 
 #category patterns;
+^https?://([a-z]+\.)?karar\.com/(.*?)/.*\-[0-9]+$
 
 #date elements;

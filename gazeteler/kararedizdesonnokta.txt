@@ -1,7 +1,25 @@
 #seeds;
-www.karadenizdesonnokta.com.tr
+http://www.karadenizdesonnokta.com.tr/
+http://www.karadenizdesonnokta.com.tr/webtv/
+http://www.karadenizdesonnokta.com.tr/yazarlar/
+http://www.karadenizdesonnokta.com.tr/trabzonspor/
+http://www.karadenizdesonnokta.com.tr/trabzon/
+http://www.karadenizdesonnokta.com.tr/gundem/
+http://www.karadenizdesonnokta.com.tr/spor/
+http://www.karadenizdesonnokta.com.tr/siyaset/
+http://www.karadenizdesonnokta.com.tr/bolgesel/
+http://www.karadenizdesonnokta.com.tr/ekonomi/
+http://www.karadenizdesonnokta.com.tr/saglik/
+http://www.karadenizdesonnokta.com.tr/egitim/
+http://www.karadenizdesonnokta.com.tr/dunya/
+http://www.karadenizdesonnokta.com.tr/sinema/
+http://www.karadenizdesonnokta.com.tr/magazin/
+http://www.karadenizdesonnokta.com.tr/asayis/
 
 #include in index;
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/.*\-video\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +30,12 @@ www.karadenizdesonnokta.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?karadenizdesonnokta\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

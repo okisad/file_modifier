@@ -1,7 +1,30 @@
 #seeds;
-www.evrensel.net
+https://www.evrensel.net/son-24-saat
+https://www.evrensel.net
+https://www.evrensel.net/#
+https://www.evrensel.net/kategori/3/politika
+https://www.evrensel.net/kategori/1/guncel
+https://www.evrensel.net/kategori/4/bolge
+https://www.evrensel.net/kategori/9/kadin
+https://www.evrensel.net/kategori/5/ekonomi
+https://www.evrensel.net/kategori/13/cevre
+https://www.evrensel.net/kategori/7/kultur
+https://www.evrensel.net/kategori/8/medya
+https://www.evrensel.net/kategori/12/spor
+https://www.evrensel.net/kategori/11/yasam
+https://www.evrensel.net/kategori/17/mektup
+https://www.evrensel.net/kategori/14/roportaj
+https://www.evrensel.net/kategori/2/isci-sendika
+https://www.evrensel.net/kategori/6/dunya
+https://www.evrensel.net/kategori/648/arap-cografyasinda-gecen-hafta
+https://www.evrensel.net/kategori/649/avrupanin-gundemi
+https://www.evrensel.net/webtv
+https://www.evrensel.net/yazarlar
 
 #include in index;
+
+^https?://([a-z]+\.)?evrensel\.net/haber/[0-9]+/.*$
+^https?://([a-z]+\.)?evrensel\.net/yazi/[0-9]+/.*$
 
 
 #exclude from crawl;
@@ -14,6 +37,7 @@ www.evrensel.net
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?evrensel\.net/yazi/[0-9]+/.*$
 
 #category patterns;
 

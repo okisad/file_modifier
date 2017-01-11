@@ -1,7 +1,18 @@
 #seeds;
-www.anonsajans.com.tr
+http://www.anonsajans.com.tr/habertrak/
+http://www.anonsajans.com.tr/habertrak/category/son-dakika
+http://www.anonsajans.com.tr/habertrak/category/genel/yerel-haber
+http://www.anonsajans.com.tr/habertrak/category/genel/siyaset
+http://www.anonsajans.com.tr/habertrak/category/genel/ekonomi
+http://www.anonsajans.com.tr/habertrak/category/kose-yazarlari
+http://www.anonsajans.com.tr/habertrak/category/spor
+http://www.anonsajans.com.tr/habertrak/category/genel/yerel-haber/tekirdag
+http://www.anonsajans.com.tr/habertrak/category/genel/gundem
+http://www.anonsajans.com.tr/habertrak/category/genel/saglik
 
 #include in index;
+^https?://([a-z]+\.)?anonsajans\.com\.tr/habertrak/genel/.*\.htm$
+
 
 
 #exclude from crawl;

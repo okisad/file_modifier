@@ -1,10 +1,25 @@
 #seeds;
-www.gunes.com
+http://www.gunes.com/
+http://www.gunes.com/son-dakika/
+http://www.gunes.com/gundem/
+http://www.gunes.com/ekonomi/
+http://www.gunes.com/yasam/
+http://www.gunes.com/spor/
+http://www.gunes.com/dunya/
+http://www.gunes.com/magazin/
+http://www.gunes.com/saglik/
+http://www.gunes.com/yazarlar/
+http://www.gunes.com/video-galeri/
 
 #include in index;
+^https?://([a-z]+\.)?gunes\.com/.*/.*\-[0-9]+$
+^https?://([a-z]+\.)?gunes\.com/yazarlar/.*\-[0-9]+$
+^https?://([a-z]+\.)?gunes\.com/video/.*\-[0-9]+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gunes\.com/foto\-galeri/.*\-[0-9]+$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +27,12 @@ www.gunes.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gunes\.com/video/.*\-[0-9]+$
 
 #column patterns;
+^https?://([a-z]+\.)?gunes\.com/yazarlar/.*\-[0-9]+$
 
 #category patterns;
+^https?://([a-z]+\.)?gunes\.com/(.*?)/.*\-[0-9]+$
 
 #date elements;

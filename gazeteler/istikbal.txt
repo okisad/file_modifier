@@ -1,7 +1,14 @@
 #seeds;
-www.istikbalgazetesi.com
+http://www.istikbalgazetesi.com/
+http://www.istikbalgazetesi.com/haber.asp?sec=1&newscatid=7
+http://www.istikbalgazetesi.com/haber.asp?sec=1&newscatid=8
+http://www.istikbalgazetesi.com/haber.asp?sec=2
+http://www.istikbalgazetesi.com/video_haber.asp
 
 #include in index;
+^https?://([a-z]+\.)?istikbalgazetesi\.com/haber\.asp\?sec\=[0-9]+\&newscatid\=[0-9]+\&newsid\=[0-9]+$
+^https?://([a-z]+\.)?istikbalgazetesi\.com/haber\.asp\?sec\=[0-9]+\&yazarid\=[0-9]+\&newsid\=[0-9]+$
+^https?://([a-z]+\.)?istikbalgazetesi\.com/video\_haber\.asp\?sec\=[0-9]+\&sayfa\=[0-9]+\&newscatid\=[0-9]+\&newsid\=[0-9]+$
 
 
 #exclude from crawl;
@@ -12,8 +19,10 @@ www.istikbalgazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?istikbalgazetesi\.com/video\_haber\.asp\?sec\=[0-9]+\&sayfa\=[0-9]+\&newscatid\=[0-9]+\&newsid\=[0-9]+$
 
 #column patterns;
+^https?://([a-z]+\.)?istikbalgazetesi\.com/haber\.asp\?sec\=[0-9]+\&yazarid\=[0-9]+\&newsid\=[0-9]+$
 
 #category patterns;
 

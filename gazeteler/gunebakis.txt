@@ -1,10 +1,33 @@
 #seeds;
-www.erzurumgünebakıs.com
+http://erzurumgunebakis.com/
+http://erzurumgunebakis.com/haber/kategori/-10.html
+http://erzurumgunebakis.com/haber/kategori/-4.html
+http://erzurumgunebakis.com/haber/kategori/-2.html
+http://erzurumgunebakis.com/haber/kategori/-11.html
+http://erzurumgunebakis.com/haber/kategori/-12.html
+http://erzurumgunebakis.com/haber/kategori/-13.html
+http://erzurumgunebakis.com/haber/kategori/-15.html
+http://erzurumgunebakis.com/haber/kategori/-3.html
+http://erzurumgunebakis.com/haber/kategori/asayis-17.html
+http://erzurumgunebakis.com/haber/kategori/-1.html
+http://erzurumgunebakis.com/haber/kategori/-5.html
+http://erzurumgunebakis.com/haber/kategori/-6.html
+http://erzurumgunebakis.com/haber/kategori/-9.html
+http://erzurumgunebakis.com/haber/kategori/-7.html
+http://erzurumgunebakis.com/haber/kategori/kultursanat-18.html
+http://erzurumgunebakis.com/haber/kategori/arastirmainceleme-19.html
+http://erzurumgunebakis.com/haber/kategori/bolge-20.html
+http://erzurumgunebakis.com/roportajlar
+http://erzurumgunebakis.com/video-galeri/
 
 #include in index;
+^https?://([a-z]+\.)?erzurumgunebakis\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?erzurumgunebakis\.com/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?erzurumgunebakis\.com/video\-galeri/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?erzurumgunebakis\.com/haber/kategori/[0-9]+/.*\-[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +35,10 @@ www.erzurumgünebakıs.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?erzurumgunebakis\.com/video\-galeri/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?erzurumgunebakis\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

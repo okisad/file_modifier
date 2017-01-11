@@ -1,8 +1,29 @@
 #seeds;
-www.ilkhaber-gazetesi.com
+http://www.ilkhaber-gazetesi.com/
+http://www.ilkhaber-gazetesi.com/haberler/guncel/
+http://www.ilkhaber-gazetesi.com/haberler/siyaset/
+http://www.ilkhaber-gazetesi.com/haberler/ekonomi/
+http://www.ilkhaber-gazetesi.com/haberler/polis-asayis/
+http://www.ilkhaber-gazetesi.com/haberler/magazin/
+http://www.ilkhaber-gazetesi.com/haberler/spor/
+http://www.ilkhaber-gazetesi.com/haberler/egitim/
+http://www.ilkhaber-gazetesi.com/haberler/dunya/
+http://www.ilkhaber-gazetesi.com/haberler/saglik/
+http://www.ilkhaber-gazetesi.com/haberler/teknoloji/
+http://www.ilkhaber-gazetesi.com/haberler/yasam/
+http://www.ilkhaber-gazetesi.com/haberler/kultur-sanat/
+http://www.ilkhaber-gazetesi.com/haberler/yerel/
+http://www.ilkhaber-gazetesi.com/haberler/diger/
+http://www.ilkhaber-gazetesi.com/haberler/roportaj/
+http://www.ilkhaber-gazetesi.com/haberler/kadin/
+http://www.ilkhaber-gazetesi.com/video-galeri.html
+http://www.ilkhaber-gazetesi.com/yazarlar.html
 
 #include in index;
 
+^https?://([a-z]+\.)?ilkhaber-gazetesi\.com/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?ilkhaber-gazetesi\.com/kose\-yazisi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?ilkhaber-gazetesi\.com/video/[0-9]+/.*\.html$
 
 #exclude from crawl;
 
@@ -12,8 +33,10 @@ www.ilkhaber-gazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ilkhaber-gazetesi\.com/video/[0-9]+/.*\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?ilkhaber-gazetesi\.com/kose\-yazisi/[0-9]+/.*\.html$
 
 #category patterns;
 

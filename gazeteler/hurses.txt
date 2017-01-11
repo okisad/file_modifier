@@ -1,10 +1,25 @@
 #seeds;
-www.antalyahurses.com
+http://www.antalyahurses.com/
+http://www.antalyahurses.com/guncel/
+http://www.antalyahurses.com/gundem/
+http://www.antalyahurses.com/yasam/
+http://www.antalyahurses.com/polis-adliye/
+http://www.antalyahurses.com/kultur-sanat/
+http://www.antalyahurses.com/spor/
+http://www.antalyahurses.com/magazin/
+http://www.antalyahurses.com/saglik/
+http://www.antalyahurses.com/medya/
+http://www.antalyahurses.com/sali-sohbetleri/
+http://www.antalyahurses.com/kose-yazarlari/
+http://www.antalyahurses.com/video-galeri/
 
 #include in index;
-
+^https?://([a-z]+\.)?antalyahurses\.com/.*/[0-9]+/$
+^https?://([a-z]+\.)?antalyahurses\.com/video\-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?antalyahurses\.com/yazarlar/.*/.*/[0-9]+/$
 
 #exclude from crawl;
+^https?://([a-z]+\.)?antalyahurses\.com/foto\-galeri/.*/$
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +27,10 @@ www.antalyahurses.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?antalyahurses\.com/video\-detay/.*/[0-9]+/$
 
 #column patterns;
+^https?://([a-z]+\.)?antalyahurses\.com/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 

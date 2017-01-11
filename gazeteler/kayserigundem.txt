@@ -1,7 +1,29 @@
 #seeds;
-www.kayserigundem.com
+http://www.kayserigundem.com/
+http://www.kayserigundem.com/webtv/
+http://www.kayserigundem.com/kayseri
+http://www.kayserigundem.com/gundem
+http://www.kayserigundem.com/siyaset
+http://www.kayserigundem.com/aktuel
+http://www.kayserigundem.com/ozel-haber
+http://www.kayserigundem.com/spor
+http://www.kayserigundem.com/hayat
+http://www.kayserigundem.com/ekonomi
+http://www.kayserigundem.com/egitim
+http://www.kayserigundem.com/roportaj
+http://www.kayserigundem.com/bolge-haberleri
+http://www.kayserigundem.com/bilim-teknoloji
+http://www.kayserigundem.com/asayis
+http://www.kayserigundem.com/genel
+http://www.kayserigundem.com/yerel
+http://www.kayserigundem.com/dusunce-gunlugu
+http://www.kayserigundem.com/yazarlar.html
 
 #include in index;
+
+^https?://([a-z]+\.)?kayserigundem\.com/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?kayserigundem\.com/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?kayserigundem\.com/.*/.*\-h[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +34,13 @@ www.kayserigundem.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kayserigundem\.com/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?kayserigundem\.com/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?kayserigundem\.com/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;
+
