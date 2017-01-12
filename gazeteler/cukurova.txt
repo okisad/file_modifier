@@ -1,10 +1,29 @@
 #seeds;
-www.cukurovagazetesi.com
+http://www.cukurovagazetesi.com/
+http://www.cukurovagazetesi.com/kategori/mersin
+http://www.cukurovagazetesi.com/kategori/guncel
+http://www.cukurovagazetesi.com/kategori/yerel
+http://www.cukurovagazetesi.com/kategori/siyaset
+http://www.cukurovagazetesi.com/kategori/ekonomi
+http://www.cukurovagazetesi.com/kategori/saglik
+http://www.cukurovagazetesi.com/kategori/ozel-haber
+http://www.cukurovagazetesi.com/kategori/manset
+http://www.cukurovagazetesi.com/kategori/kose-yazarlari
+
 
 #include in index;
+^https?://([a-z]+\.)?cukurovagazetesi\.com/.*\.html$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?cukurovagazetesi\.com/kategori/resmi-ilan.*$
+^https?://([a-z]+\.)?cukurovagazetesi\.com/kunye.*$
+^https?://([a-z]+\.)?cukurovagazetesi\.com/iletisim.*$
+^https?://([a-z]+\.)?cukurovagazetesi\.com/reklam.*$
+^https?://([a-z]+\.)?cukurovagazetesi\.com/arsiv.*$
+^https?://([a-z]+\.)?cukurovagazetesi\.com/[0-9]+.html$
+
 
 # generic exclusions
 .*\.pdf$
@@ -13,8 +32,11 @@ www.cukurovagazetesi.com
 
 #video patterns;
 
+
 #column patterns;
 
 #category patterns;
 
 #date elements;
+
+

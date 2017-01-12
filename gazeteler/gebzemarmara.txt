@@ -1,7 +1,28 @@
 #seeds;
-www.marmaragazetesi.com
+http://www.marmaragazetesi.com/
+http://www.marmaragazetesi.com/video-galeri.htm
+http://www.marmaragazetesi.com/gundem-haberleri-22hk.htm
+http://www.marmaragazetesi.com/siyaset-haberleri-23hk.htm
+http://www.marmaragazetesi.com/ekonomi-haberleri-24hk.htm
+http://www.marmaragazetesi.com/spor-haberleri-26hk.htm
+http://www.marmaragazetesi.com/kultur-sanat-haberleri-27hk.htm
+http://www.marmaragazetesi.com/egitim-haberleri-28hk.htm
+http://www.marmaragazetesi.com/bilim-teknoloji-haberleri-29hk.htm
+http://www.marmaragazetesi.com/magazin-haberleri-30hk.htm
+http://www.marmaragazetesi.com/asayis-haberleri-31hk.htm
+http://www.marmaragazetesi.com/yasam-haberleri-33hk.htm
+http://www.marmaragazetesi.com/dunya-haberleri-39hk.htm
+http://www.marmaragazetesi.com/sosyal-medya-haberleri-haberleri-51hk.htm
+http://www.marmaragazetesi.com/saglik-haberleri-37hk.htm
+http://www.marmaragazetesi.com/yerel-haberler-haberleri-52hk.htm
+http://www.marmaragazetesi.com/yazarlar.htm
+
+
 
 #include in index;
+^https?://([a-z]+\.)?marmaragazetesi\.com/.*-[0-9]+h\.htm$
+^https?://([a-z]+\.)?marmaragazetesi\.com/.*-[0-9]+yy\.htm$
+^https?://([a-z]+\.)?marmaragazetesi\.com/.*-[0-9]+v\.htm$
 
 
 #exclude from crawl;
@@ -12,8 +33,12 @@ www.marmaragazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?marmaragazetesi\.com/.*-[0-9]+v\.htm$
+
 
 #column patterns;
+^https?://([a-z]+\.)?marmaragazetesi\.com/.*-[0-9]+yy\.htm$
+
 
 #category patterns;
 

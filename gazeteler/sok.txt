@@ -1,10 +1,25 @@
 #seeds;
-www.Gazetesok.com
+http://gazetesok.com/
+http://gazetesok.com/guncel/
+http://gazetesok.com/ekonomi/
+http://gazetesok.com/siyaset/
+http://gazetesok.com/magazin/
+http://gazetesok.com/spor/
+http://gazetesok.com/guzel-kadinlar/
+http://gazetesok.com/hayatin-icinden/
+http://gazetesok.com/cinsel-yasam/
+http://gazetesok.com/video-galeri/
+
 
 #include in index;
+^https?://([a-z]+\.)?gazetesok\.com/haber/.*_[0-9]+$
+^https?://([a-z]+\.)?gazetesok\.com/video-galeri/.*_[0-9]+$
+^https?://([a-z]+\.)?gazetesok\.com/yazi/.*_[0-9]+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gazetesok\.com/foto-galeri/.*_[0-9]+$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +27,10 @@ www.Gazetesok.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gazetesok\.com/video-galeri/.*_[0-9]+$
 
 #column patterns;
+^https?://([a-z]+\.)?gazetesok\.com/yazi/.*_[0-9]+$
 
 #category patterns;
 

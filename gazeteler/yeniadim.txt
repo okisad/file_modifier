@@ -1,10 +1,36 @@
 #seeds;
-www.yeniadimgazetesi.com.tr
+http://www.demirmedya.net/
+http://www.demirmedya.net/haberler/guncel/
+http://www.demirmedya.net/haberler/siyaset/
+http://www.demirmedya.net/haberler/spor/
+http://www.demirmedya.net/haberler/kultursanat/
+http://www.demirmedya.net/haberler/soylesi/
+http://www.demirmedya.net/haberler/saglik/
+http://www.demirmedya.net/haberler/ekonomi/
+http://www.demirmedya.net/haberler/roportaj/
+http://www.demirmedya.net/haberler/karikatur/
+http://www.demirmedya.net/haberler/magazin/
+http://www.demirmedya.net/yazarlar/
+http://www.demirmedya.net/galeriler/
+http://www.demirmedya.net/videolar/
+http://www.demirmedya.net/#
+http://www.demirmedya.net/sondakika-haberler/
+http://www.demirmedya.net/mansetler/
+http://www.demirmedya.net/sondakika-haberler/
+http://www.demirmedya.net/neler-oluyor.html
+
+
 
 #include in index;
+^https?://([a-z]+\.)?demirmedya\.net/haber/.*\.html$
+^https?://([a-z]+\.)?demirmedya\.net/kose-yazisi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?demirmedya\.net/video/[0-9]+/.*\.html$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?demirmedya\.net/galeri/[0-9]+/.*\.html$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +38,14 @@ www.yeniadimgazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?demirmedya\.net/video/[0-9]+/.*\.html$
+
 
 #column patterns;
+^https?://([a-z]+\.)?demirmedya\.net/kose-yazisi/[0-9]+/.*\.html$
+
 
 #category patterns;
 
 #date elements;
+

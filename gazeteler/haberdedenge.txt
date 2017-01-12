@@ -1,10 +1,33 @@
 #seeds;
-www.dengegazetesi.com.tr
+http://www.dengegazetesi.com.tr/
+http://www.dengegazetesi.com.tr/video-galeri.htm
+http://www.dengegazetesi.com.tr/siyaset-haberleri-1hk.htm
+http://www.dengegazetesi.com.tr/guncel-haberleri-2hk.htm
+http://www.dengegazetesi.com.tr/dunya-haberleri-3hk.htm
+http://www.dengegazetesi.com.tr/spor-haberleri-4hk.htm
+http://www.dengegazetesi.com.tr/bolge-ve-ilceler-haberleri-5hk.htm
+http://www.dengegazetesi.com.tr/turkiye-haberleri-15hk.htm
+http://www.dengegazetesi.com.tr/saglik-haberleri-10hk.htm
+http://www.dengegazetesi.com.tr/denge-egitim-haberleri-6hk.htm
+http://www.dengegazetesi.com.tr/sinema-ve-tiyatro-haberleri-13hk.htm
+http://www.dengegazetesi.com.tr/denge-ozel-haberleri-20hk.htm
+http://www.dengegazetesi.com.tr/kultur-sanat-haberleri-7hk.htm
+http://www.dengegazetesi.com.tr/yasam-haberleri-17hk.htm
+http://www.dengegazetesi.com.tr/bilisim-haberleri-22hk.htm
+http://www.dengegazetesi.com.tr/denge-gazetesi-resmi-ilanlar-haberleri-16hk.htm
+http://www.dengegazetesi.com.tr/yazarlar.htm
+
+
 
 #include in index;
+^https?://([a-z]+\.)?dengegazetesi\.com\.tr/.*-[0-9]+h.htm$
+^https?://([a-z]+\.)?dengegazetesi\.com\.tr/.*-[0-9]+v.htm$
+^https?://([a-z]+\.)?dengegazetesi\.com\.tr/.*-[0-9]+yy.htm$
+
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +35,16 @@ www.dengegazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?dengegazetesi\.com\.tr/.*-[0-9]+v.htm$
+
 
 #column patterns;
+^https?://([a-z]+\.)?dengegazetesi\.com\.tr/.*-[0-9]+yy.htm$
+
+
 
 #category patterns;
 
 #date elements;
+
+

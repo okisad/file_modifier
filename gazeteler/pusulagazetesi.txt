@@ -1,0 +1,52 @@
+#seeds;
+http://www.pusulagazetesi.com.tr/
+http://www.pusulagazetesi.com.tr/index.php
+http://www.pusulagazetesi.com.tr/hkategori/54-genel.html
+http://www.pusulagazetesi.com.tr/zonguldak
+http://www.pusulagazetesi.com.tr/alapli
+http://www.pusulagazetesi.com.tr/caycuma
+http://www.pusulagazetesi.com.tr/devrek
+http://www.pusulagazetesi.com.tr/gokcebey
+http://www.pusulagazetesi.com.tr/eregli
+http://www.pusulagazetesi.com.tr/kilimli
+http://www.pusulagazetesi.com.tr/kozlu
+http://www.pusulagazetesi.com.tr/spor
+http://www.pusulagazetesi.com.tr/sektor
+http://www.pusula67.com.tr/
+http://www.pusulagazetesi.com.tr/video-haber.html
+http://www.pusulagazetesi.com.tr/bartin
+http://www.pusulagazetesi.com.tr/kastamonu
+http://www.pusulagazetesi.com.tr/karabuk
+http://www.pusulagazetesi.com.tr/bolu
+http://www.pusulagazetesi.com.tr/duzce
+http://www.pusulagazetesi.com.tr/tum-makale.html
+http://www.pusulagazetesi.com.tr/tum-haber.html
+http://www.pusulagazetesi.com.tr/yazarlar.html
+
+
+
+#include in index;
+^https?://([a-z]+\.)?pusulagazetesi\.com\.tr/h_[0-9]+/.*/$
+^https?://([a-z]+\.)?pusulagazetesi\.com\.tr/m_[0-9]+/.*/$
+
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?pusulagazetesi\.com\.tr/foto_g/.*\.html$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+
+#column patterns;
+^https?://([a-z]+\.)?pusulagazetesi\.com\.tr/m_[0-9]+/.*/$
+
+
+#category patterns;
+
+#date elements;

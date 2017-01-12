@@ -1,0 +1,41 @@
+#seeds;
+http://gaziantepsabah.com/
+http://gaziantepsabah.com/roportaj.php
+http://gaziantepsabah.com/kategori.php?kid=1
+http://gaziantepsabah.com/kategori.php?kid=3
+http://gaziantepsabah.com/kategori.php?kid=2
+http://gaziantepsabah.com/kategori.php?kid=4
+http://gaziantepsabah.com/kategori.php?kid=6
+http://gaziantepsabah.com/kategori.php?kid=5
+http://gaziantepsabah.com/kategori.php?kid=7
+http://gaziantepsabah.com/kategori.php?kid=8
+http://gaziantepsabah.com/video.php
+
+#include in index;
+^https?://([a-z]+\.)?gaziantepsabah\.com/.*\.html$
+^https?://([a-z]+\.)?gaziantepsabah\.com/videoplayer.php\?id\=.+\&kid\=[0-9]+$
+^https?://([a-z]+\.)?gaziantepsabah\.com/roportaj.php\?id\=.+$
+^https?://([a-z]+\.)?gaziantepsabah\.com/yazi.php\?id\=.+$
+
+
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?gaziantepsabah\.com/galeri.php.*$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?gaziantepsabah\.com/videoplayer.php\?id\=.+\&kid\=[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?gaziantepsabah\.com/yazi.php\?id\=.+$
+
+#category patterns;
+
+
+#date elements;

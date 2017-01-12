@@ -1,10 +1,31 @@
 #seeds;
-www.gebzegazetesi.com
+http://gebzegazetesi.com/gundem
+http://gebzegazetesi.com/siyaset
+http://gebzegazetesi.com/asayis
+http://gebzegazetesi.com/egitim
+http://gebzegazetesi.com/saglik
+http://gebzegazetesi.com/ekonomi
+http://gebzegazetesi.com/kultur-ve-sanat
+http://gebzegazetesi.com/spor
+http://gebzegazetesi.com/yasam
+http://gebzegazetesi.com/roportaj
+http://gebzegazetesi.com/dunya
+http://gebzegazetesi.com/ilce-haberleri
+http://gebzegazetesi.com/
+http://www.gebzegazetesi.com/webtv/
+http://www.gebzegazetesi.com/yazarlar.html
+
+
 
 #include in index;
+^https?://([a-z]+\.)?gebzegazetesi\.com/.*/.*h[0-9]+\.html$
+^https?://([a-z]+\.)?gebzegazetesi\.com/.*-video,[0-9]+\.html$
+^https?://([a-z]+\.)?gebzegazetesi\.com/.*-makale,[0-9]+\.html$
+
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +33,12 @@ www.gebzegazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gebzegazetesi\.com/.*-video,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?gebzegazetesi\.com/.*-makale,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?gebzegazetesi\.com/(.*?)/.*h[0-9]+\.html$
 
 #date elements;

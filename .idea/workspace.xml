@@ -2,74 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b9ff844-f09b-4d52-b184-45beac906fc6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/erzurumyenigun.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/kentgazetesi.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/mucadelegazete.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/yenigungazetesi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler.xlsx" afterPath="$PROJECT_DIR$/gazeteler.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/gaziantepsabah.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/gebzehaber.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/hizmet.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gazeteler/pusulagazetesi.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gazeteler/24saat.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gazeteler/hakimiyet.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayserihaber.txt" afterPath="$PROJECT_DIR$/gazeteler/kayserihaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayserihaber38.txt" afterPath="$PROJECT_DIR$/gazeteler/kayserihaber38.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayserihakimiyet2000.txt" afterPath="$PROJECT_DIR$/gazeteler/kayserihakimiyet2000.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayserimeydan.txt" afterPath="$PROJECT_DIR$/gazeteler/kayserimeydan.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayseriolay.txt" afterPath="$PROJECT_DIR$/gazeteler/kayseriolay.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayseristarhaber.txt" afterPath="$PROJECT_DIR$/gazeteler/kayseristarhaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayserivizyonkenthaber.txt" afterPath="$PROJECT_DIR$/gazeteler/kayserivizyonkenthaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kayseriyenihaber.txt" afterPath="$PROJECT_DIR$/gazeteler/kayseriyenihaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kent.txt" afterPath="$PROJECT_DIR$/gazeteler/kent.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kocatepe.txt" afterPath="$PROJECT_DIR$/gazeteler/kocatepe.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/korfez.txt" afterPath="$PROJECT_DIR$/gazeteler/korfez.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kucukmenderes.txt" afterPath="$PROJECT_DIR$/gazeteler/kucukmenderes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kuzeyanadolu.txt" afterPath="$PROJECT_DIR$/gazeteler/kuzeyanadolu.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kuzeyekspres.txt" afterPath="$PROJECT_DIR$/gazeteler/kuzeyekspres.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/mackahaber.txt" afterPath="$PROJECT_DIR$/gazeteler/mackahaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/malatyasonsoz.txt" afterPath="$PROJECT_DIR$/gazeteler/malatyasonsoz.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/malatyasoz.txt" afterPath="$PROJECT_DIR$/gazeteler/malatyasoz.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/medyayenigun.txt" afterPath="$PROJECT_DIR$/gazeteler/medyayenigun.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/memleketsivas.txt" afterPath="$PROJECT_DIR$/gazeteler/memleketsivas.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/mesale.txt" afterPath="$PROJECT_DIR$/gazeteler/mesale.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/milletinsesi.txt" afterPath="$PROJECT_DIR$/gazeteler/milletinsesi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/milliirade.txt" afterPath="$PROJECT_DIR$/gazeteler/milliirade.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/mucadele.txt" afterPath="$PROJECT_DIR$/gazeteler/mucadele.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/odak.txt" afterPath="$PROJECT_DIR$/gazeteler/odak.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ofhavadis.txt" afterPath="$PROJECT_DIR$/gazeteler/ofhavadis.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/okur.txt" afterPath="$PROJECT_DIR$/gazeteler/okur.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/olusum.txt" afterPath="$PROJECT_DIR$/gazeteler/olusum.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/oncevatan.txt" afterPath="$PROJECT_DIR$/gazeteler/oncevatan.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/polatlipostasi.txt" afterPath="$PROJECT_DIR$/gazeteler/polatlipostasi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/pusula.txt" afterPath="$PROJECT_DIR$/gazeteler/pusula.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/safak.txt" afterPath="$PROJECT_DIR$/gazeteler/safak.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sakarya.txt" afterPath="$PROJECT_DIR$/gazeteler/sakarya.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sakaryahalk.txt" afterPath="$PROJECT_DIR$/gazeteler/sakaryahalk.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sakaryayenigun.txt" afterPath="$PROJECT_DIR$/gazeteler/sakaryayenigun.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sakaryayenihaber.txt" afterPath="$PROJECT_DIR$/gazeteler/sakaryayenihaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sanliurfaolay.txt" afterPath="$PROJECT_DIR$/gazeteler/sanliurfaolay.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sehir.txt" afterPath="$PROJECT_DIR$/gazeteler/sehir.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sesimiztrabzon.txt" afterPath="$PROJECT_DIR$/gazeteler/sesimiztrabzon.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sivasirade.txt" afterPath="$PROJECT_DIR$/gazeteler/sivasirade.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sonhaber.txt" afterPath="$PROJECT_DIR$/gazeteler/sonhaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/taka.txt" afterPath="$PROJECT_DIR$/gazeteler/taka.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/tarsusekspres.txt" afterPath="$PROJECT_DIR$/gazeteler/tarsusekspres.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/tarsusyenidogus.txt" afterPath="$PROJECT_DIR$/gazeteler/tarsusyenidogus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/telgraf.txt" afterPath="$PROJECT_DIR$/gazeteler/telgraf.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ticaret.txt" afterPath="$PROJECT_DIR$/gazeteler/ticaret.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/trakya.txt" afterPath="$PROJECT_DIR$/gazeteler/trakya.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/turkiyedeyenicag.txt" afterPath="$PROJECT_DIR$/gazeteler/turkiyedeyenicag.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/turkogluhaber.txt" afterPath="$PROJECT_DIR$/gazeteler/turkogluhaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ulker.txt" afterPath="$PROJECT_DIR$/gazeteler/ulker.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/vansesi.txt" afterPath="$PROJECT_DIR$/gazeteler/vansesi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yasam.txt" afterPath="$PROJECT_DIR$/gazeteler/yasam.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yeniadana.txt" afterPath="$PROJECT_DIR$/gazeteler/yeniadana.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenibirlik.txt" afterPath="$PROJECT_DIR$/gazeteler/yenibirlik.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenicagri.txt" afterPath="$PROJECT_DIR$/gazeteler/yenicagri.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yeniekonomi.txt" afterPath="$PROJECT_DIR$/gazeteler/yeniekonomi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenihaber.txt" afterPath="$PROJECT_DIR$/gazeteler/yenihaber.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenikiroba.txt" afterPath="$PROJECT_DIR$/gazeteler/yenikiroba.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenimesaj.txt" afterPath="$PROJECT_DIR$/gazeteler/yenimesaj.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenisakarya.txt" afterPath="$PROJECT_DIR$/gazeteler/yenisakarya.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenisehiryorem.txt" afterPath="$PROJECT_DIR$/gazeteler/yenisehiryorem.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yorem.txt" afterPath="$PROJECT_DIR$/gazeteler/yorem.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/zeytinefe.txt" afterPath="$PROJECT_DIR$/gazeteler/zeytinefe.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/akcakaleninsesi.txt" afterPath="$PROJECT_DIR$/gazeteler/akcakaleninsesi.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/aksam.txt" afterPath="$PROJECT_DIR$/gazeteler/aksam.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ayrintilihaber.txt" afterPath="$PROJECT_DIR$/gazeteler/ayrintilihaber.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/bursaolay.txt" afterPath="$PROJECT_DIR$/gazeteler/bursaolay.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/buyuksehirmerhaba.txt" afterPath="$PROJECT_DIR$/gazeteler/buyuksehirmerhaba.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/cagdaskocaeli.txt" afterPath="$PROJECT_DIR$/gazeteler/cagdaskocaeli.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/cukurova.txt" afterPath="$PROJECT_DIR$/gazeteler/cukurova.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ekspresderince.txt" afterPath="$PROJECT_DIR$/gazeteler/ekspresderince.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gazetearena.txt" afterPath="$PROJECT_DIR$/gazeteler/gazetearena.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gazetegercek.txt" afterPath="$PROJECT_DIR$/gazeteler/gazetegercek.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gebze.txt" afterPath="$PROJECT_DIR$/gazeteler/gebze.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gebzemarmara.txt" afterPath="$PROJECT_DIR$/gazeteler/gebzemarmara.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gebzeyenigun.txt" afterPath="$PROJECT_DIR$/gazeteler/gebzeyenigun.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/golcukhaber.txt" afterPath="$PROJECT_DIR$/gazeteler/golcukhaber.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/gucluanadolu.txt" afterPath="$PROJECT_DIR$/gazeteler/gucluanadolu.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/haberdedenge.txt" afterPath="$PROJECT_DIR$/gazeteler/haberdedenge.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/habervaktim.txt" afterPath="$PROJECT_DIR$/gazeteler/habervaktim.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/karadenizdengunebakis.txt" afterPath="$PROJECT_DIR$/gazeteler/karadenizdengunebakis.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/kocaeli.txt" afterPath="$PROJECT_DIR$/gazeteler/kocaeli.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/mavikocaeli.txt" afterPath="$PROJECT_DIR$/gazeteler/mavikocaeli.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ozgurkocaeli.txt" afterPath="$PROJECT_DIR$/gazeteler/ozgurkocaeli.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/referans.txt" afterPath="$PROJECT_DIR$/gazeteler/referans.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sabah.txt" afterPath="$PROJECT_DIR$/gazeteler/sabah.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sok.txt" afterPath="$PROJECT_DIR$/gazeteler/sok.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sonsoz.txt" afterPath="$PROJECT_DIR$/gazeteler/sonsoz.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/sozcu.txt" afterPath="$PROJECT_DIR$/gazeteler/sozcu.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/star.txt" afterPath="$PROJECT_DIR$/gazeteler/star.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/takvim.txt" afterPath="$PROJECT_DIR$/gazeteler/takvim.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/ticarihayat.txt" afterPath="$PROJECT_DIR$/gazeteler/ticarihayat.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yeniadim.txt" afterPath="$PROJECT_DIR$/gazeteler/yeniadim.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenidonem.txt" afterPath="$PROJECT_DIR$/gazeteler/yenidonem.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenigun.txt" afterPath="$PROJECT_DIR$/gazeteler/yenigun.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/yenimarmara.txt" afterPath="$PROJECT_DIR$/gazeteler/yenimarmara.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gazeteler/zafer.txt" afterPath="$PROJECT_DIR$/gazeteler/zafer.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/excel/Main.java" afterPath="$PROJECT_DIR$/src/main/java/excel/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,31 +60,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="yeniekonomi.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yeniekonomi.txt">
+      <file leaf-file-name="yenidonem.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/yenidonem.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="15" />
+            <state relative-caret-position="150">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yenimesaj.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yenimesaj.txt">
+      <file leaf-file-name="gebzehaber.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/gebzehaber.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="624">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yenisakarya.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yenisakarya.txt">
+      <file leaf-file-name="yenimarmara.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/yenimarmara.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="639">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,68 +93,68 @@
       <file leaf-file-name="yenigun.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gazeteler/yenigun.txt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yeniadim.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/yeniadim.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kocatepe.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/kocatepe.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="15" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="erzurumyenigun.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/erzurumyenigun.txt">
+      <file leaf-file-name="hizmet.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/hizmet.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="58" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yenigungazetesi.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yenigungazetesi.txt">
+      <file leaf-file-name="buyuksehirmerhaba.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/buyuksehirmerhaba.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="53" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="300">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yorem.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yorem.txt">
+      <file leaf-file-name="akcakaleninsesi.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gazeteler/akcakaleninsesi.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="15">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zeytinefe.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gazeteler/zeytinefe.txt">
+      <file leaf-file-name="zafer.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gazeteler/zafer.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yenisehiryorem.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yenisehiryorem.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yenikiroba.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gazeteler/yenikiroba.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,6 +174,7 @@
     <findStrings>
       <find>hedef</find>
       <find>kent</find>
+      <find>magazi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,33 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gazeteler/malatyasonsoz.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/mackahaber.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/malatyasoz.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/medyayenigun.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/memleketsivas.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/mesale.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/milletinsesi.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/milliirade.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/mucadele.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/mucadelegazete.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/odak.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/ofhavadis.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/okur.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/olusum.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/oncevatan.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/polatlipostasi.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/pusula.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/safak.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sakarya.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sakaryahalk.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sakaryayenigun.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sakaryayenihaber.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sanliurfaolay.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sehir.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sesimiztrabzon.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sivasirade.txt" />
-        <option value="$PROJECT_DIR$/gazeteler/sonhaber.txt" />
         <option value="$PROJECT_DIR$/gazeteler/taka.txt" />
         <option value="$PROJECT_DIR$/gazeteler/tarsusekspres.txt" />
         <option value="$PROJECT_DIR$/gazeteler/tarsusyenidogus.txt" />
@@ -264,6 +212,33 @@
         <option value="$PROJECT_DIR$/gazeteler/yenisehiryorem.txt" />
         <option value="$PROJECT_DIR$/gazeteler/yorem.txt" />
         <option value="$PROJECT_DIR$/gazeteler/zeytinefe.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/aksam.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/gucluanadolu.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/excel/Main.java" />
+        <option value="$PROJECT_DIR$/gazeteler/bursahakimiyet.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/mersinhakimiyet.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/karadenizdengunebakis.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/kocaeli.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/mavikocaeli.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/ozgurkocaeli.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/pusulagazetesi.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/referans.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/gaziantepsabah.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/sok.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/sonsoz.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/gebzehaber.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/yenimarmara.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/zafer.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/sozcu.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/sabah.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/star.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/takvim.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/ticarihayat.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/yenidonem.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/yenigun.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/yeniadim.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/hizmet.txt" />
+        <option value="$PROJECT_DIR$/gazeteler/akcakaleninsesi.txt" />
       </list>
     </option>
   </component>
@@ -828,20 +803,21 @@
       <option name="presentableId" value="Default" />
       <updated>1484056057663</updated>
       <workItem from="1484056059087" duration="49121000" />
-      <workItem from="1484164509625" duration="25300000" />
+      <workItem from="1484164509625" duration="33914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74421000" />
+    <option name="totallyTimeSpent" value="83035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -865,7 +841,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -900,378 +875,74 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gazeteler/malatyasoz.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/2eylulgazetesi.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/medyayenigun.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/gucluanadolu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="61" />
+        <state relative-caret-position="600">
+          <caret line="40" column="19" lean-forward="false" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/memleketsivas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/mesale.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/excel/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="42" />
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/milletinsesi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/milliirade.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/mucadele.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/mucadelegazete.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/odak.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/ofhavadis.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/okur.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/bursahakimiyet.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="63" />
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/olusum.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/mersinhakimiyet.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="92" />
+        <state relative-caret-position="405">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/oncevatan.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/kocaeli.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="61" />
+        <state relative-caret-position="564">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/polatliistiklal.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/kocaelidemokrat.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="67" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="67" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gazeteler/pusula.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/polatlipostasi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/safak.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sakarya.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sakaryahalk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sakaryayenigun.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sakaryayenihaber.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sanliurfaolay.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sehir.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sesimiztrabzon.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sivasirade.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/sonhaber.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/taka.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/tarsusekspres.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/tarsusyenidogus.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/telgraf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/ticaret.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/trakya.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/turkiyedeyenicag.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/turkogluhaber.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/ulker.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="70" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/vansesi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yasam.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yeniadana.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="45" column="67" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenibirlik.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenicagri.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gazeteler/yenihaber.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenimesaj.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenisakarya.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenigun.txt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yeniekonomi.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/erzurumyenigun.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenikiroba.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1284,26 +955,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yenisehiryorem.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/sozcu.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="54">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/yorem.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/sonsoz.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="55" />
+        <state relative-caret-position="720">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gazeteler/zeytinefe.txt">
+    <entry file="file://$PROJECT_DIR$/gazeteler/sok.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gaziantepsabah.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/referans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/pusulagazetesi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/ozgurkocaeli.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/medyayenigun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/mavikocaeli.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/kucukmenderes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/karadenizdengunebakis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/habervaktim.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/haberdedenge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/golcukhaber.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gebzeyenigun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gebzemarmara.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gebze.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gazetegercek.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gazetearena.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/ekspresderince.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/cukurova.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/cagdaskocaeli.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/bursaolay.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/ayrintilihaber.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/anadolugazete.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/aksam.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/24saatgazetesi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/sabah.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="98" column="15" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="98" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/star.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="57" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/takvim.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/ticarihayat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/yenidonem.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/gebzehaber.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/yenimarmara.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/zafer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/yenigun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/yeniadim.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/kocatepe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/hizmet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/buyuksehirmerhaba.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gazeteler/akcakaleninsesi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>

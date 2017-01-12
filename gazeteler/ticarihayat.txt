@@ -1,10 +1,27 @@
 #seeds;
-www.ticarihayat.com.tr
+http://ticarihayat.com.tr/
+http://ticarihayat.com.tr/kategori/Ekonomi/1/
+http://ticarihayat.com.tr/kategori/Sirketler/2/
+http://ticarihayat.com.tr/kategori/Roportaj/4/
+http://ticarihayat.com.tr/kategori/Kultur-Sanat/6/
+http://ticarihayat.com.tr/kategori/Teknoloji/7/
+http://ticarihayat.com.tr/kategori/Saglik/8/
+http://ticarihayat.com.tr/kategori/Ankara-Haberleri/9/
+http://ticarihayat.com.tr/videolar/
+http://ticarihayat.com.tr/yazarlar/
+
 
 #include in index;
 
+^https?://([a-z]+\.)?ticarihayat\.com\.tr/video/.*/[0-9]+$
+^https?://([a-z]+\.)?ticarihayat\.com\.tr/haber/.*/[0-9]+$
+^https?://([a-z]+\.)?ticarihayat\.com\.tr/yazar/.*/[0-9]+$
+
+
 
 #exclude from crawl;
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +29,9 @@ www.ticarihayat.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?ticarihayat\.com\.tr/video/.*/[0-9]+$
 #column patterns;
+^https?://([a-z]+\.)?ticarihayat\.com\.tr/yazar/.*/[0-9]+$
 
 #category patterns;
 

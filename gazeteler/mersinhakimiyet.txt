@@ -1,0 +1,44 @@
+#seeds;
+http://www.mersinhakimiyet.net/
+http://www.mersinhakimiyet.net/Kategori/gundem
+http://www.mersinhakimiyet.net/Kategori/ilce-haberleri
+http://www.mersinhakimiyet.net/Kategori/siyaset-haberleri
+http://www.mersinhakimiyet.net/Kategori/ekonomi-haberleri
+http://www.mersinhakimiyet.net/Kategori/polis-adliye
+http://www.mersinhakimiyet.net/Kategori/kultur-sanat
+http://www.mersinhakimiyet.net/Kategori/oze-haber
+http://www.mersinhakimiyet.net/Kategori/roportajlar
+http://www.mersinhakimiyet.net/Kategori/saglik-haberleri
+http://www.mersinhakimiyet.net/Kategori/spor-haberleri
+http://www.mersinhakimiyet.net/Kategori/video-galeri
+http://www.mersinhakimiyet.net/yazarlar
+
+#include in index;
+^https?://([a-z]+\.)?mersinhakimiyet\.net/.*\-[0-9]+\.html$
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?mersinhakimiyet\.net/Kategori/foto-galeri.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/gazeteler.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/sitene-ekle.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/hava.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/kunye.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/reklam.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/iletisim.*$
+^https?://([a-z]+\.)?mersinhakimiyet\.net/resmi-ilan-[0-9]+.*$
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+
+#column patterns;
+
+#category patterns;
+
+#date elements;
+
+

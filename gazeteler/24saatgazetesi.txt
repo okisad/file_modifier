@@ -1,0 +1,53 @@
+#seeds;
+http://www.24saatgazetesi.com/
+http://www.24saatgazetesi.com/kategori/guncel/
+http://www.24saatgazetesi.com/kategori/ekonomi/
+http://www.24saatgazetesi.com/kategori/politika/
+http://www.24saatgazetesi.com/kategori/spor/
+http://www.24saatgazetesi.com/kategori/saglik/
+http://www.24saatgazetesi.com/kategori/kultur-sanat/
+http://www.24saatgazetesi.com/kategori/yasam/
+http://www.24saatgazetesi.com/kategori/teknoloji/
+http://www.24saatgazetesi.com/kategori/roportaj/
+http://www.24saatgazetesi.com/kategori/yazarlar/
+http://www.24saatgazetesi.com/kategori/video/
+http://www.24saatgazetesi.com/kategori/egitim/
+http://www.24saatgazetesi.com/kategori/bilim/
+http://www.24saatgazetesi.com/kategori/cevre/
+http://www.24saatgazetesi.com/kategori/world/
+http://www.24saatgazetesi.com/kategori/genel/
+http://www.24saatgazetesi.com/kategori/eglence/
+
+
+#include in index;
+^https?://([a-z]+\.)?24saatgazetesi\.com/.*/$
+
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?24saatgazetesi\.com/kategori/arsiv/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/kategori/ilanlar/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/kategori/foto\-galeri/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/kategori/resmi\-ilanlar/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/iletisim/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/ilanlar/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/kunye/.*$
+^https?://([a-z]+\.)?24saatgazetesi\.com/kategori/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?24saatgazetesi\.com/author/.*/$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+
+#column patterns;
+
+#category patterns;
+
+#date elements;
+
+

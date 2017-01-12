@@ -1,10 +1,33 @@
 #seeds;
-www.gazetegercek.com.tr
+http://www.gazetegercek.com.tr/
+http://www.gazetegercek.com.tr/default.asp
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=1&Kategori=guncel
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=2&Kategori=siyaset
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=3&Kategori=asayis
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=4&Kategori=spor
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=5&Kategori=egitim
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=6&Kategori=saglik
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=7&Kategori=ekonomi
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=8&Kategori=kultur-sanat
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=9&Kategori=dunya
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=10&Kategori=magazin
+http://www.gazetegercek.com.tr/haber-kategori.asp?K=11&Kategori=resmi-ilan
+http://www.gazetegercek.com.tr/mansetler.asp
+http://www.gazetegercek.com.tr/gunun-haberleri.asp
+http://www.gazetegercek.com.tr/kose-yazarlari.asp
+
 
 #include in index;
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/haber-detay.asp\?H=[0-9]+\&Haber\=.+$
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/kose-yazisi.asp\?KY=[0-9]+\&KoseYazisi\=.+$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/haber-arsivi.asp.*$
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/kunye.asp.*$
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/iletisim.asp.*$
+
 
 # generic exclusions
 .*\.pdf$
@@ -13,8 +36,14 @@ www.gazetegercek.com.tr
 
 #video patterns;
 
+
 #column patterns;
+^https?://([a-z]+\.)?gazetegercek\.com\.tr/kose-yazisi.asp\?KY=[0-9]+\&KoseYazisi\=.+$
+
+
 
 #category patterns;
 
 #date elements;
+
+

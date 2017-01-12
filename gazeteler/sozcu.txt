@@ -1,20 +1,49 @@
 #seeds;
-www.sozcu.com.tr
+http://sozcu.com.tr/kategori/ekonomi
+http://sozcu.com.tr/kategori/yazarlar/
+http://sozcu.com.tr/kategori/gundem/
+http://sozcu.com.tr/kategori/magazin/
+http://sozcu.com.tr/kategori/dunya/
+http://sozcu.com.tr/kategori/ekonomi/
+http://sozcu.com.tr/emlak/
+http://sozcu.com.tr/kadin/
+http://sozcu.com.tr/kategori/gunun-icinden/
+http://sozcu.com.tr/otomotiv/
+http://sozcu.com.tr/kategori/teknoloji/
+http://sozcu.com.tr/kategori/saglik/
+http://sozcu.com.tr/egitim/
+http://sozcu.com.tr/kultur-sanat/
+http://sozcu.com.tr/kategori/spor/
+http://sozcu.com.tr/kategori/magazin/
+http://sozcu.com.tr/kategori/yasam/
+http://sozcu.com.tr
+http://amkspor.sozcu.com.tr/
+
 
 #include in index;
-
+^https?://([a-z]+\.)?sozcu\.com\.tr/[0-9]+/.*/.*\-[0-9]+/$
+^https?://amkspor.sozcu\.com\.tr/[0-9]+/[0-9]+/[0-9]+/.*\-[0-9]+/$
+^https?://tv\.sozcu\.com\.tr/[0-9]+/.*/video/.*$
+^https?://([a-z]+\.)?sozcu\.com\.tr/[0-9]+/yazarlar/.*/.*\-[0-9]+/$
 
 #exclude from crawl;
+http?://.*sozcu\.com\.tr/(foto-galeri|havadurumu).*$
+http?://(ilan|horoscope|galeri|video)\.sozcu\.com\.tr.*$
 
 # generic exclusions
 .*\.pdf$
 .*\.mp4$
 .*\.xml$
+.*\.rss$
 
 #video patterns;
+^https?://tv\.sozcu\.com\.tr/[0-9]+/.*/video/.*$
 
 #column patterns;
+^https?://([a-z]+\.)?sozcu\.com\.tr/[0-9]+/yazarlar/.*/.*\-[0-9]+/$
 
 #category patterns;
+^https?://([a-z]+\.)?sozcu\.com\.tr/[0-9]+/(.*?)/.*\-[0-9]+/$
+
 
 #date elements;

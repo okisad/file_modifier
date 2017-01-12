@@ -1,10 +1,45 @@
 #seeds;
-www.olay.com.tr
+http://www.olay.com.tr/
+http://www.olay.com.tr/gundem/
+http://www.olay.com.tr/bursa-haberleri/
+http://www.olay.com.tr/siyaset/
+http://www.olay.com.tr/dunya/
+http://www.olay.com.tr/ekonomi/
+http://www.olay.com.tr/ekonomi/
+http://www.olay.com.tr/spor/
+http://www.olay.com.tr/bursaspor/
+http://www.olay.com.tr/yasam/
+http://www.olay.com.tr/cekirge-magazin/
+http://www.olay.com.tr/teknoloji/
+http://www.olay.com.tr/yurt-haberleri/
+http://www.olay.com.tr/video-galeri/
+http://www.olay.com.tr/video-galeri/kategori/bursa-haberleri/5/
+http://www.olay.com.tr/video-galeri/kategori/yasam/10/
+http://www.olay.com.tr/video-galeri/kategori/guncel/1/
+http://www.olay.com.tr/video-galeri/kategori/dunya/8/
+http://www.olay.com.tr/video-galeri/kategori/bursaspor/15/
+http://www.olay.com.tr/video-galeri/kategori/spor/2/
+http://www.olay.com.tr/video-galeri/kategori/magazin/6/
+http://www.olay.com.tr/video-galeri/kategori/teknoloji/3/
+http://olay.com.tr/video-galeri/kategori/teknoloji/3/
+http://olay.com.tr/kose-yazarlari/
+http://olay.com.tr/gunun-haberleri/
+
 
 #include in index;
+^https?://([a-z]+\.)?olay\.com\.tr/.*/[0-9]+/$
+^https?://([a-z]+\.)?olay\.com\.tr/.*/[0-9]+$
+^https?://([a-z]+\.)?olay\.com\.tr/video-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?olay\.com\.tr/yazarlar/.*/[0-9]+/$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?olay\.com\.tr/anket/.*$
+^https?://([a-z]+\.)?olay\.com\.tr/foto-galeri/.*$
+^https?://([a-z]+\.)?olay\.com\.tr/ruyada-.*-gormek/.*$
+^https?://([a-z]+\.)?olay\.com\.tr/.*/sayfa/.*$
+^https?://([a-z]+\.)?olay\.com\.tr/.*/kategori/.*$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +47,14 @@ www.olay.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?olay\.com\.tr/video-detay/.*/[0-9]+/$
 
 #column patterns;
+^https?://([a-z]+\.)?olay\.com\.tr/yazarlar/.*/[0-9]+/$
+
 
 #category patterns;
 
 #date elements;
+
+

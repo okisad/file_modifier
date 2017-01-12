@@ -1,10 +1,31 @@
 #seeds;
-www.gebzeyenigun.com
+http://www.gebzeyenigun.com
+http://www.gebzeyenigun.com/feto/
+http://www.gebzeyenigun.com/asayis/
+http://www.gebzeyenigun.com/magazin/
+http://www.gebzeyenigun.com/kultur-sanat/
+http://www.gebzeyenigun.com/spor/
+http://www.gebzeyenigun.com/siyaset/
+http://www.gebzeyenigun.com/dunya/
+http://www.gebzeyenigun.com/ekonomi/
+http://www.gebzeyenigun.com/gundem/
+http://www.gebzeyenigun.com/polisiye/
+http://www.gebzeyenigun.com/medya/
+http://www.gebzeyenigun.com/saglik/
+
+
 
 #include in index;
+^https?://([a-z]+\.)?gebzeyenigun\.com/.*/[0-9]+/$
+^https?://([a-z]+\.)?gebzeyenigun\.com/video-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?gebzeyenigun\.com/yazarlar/.*/.*/[0-9]+/$
+
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gebzeyenigun\.com/foto-galeri/.*/[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +33,11 @@ www.gebzeyenigun.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gebzeyenigun\.com/video-detay/.*/[0-9]+/$
+
 
 #column patterns;
+^https?://([a-z]+\.)?gebzeyenigun\.com/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 

@@ -1,10 +1,26 @@
 #seeds;
-www.gazetehabervaktim.com
+http://www.gazetehabervaktim.com/guncel-haberleri-12hk.htm
+http://www.gazetehabervaktim.com/ozel-haber-haberleri-31hk.htm
+http://www.gazetehabervaktim.com/ilce-haberleri-haberleri-17hk.htm
+http://www.gazetehabervaktim.com/siyaset-haberleri-27hk.htm
+http://www.gazetehabervaktim.com/egitim-haberleri-32hk.htm
+http://www.gazetehabervaktim.com/ekonomi-haberleri-18hk.htm
+http://www.gazetehabervaktim.com/saglik-haberleri-28hk.htm
+http://www.gazetehabervaktim.com/polis-adliye-haberleri-29hk.htm
+http://www.gazetehabervaktim.com/yasam-haberleri-30hk.htm
+http://www.gazetehabervaktim.com/gunun-haberleri.htm
+http://www.gazetehabervaktim.com/video-galeri.htm
+http://www.gazetehabervaktim.com/yazarlar.htm
+
 
 #include in index;
+^https?://([a-z]+\.)?gazetehabervaktim\.com/.*-[0-9]+h.htm$
+^https?://([a-z]+\.)?gazetehabervaktim\.com/.*-[0-9]+v.htm$
+^https?://([a-z]+\.)?gazetehabervaktim\.com/.*-[0-9]+yy.htm$
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +28,11 @@ www.gazetehabervaktim.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gazetehabervaktim\.com/.*-[0-9]+v.htm$
 
 #column patterns;
+^https?://([a-z]+\.)?gazetehabervaktim\.com/.*-[0-9]+yy.htm$
+
 
 #category patterns;
 

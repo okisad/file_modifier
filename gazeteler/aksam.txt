@@ -1,10 +1,62 @@
+
 #seeds;
-www.aksam.com.tr
+
+http://www.aksam.com.tr
+http://www.aksam.com.tr/kapak-sayfa/
+http://www.aksam.com.tr/guncel/
+http://www.aksam.com.tr/spor/
+http://www.aksam.com.tr/yasam/
+http://www.aksam.com.tr/yasam/saglik/
+http://www.aksam.com.tr/yasam/kultursanat/
+http://www.aksam.com.tr/yasam/moda/
+http://www.aksam.com.tr/yasam/kadin/
+http://www.aksam.com.tr/ekonomi/
+http://www.aksam.com.tr/ekonomi/teknoloji/
+http://www.aksam.com.tr/siyaset/
+http://www.aksam.com.tr/dunya/
+http://www.aksam.com.tr/magazin/
+http://www.aksam.com.tr/yazarlar/
+http://www.aksam.com.tr/media/videogaleri/
+http://www.aksam.com.tr/ekler/
+http://www.aksam.com.tr/roportaj/
+http://www.aksam.com.tr/kobi/
+http://www.aksam.com.tr/egitim/
+http://www.aksam.com.tr/kultur-sanat/
+http://www.aksam.com.tr/televizyon/
+http://www.aksam.com.tr/teknoloji/
+http://www.aksam.com.tr/roportaj/
+http://www.aksam.com.tr/life/
+http://www.aksam.com.tr/video-galeri/
+http://www.aksam.com.tr/emlak/
+http://www.aksam.com.tr/doga-hayvan/
 
 #include in index;
+^https?://[a-z]+\.aksam\.com\.tr/.*/.*$
+
+
+# catch-all regex
 
 
 #exclude from crawl;
+
+^https?://[a-z]+\.aksam\.com\.tr/(egazete|arama|kidsclub|kunye)/?$
+^https?://www\.aksam\.com\.tr/yasam/burclar.*$
+^https?://[a-z]+\.aksam\.com\.tr/arama/.*$
+^https?://[a-z]+\.aksam\.com\.tr/foto-galeri/.*$
+^https?://[a-z]+\.aksam\.com\.tr/basin-ilan-kurumu/.*$
+^https?://[a-z]+\.aksam\.com\.tr/basin-ilan-kurumu/.*$
+^https?://[a-z]+\.aksam\.com\.tr/basin-ilan-kurumu/$
+^https?://kredi\.aksam\.com\.tr.*$
+^https?://[a-z]+\.aksam\.com\.tr/e-gazete/$
+^https?://[a-z]+\.aksam\.com\.tr/imsakiye-2016/$
+^https?://[a-z]+\.aksam\.com\.tr/foto/.*$
+^https?://[a-z]+\.aksam\.com\.tr/fotogaleri/.*$
+
+
+
+
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +64,10 @@ www.aksam.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://[a-z]+\.aksam\.com\.tr/video/.*$
 
 #column patterns;
+^https?://[a-z]+\.aksam\.com\.tr/yazarlar/.*$
 
 #category patterns;
-
-#date elements;
+^https?://[a-z]+\.aksam\.com\.tr/(.*?)/.*$

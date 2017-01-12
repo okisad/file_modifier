@@ -1,10 +1,28 @@
 #seeds;
-www.derinceekspres.org
+http://derinceekspres.org/
+http://derinceekspres.org/gundem
+http://derinceekspres.org/siyaset
+http://derinceekspres.org/kent-haberleri
+http://derinceekspres.org/spor
+http://derinceekspres.org/egitim
+http://derinceekspres.org/saglik
+http://derinceekspres.org/yasam
+http://derinceekspres.org/asayis
+http://derinceekspres.org/roportaj
+http://www.derinceekspres.org/video-galeri.html
+http://www.derinceekspres.org/yazarlar.html
+
+
 
 #include in index;
+^https?://([a-z]+\.)?derinceekspres\.org/.*/.*-h[0-9]+\.html$
+^https?://([a-z]+\.)?derinceekspres\.org/.*-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?derinceekspres\.org/.*-makale\,[0-9]+\.html$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?derinceekspres\.org/vefat/.*-h[0-9]+\.html$
+^https?://([a-z]+\.)?derinceekspres\.org/resmi-ilanlar/.*-h[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +30,12 @@ www.derinceekspres.org
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?derinceekspres\.org/.*-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?derinceekspres\.org/.*-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?derinceekspres\.com/(.*?)/.*-h[0-9]+\.html$
 
 #date elements;

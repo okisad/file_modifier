@@ -1,0 +1,42 @@
+#seeds;
+http://www.gebzehaber.net/index.php
+http://www.gebzehaber.net/kategori/siyaset
+http://www.gebzehaber.net/kategori/spor
+http://www.gebzehaber.net/kategori/kultur-sanat
+http://www.gebzehaber.net/kategori/saglik
+http://www.gebzehaber.net/kategori/guncel
+http://www.gebzehaber.net/kategori/ekonomi
+http://www.gebzehaber.net/kategori/egitim
+http://www.gebzehaber.net/kategori/asayis
+http://www.gebzehaber.net/kategori/son-dakika
+http://www.gebzehaber.net/kategori/dunya
+http://www.gebzehaber.net/yazarlar
+http://www.gebzehaber.net/video-galeri
+
+
+
+#include in index;
+^https?://([a-z]+\.)?gebzehaber\.net/haber/.*-[0-9]+.*$
+^https?://([a-z]+\.)?gebzehaber\.net/yazis/.*-[0-9]+$
+^https?://([a-z]+\.)?gebzehaber\.net/videos/.*-[0-9]+$
+
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?gebzehaber\.net/yazar/.*-[0-9]+$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?gebzehaber\.net/videos/.*-[0-9]+$
+
+#column patterns;
+^https?://([a-z]+\.)?gebzehaber\.net/yazis/.*-[0-9]+$
+
+#category patterns;
+
+#date elements;

@@ -1,10 +1,26 @@
 #seeds;
-www.yenidonem.com.tr
+http://www.yenidonem.com.tr/haber/bursa.html
+http://www.yenidonem.com.tr/haber/turkiye.html
+http://www.yenidonem.com.tr/haber/spor.html
+http://www.yenidonem.com.tr/haber/siyaset.html
+http://www.yenidonem.com.tr/haber/dunya.html
+http://www.yenidonem.com.tr/haber/ekonomi.html
+http://www.yenidonem.com.tr/haber/yasam.html
+http://www.yenidonem.com.tr/haber/magazin.html
+http://www.yenidonem.com.tr/haber/kultursanat.html
+http://www.yenidonem.com.tr/haber/saglik.html
+http://www.yenidonem.com.tr/video
+http://www.yenidonem.com.tr/yazarlar.html
 
 #include in index;
+^https?://[a-z]+\.yenidonem\.com\.tr/haber/.*/.*/[0-9]+\.html$
+^https?://[a-z]+\.yenidonem\.com\.tr/video/.*/.*/[0-9]+\.html$
+^https?://[a-z]+\.yenidonem\.com\.tr/yazar/.*/.*/[0-9]+\.html$
 
 
 #exclude from crawl;
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +28,13 @@ www.yenidonem.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://[a-z]+\.yenidonem\.com\.tr/video/.*/.*/[0-9]+\.html$
 
 #column patterns;
+^https?://[a-z]+\.yenidonem\.com\.tr/yazar/.*/.*/[0-9]+\.html$
 
 #category patterns;
+^https?://www\.yenidonem\.com\.tr/.*/(.*?)/.*$
 
 #date elements;
+glyphicon glyphicon-calendar

@@ -1,10 +1,32 @@
 #seeds;
-www.kocaeligazetesi.com.tr
+http://www.kocaeligazetesi.com.tr/
+http://www.kocaeligazetesi.com.tr/video-galeri.htm
+http://www.kocaeligazetesi.com.tr/guncel-haberleri-1651hk.htm
+http://www.kocaeligazetesi.com.tr/spor-haberleri-1660hk.htm
+http://www.kocaeligazetesi.com.tr/asayis-haberleri-696hk.htm
+http://www.kocaeligazetesi.com.tr/siyaset-haberleri-704hk.htm
+http://www.kocaeligazetesi.com.tr/ekonomi-haberleri-1661hk.htm
+http://www.kocaeligazetesi.com.tr/egitim-haberleri-1658hk.htm
+http://www.kocaeligazetesi.com.tr/saglik-haberleri-1657hk.htm
+http://www.kocaeligazetesi.com.tr/magazin-haberleri-703hk.htm
+http://www.kocaeligazetesi.com.tr/kultur-sanat-haberleri-1662hk.htm
+http://www.kocaeligazetesi.com.tr/roportaj-haberleri-1659hk.htm
+http://www.kocaeligazetesi.com.tr/teknoloji-haberleri-1664hk.htm
+http://www.kocaeligazetesi.com.tr/sosyal-medyadan-haberler-haberleri-1667hk.htm
+http://www.kocaeligazetesi.com.tr/medya-dunyasindan-haberleri-1666hk.htm
+http://www.kocaeligazetesi.com.tr/firma-rehberi-haberleri-1663hk.htm
+http://www.kocaeligazetesi.com.tr/yazarlar.htm
+
 
 #include in index;
+^https?://([a-z]+\.)?kocaeligazetesi\.com\.tr/.*-[0-9]+h.htm$
+^https?://([a-z]+\.)?kocaeligazetesi\.com\.tr/.*-[0-9]+v.htm$
+^https?://([a-z]+\.)?kocaeligazetesi\.com\.tr/.*-[0-9]+yy.htm$
+
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +34,10 @@ www.kocaeligazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kocaeligazetesi\.com\.tr/.*-[0-9]+v.htm$
 
 #column patterns;
+^https?://([a-z]+\.)?kocaeligazetesi\.com\.tr/.*-[0-9]+yy.htm$
 
 #category patterns;
 

@@ -1,0 +1,31 @@
+#seeds;
+http://www.hizmetgazetesi.com.tr/
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=43
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=42
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=40
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=52
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=51
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=58
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=45
+http://www.hizmetgazetesi.com.tr/denizli-haber.asp?Sayfa=Kategori&katid=44
+
+#include in index;
+^https?://([a-z]+\.)?hizmetgazetesi\.com\.tr/denizli\-haber\.asp\?Sayfa\=HaberDetay\&id=[0-9]+$
+^https?://([a-z]+\.)?hizmetgazetesi\.com\.tr/denizli\-haber\.asp\?Sayfa\=KoseYazari\&yazid\=[0-9]+\&id=[0-9]+$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+
+#column patterns;
+^https?://([a-z]+\.)?hizmetgazetesi\.com\.tr/denizli\-haber\.asp\?Sayfa\=KoseYazari\&yazid\=[0-9]+\&id=[0-9]+$
+#category patterns;
+
+#date elements;

@@ -1,10 +1,28 @@
 #seeds;
-www.gazetearena.com
+http://gazetearena.com/
+http://gazetearena.com/Kategori/turkiye
+http://gazetearena.com/Kategori/samsun
+http://gazetearena.com/Kategori/karadeniz
+http://gazetearena.com/Kategori/Ekonomi
+http://gazetearena.com/Kategori/Teknoloji
+http://gazetearena.com/Kategori/Spor
+http://gazetearena.com/Kategori/saglik
+http://gazetearena.com/Kategori/aktuel
+http://gazetearena.com/video/
+http://gazetearena.com/yazar/
+http://gazetearena.com/roportaj/
 
 #include in index;
+^https?://([a-z]+\.)?gazetearena\.com/.*-[0-9]+\.html$
+^https?://([a-z]+\.)?gazetearena\.com/video/.*/$
+^https?://([a-z]+\.)?gazetearena\.com/makale/.*/$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gazetearena\.com/ilanlar/.*$
+^https?://([a-z]+\.)?gazetearena\.com/ilan/.*$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +30,17 @@ www.gazetearena.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gazetearena\.com/video/.*/$
+
+
 
 #column patterns;
+^https?://([a-z]+\.)?gazetearena\.com/makale/.*/$
+
+
 
 #category patterns;
 
 #date elements;
+
+

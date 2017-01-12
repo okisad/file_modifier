@@ -1,10 +1,45 @@
+
 #seeds;
-www.star.com.tr
+http://www.star.com.tr/
+http://www.star.com.tr/son-dakika/
+http://www.star.com.tr/guncel/
+http://www.star.com.tr/ekonomi/
+http://www.star.com.tr/dunya/
+http://www.star.com.tr/spor/
+http://www.star.com.tr/yasam/
+http://www.star.com.tr/yazarlar/
+http://www.star.com.tr/video/
+http://www.star.com.tr/teknoloji/
+http://www.star.com.tr/kultur-sanat/
+http://www.star.com.tr/turizm-seyahat/
+http://www.star.com.tr/teknoloji/
+http://www.star.com.tr/egitim/
+http://www.star.com.tr/havacilik/
+http://www.star.com.tr/memur/
+http://www.star.com.tr/medya/
+http://www.star.com.tr/ankara/
+http://www.star.com.tr/dogu/
+http://www.star.com.tr/ege/
+http://www.star.com.tr/ic-anadolu/
+http://www.star.com.tr/sirket-kobi/
+http://www.star.com.tr/emlak/
+http://www.star.com.tr/kultur-sanat/
+http://www.star.com.tr/magazin/
+http://www.star.com.tr/saglik/
+
 
 #include in index;
-
+^https?://([a-z]+\.)?star\.com\.tr/.*/.*\-haber\-[0-9]+/$
+^https?://([a-z]+\.)?star\.com\.tr/video/.*\-video\-[0-9]+/$
+^https?://([a-z]+\.)?star\.com\.tr/yazar/.*\-yazi\-[0-9]+/$
 
 #exclude from crawl;
+
+^https?://[a-z]+\.sabah\.com\.tr/astroloji.*$
+^https?://[a-z]+\.sabah\.com\.tr/rss_bilgi.*$
+^https?://[a-z]+\.sabah\.com\.tr/[L,l]ogin.*$
+^https?://[a-z]+\.sabah\.com\.tr/Bulmaca.*$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +47,12 @@ www.star.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?star\.com\.tr/video/.*\-video\-[0-9]+/$
 
 #column patterns;
+^https?://([a-z]+\.)?star\.com\.tr/yazar/.*\-yazi\-[0-9]+/$
 
 #category patterns;
+^https?://([a-z]+\.)?star\.com\.tr/(.*?)/.*\-haber\-[0-9]+/$
 
 #date elements;

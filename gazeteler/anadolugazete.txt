@@ -1,0 +1,56 @@
+#seeds;
+http://www.anadolugazete.com.tr/3-sayfa-haberleri-6hk.htm
+http://www.anadolugazete.com.tr/dunya-haberleri-3hk.htm
+http://www.anadolugazete.com.tr/egitim-haberleri-8hk.htm
+http://www.anadolugazete.com.tr/ekonomi-haberleri-5hk.htm
+http://www.anadolugazete.com.tr/foto-haber-haberleri-25564hk.htm
+http://www.anadolugazete.com.tr/gazeteler-haberleri-16hk.htm
+http://www.anadolugazete.com.tr/gundem-haberleri-2hk.htm
+http://www.anadolugazete.com.tr/kultur-sanat-haberleri-11hk.htm
+http://www.anadolugazete.com.tr/magazin-haberleri-7hk.htm
+http://www.anadolugazete.com.tr/manset-haber-haberleri-25805hk.htm
+http://www.anadolugazete.com.tr/otomobil-haberleri-21hk.htm
+http://www.anadolugazete.com.tr/ozel-haber-haberleri-25290hk.htm
+http://www.anadolugazete.com.tr/ozel-roportaj-haberleri-25481hk.htm
+http://www.anadolugazete.com.tr/saglik-haberleri-9hk.htm
+http://www.anadolugazete.com.tr/siyaset-haberleri-4hk.htm
+http://www.anadolugazete.com.tr/spor-haberleri-1hk.htm
+http://www.anadolugazete.com.tr/teknoloji-haberleri-12hk.htm
+http://www.anadolugazete.com.tr/video-galeri-haberleri-14hk.htm
+http://www.anadolugazete.com.tr/yazarlar-haberleri-15hk.htm
+http://www.anadolugazete.com.tr/yerel-haberler-haberleri-10hk.htm
+http://www.anadolugazete.com.tr/kisa-film-2vk.htm
+http://www.anadolugazete.com.tr/komik-1vk.htm
+http://www.anadolugazete.com.tr/vatan-icin-dua-3vk.htm
+http://www.anadolugazete.com.tr/yazarlar.htm
+http://www.anadolugazete.com.tr/mansetler.htm
+http://www.anadolugazete.com.tr/gunun-haberleri.htm
+
+
+#include in index;
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+h.htm$
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+yy.htm$
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+v.htm$
+
+
+
+#exclude from crawl;
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+g.htm$
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/banner.*.htm$
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/-[0-9]+h.htm$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+v.htm$
+
+#column patterns;
+^https?://([a-z]+\.)?anadolugazete\.com\.tr/.*-[0-9]+yy.htm$
+
+#category patterns;
+
+#date elements;

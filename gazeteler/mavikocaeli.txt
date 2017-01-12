@@ -1,10 +1,38 @@
 #seeds;
-www.mavikocaeli.com.tr
+http://mavikocaeli.com.tr/
+http://mavikocaeli.com.tr/akparti/
+http://mavikocaeli.com.tr/gundem/
+http://mavikocaeli.com.tr/siyaset/
+http://mavikocaeli.com.tr/dunya/
+http://mavikocaeli.com.tr/ekonomi/
+http://mavikocaeli.com.tr/spor/
+http://mavikocaeli.com.tr/medya/
+http://mavikocaeli.com.tr/teknoloji/
+http://mavikocaeli.com.tr/saglik/
+http://mavikocaeli.com.tr/yasam/
+http://mavikocaeli.com.tr/egitim/
+http://mavikocaeli.com.tr/3.sayfa/
+http://mavikocaeli.com.tr/kose-yazarlari/
+http://mavikocaeli.com.tr/video-galeri/
+http://mavikocaeli.com.tr/gunun-mansetleri/
+
 
 #include in index;
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/.*/[0-9]+/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/video-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/yazarlar/.*/.*/[0-9]+/$
+
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/video-galeri/kategori/.*/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/trt-1-canli-yayin-izle/[0-9]+/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/foto-galeri/kategori/.*/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/foto-galeri/.*/$
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/.*/sayfa/.*/$
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +40,10 @@ www.mavikocaeli.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/video-detay/.*/[0-9]+/$
 
 #column patterns;
+^https?://([a-z]+\.)?mavikocaeli\.com\.tr/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 

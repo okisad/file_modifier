@@ -1,10 +1,35 @@
 #seeds;
-www.gazetemerhaba.com
+http://www.gazetemerhaba.com/
+http://www.gazetemerhaba.com/category/gundem/
+http://www.gazetemerhaba.com/category/siyaset/
+http://www.gazetemerhaba.com/category/ozel-haberler/
+http://www.gazetemerhaba.com/category/ilce-haberleri/
+http://www.gazetemerhaba.com/category/egitim/
+http://www.gazetemerhaba.com/category/ekonomi/
+http://www.gazetemerhaba.com/category/spor/
+http://www.gazetemerhaba.com/category/yasam/
+http://www.gazetemerhaba.com/category/kose-yazilari/
+http://www.gazetemerhaba.com/category/cocukca/
+
+
 
 #include in index;
+^https?://([a-z]+\.)?gazetemerhaba\.com/.*$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gazetemerhaba\.com/iletisim.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/kunye.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/arsiv.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/author/.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/\#hafta$
+^https?://([a-z]+\.)?gazetemerhaba\.com/\#ay$
+^https?://([a-z]+\.)?gazetemerhaba\.com/\#yil$
+^https?://([a-z]+\.)?gazetemerhaba\.com/reklam1.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/mobil.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/category.*$
+^https?://([a-z]+\.)?gazetemerhaba\.com/egazete/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -13,8 +38,12 @@ www.gazetemerhaba.com
 
 #video patterns;
 
+
 #column patterns;
+http://www.gazetemerhaba.com/category/kose-yazilari/
 
 #category patterns;
 
 #date elements;
+
+

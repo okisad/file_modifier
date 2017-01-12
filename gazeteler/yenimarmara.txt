@@ -1,10 +1,48 @@
 #seeds;
-www.Yenimarmaragazetesi.com.tr
+http://www.yenimarmaragazetesi.com/
+http://www.yenimarmaragazetesi.com/turkiye
+http://www.yenimarmaragazetesi.com/bursa
+http://www.yenimarmaragazetesi.com/buyukorhan
+http://www.yenimarmaragazetesi.com/gemlik
+http://www.yenimarmaragazetesi.com/gursu
+http://www.yenimarmaragazetesi.com/harmancik
+http://www.yenimarmaragazetesi.com/inegol
+http://www.yenimarmaragazetesi.com/iznik
+http://www.yenimarmaragazetesi.com/karacabey
+http://www.yenimarmaragazetesi.com/keles
+http://www.yenimarmaragazetesi.com/kestel
+http://www.yenimarmaragazetesi.com/mudanya
+http://www.yenimarmaragazetesi.com/mustafakemalpasa
+http://www.yenimarmaragazetesi.com/nilufer
+http://www.yenimarmaragazetesi.com/orhaneli
+http://www.yenimarmaragazetesi.com/orhangazi
+http://www.yenimarmaragazetesi.com/osmangazi
+http://www.yenimarmaragazetesi.com/yenisehir
+http://www.yenimarmaragazetesi.com/yildirim
+http://www.yenimarmaragazetesi.com/siyaset
+http://www.yenimarmaragazetesi.com/ekonomi
+http://www.yenimarmaragazetesi.com/spor
+http://www.yenimarmaragazetesi.com/asayis
+http://www.yenimarmaragazetesi.com/magazin
+http://www.yenimarmaragazetesi.com/saglik
+http://www.yenimarmaragazetesi.com/dunya
+http://www.yenimarmaragazetesi.com/egitim
+http://www.yenimarmaragazetesi.com/sanat
+http://www.yenimarmaragazetesi.com/yazar/
+http://www.yenimarmaragazetesi.com/video/
+http://www.yenimarmaragazetesi.com/roportaj/
+
 
 #include in index;
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/.*-[0-9]+\.html$
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/video/.+$
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/roportaj/.+$
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/makale/.+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/video/?.+list$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +50,15 @@ www.Yenimarmaragazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/video/.+$
+
 
 #column patterns;
+^https?://([a-z]+\.)?yenimarmaragazetesi\.com/makale/.+$
+
 
 #category patterns;
 
 #date elements;
+sosyalr
+

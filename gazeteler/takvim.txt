@@ -1,10 +1,34 @@
 #seeds;
-www.takvim.com.tr
+http://www.takvim.com.tr/
+http://www.takvim.com.tr/guncel
+http://www.takvim.com.tr/spor
+http://www.takvim.com.tr/ekonomi
+http://www.takvim.com.tr/dunya
+http://www.takvim.com.tr/saklambac
+http://www.takvim.com.tr/yasam
+http://www.takvim.com.tr/yazarlar
+http://www.takvim.com.tr/webtv
+http://www.takvim.com.tr/oyun
+http://www.takvim.com.tr/#
+http://www.takvim.com.tr/secim
+http://www.takvim.com.tr/siyaset
+http://www.takvim.com.tr/teknoloji
+http://www.takvim.com.tr/otomobil
+http://www.takvim.com.tr/kultur_sanat
+http://www.takvim.com.tr/egitim
+http://www.takvim.com.tr/kadinsaglik
+http://www.takvim.com.tr/mizah
+http://www.takvim.com.tr/sgk
+http://www.takvim.com.tr/televizyon
+http://www.takvim.com.tr/yemek
 
 #include in index;
-
+^https?://([a-z]+\.)?takvim\.com\.tr/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?takvim\.com\.tr/webtv/video\-haber/video/.*$
+^https?://([a-z]+\.)?takvim\.com\.tr/yazarlar/.*/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +36,12 @@ www.takvim.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?takvim\.com\.tr/webtv/video\-haber/video/.*$
 
 #column patterns;
+^https?://([a-z]+\.)?takvim\.com\.tr/yazarlar/.*/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #category patterns;
+^https?://([a-z]+\.)?takvim\.com\.tr/(.*?)/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #date elements;

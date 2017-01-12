@@ -1,10 +1,33 @@
 #seeds;
-www.ozgurkocaeli.com.tr
+http://www.ozgurkocaeli.com.tr/
+http://www.ozgurkocaeli.com.tr/video-galeri.htm
+http://www.ozgurkocaeli.com.tr/gunun-haberleri.htm
+http://www.ozgurkocaeli.com.tr/gundem-haberleri-1hk.htm
+http://www.ozgurkocaeli.com.tr/politika-haberleri-2hk.htm
+http://www.ozgurkocaeli.com.tr/asayis-haberleri-5hk.htm
+http://www.ozgurkocaeli.com.tr/spor-haberleri-3hk.htm
+http://www.ozgurkocaeli.com.tr/yasam-haberleri-20hk.htm
+http://www.ozgurkocaeli.com.tr/perde-arkasi-haberleri-36hk.htm
+http://www.ozgurkocaeli.com.tr/egitim-haberleri-21hk.htm
+http://www.ozgurkocaeli.com.tr/ekonomi-haberleri-6hk.htm
+http://www.ozgurkocaeli.com.tr/saglik-haberleri-29hk.htm
+http://www.ozgurkocaeli.com.tr/genel-haberleri-152hk.htm
+http://www.ozgurkocaeli.com.tr/bilim-teknoloji-haberleri-246hk.htm
+http://www.ozgurkocaeli.com.tr/bolge-haberleri-247hk.htm
+http://www.ozgurkocaeli.com.tr/saglik-saglik-haberleri-251hk.htm
+http://www.ozgurkocaeli.com.tr/yazarlar.htm
+
 
 #include in index;
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+h.htm$
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+v.htm$
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+yy.htm$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+g.htm$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +35,11 @@ www.ozgurkocaeli.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+v.htm$
+
 
 #column patterns;
+^https?://([a-z]+\.)?ozgurkocaeli\.com\.tr/.*-[0-9]+yy.htm$
 
 #category patterns;
 

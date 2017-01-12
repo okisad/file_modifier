@@ -1,10 +1,34 @@
 #seeds;
-www.ayrintilihaber.com.tr
+http://www.ayrintilihaber.com.tr/
+http://www.ayrintilihaber.com.tr/webtv/
+http://www.ayrintilihaber.com.tr/yazarlar.html
+http://www.ayrintilihaber.com.tr/gundem
+http://www.ayrintilihaber.com.tr/ozel-haber
+http://www.ayrintilihaber.com.tr/siyaset
+http://www.ayrintilihaber.com.tr/spor
+http://www.ayrintilihaber.com.tr/ekonomi
+http://www.ayrintilihaber.com.tr/saglik
+http://www.ayrintilihaber.com.tr/yasam
+http://www.ayrintilihaber.com.tr/egitim
+http://www.ayrintilihaber.com.tr/teknoloji
+http://www.ayrintilihaber.com.tr/dunya
+http://www.ayrintilihaber.com.tr/genel
+http://www.ayrintilihaber.com.tr/politika
+http://www.ayrintilihaber.com.tr/kultur-sanat
+http://www.ayrintilihaber.com.tr/yerel-haber
+
+
+
 
 #include in index;
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*/.*-h[0-9]+.html$
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*-makale\,[0-9]+.html$
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*-video\,[0-9]+.html$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*-resimleri\,[0-9]+.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +36,13 @@ www.ayrintilihaber.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*-video\,[0-9]+.html$
+
 
 #column patterns;
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/.*-makale\,[0-9]+.html$
 
 #category patterns;
+^https?://([a-z]+\.)?ayrintilihaber\.com\.tr/(.*?)/.*-h[0-9]+.html$
 
 #date elements;

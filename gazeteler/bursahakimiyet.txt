@@ -1,0 +1,59 @@
+#seeds;
+http://www.bursahakimiyet.com.tr/
+http://www.bursahakimiyet.com.tr/bursa
+http://www.bursahakimiyet.com.tr/bursaspor
+http://www.bursahakimiyet.com.tr/asayis
+http://www.bursahakimiyet.com.tr/turkiye
+http://www.bursahakimiyet.com.tr/magazin
+http://www.bursahakimiyet.com.tr/dunya
+http://www.bursahakimiyet.com.tr/ekonomi
+http://www.bursahakimiyet.com.tr/yazarlar
+http://www.bursahakimiyet.com.tr/spor
+http://www.bursahakimiyet.com.tr/bursada-spor
+http://www.bursahakimiyet.com.tr/egitim
+http://www.bursahakimiyet.com.tr/kultur-sanat
+http://www.bursahakimiyet.com.tr/haber
+http://www.bursahakimiyet.com.tr/facebook
+http://www.bursahakimiyet.com.tr/guncel
+http://www.bursahakimiyet.com.tr/teknoloji
+http://www.bursahakimiyet.com.tr/saglik
+http://www.bursahakimiyet.com.tr/yasam
+http://www.bursahakimiyet.com.tr/video-galeri
+
+
+#include in index;
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/.*/.*\.html$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/video-galeri/.*$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/yazarlar/.*$
+
+
+#exclude from crawl;
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/kunye\.html$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/iletisim\.html$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/reklam/.*$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/foto-galeri/.*$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/foto-galeri$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/.*/[0-9]+\.html$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/yazarlar/.*\-[0-9]+/$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/video\-galeri/$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/video\-galeri/[0-9]+$
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/yazarlar/$
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/video-galeri/.*$
+
+#column patterns;
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/yazarlar/.*$
+
+
+#category patterns;
+^https?://[a-z]+\.bursahakimiyet\.com\.tr/(.*?)/.*$
+
+#date elements;
+article-dates
+

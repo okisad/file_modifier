@@ -1,10 +1,22 @@
 #seeds;
-www.zafergazetesi.org
+http://zafergazetesi.org/default.asp
+http://zafergazetesi.org/kategori/ANA-MANSETLER/24
+http://zafergazetesi.org/kategori/ROPORTAJ/23
+http://zafergazetesi.org/kategori/YEREL-GUNDEM/19
+http://zafergazetesi.org/kategori/TOPLUM-YASAM-AKTUEL/21
+http://zafergazetesi.org/kategori/SAGLIK-BILIM-TEKNOLOJI/20
+http://zafergazetesi.org/kategori/KULTUR-SANAT-EGITIM/22
+http://zafergazetesi.org/kategori/SPOR/18
+http://zafergazetesi.org/kategori/SON-DAKIKA/25
+
+
 
 #include in index;
+^https?://([a-z]+\.)?zafergazetesi\.org/haber/.*/[0-9]+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?zafergazetesi\.org/haber/--/[0-9]+$
 
 # generic exclusions
 .*\.pdf$

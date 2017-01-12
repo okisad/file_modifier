@@ -1,10 +1,41 @@
 #seeds;
-www.yenigungazetesi.net
+http://www.gazeteyenigun.com.tr
+http://www.gazeteyenigun.com.tr/ekonomi/
+http://www.gazeteyenigun.com.tr/spor/
+http://www.gazeteyenigun.com.tr/magazin/
+http://www.gazeteyenigun.com.tr/gundem/
+http://www.gazeteyenigun.com.tr/dunya/
+http://www.gazeteyenigun.com.tr/yasam/
+http://www.gazeteyenigun.com.tr/amator-tribun/
+http://www.gazeteyenigun.com.tr/siyaset/
+http://www.gazeteyenigun.com.tr/saglik/
+http://www.gazeteyenigun.com.tr/tuketici/
+http://www.gazeteyenigun.com.tr/muzik/
+http://www.gazeteyenigun.com.tr/roportaj/
+http://www.gazeteyenigun.com.tr/moda/
+http://www.gazeteyenigun.com.tr/son-dakika/
+http://www.gazeteyenigun.com.tr/kose-yazarlari/
+http://www.gazeteyenigun.com.tr/video-galeri/
+http://www.gazeteyenigun.com.tr/yasam/saglik
+http://www.gazeteyenigun.com.tr/yasam/moda
+http://www.gazeteyenigun.com.tr/yasam/magazin
+http://www.gazeteyenigun.com.tr/yasam/kultur-sanat
+http://www.gazeteyenigun.com.tr/spor/futbol
+http://www.gazeteyenigun.com.tr/spor/basketbol
+http://www.gazeteyenigun.com.tr/spor/amator
+http://www.gazeteyenigun.com.tr/gundem/tuketici
+http://www.gazeteyenigun.com.tr/gundem/
 
 #include in index;
-
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/.*/[0-9]+/$
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/yazarlar/.*/.*/[0-9]+/$
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/video\-detay/.*/[0-9]+/$
 
 #exclude from crawl;
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/ilan\-detay/[0-9]+\-.*/[0-9]+/$
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/foto\-galeri/.*/[0-9]+/$
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/ilan\-detay/.*/[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +43,13 @@ www.yenigungazetesi.net
 .*\.xml$
 
 #video patterns;
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/video\-detay/.*/[0-9]+/$
 
 #column patterns;
+^https?://[a-z]+\.gazeteyenigun\.com\.tr/yazarlar/.*/.*/[0-9]+/$
 
 #category patterns;
 
 #date elements;
+
+

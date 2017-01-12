@@ -10,7 +10,7 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args){
-
+/*
 
         Excel excel = new Excel("gazeteler.xlsx");
 
@@ -18,7 +18,7 @@ public class Main {
 
         TextFile textFile = new TextFile(dk);
 
-        textFile.createFiles();
+        textFile.createFiles();*/
 
 
     }

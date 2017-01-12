@@ -1,10 +1,47 @@
 #seeds;
-www.cagdaskocaeli.com.tr
+http://www.cagdaskocaeli.com.tr/
+http://www.cagdaskocaeli.com.tr/guncel-k1.html
+http://www.cagdaskocaeli.com.tr/asayis-k2.html
+http://www.cagdaskocaeli.com.tr/politika-k3.html
+http://www.cagdaskocaeli.com.tr/ekonomi-k5.html
+http://www.cagdaskocaeli.com.tr/egitim-k26.html
+http://www.cagdaskocaeli.com.tr/saglik-k6.html
+http://www.cagdaskocaeli.com.tr/roportaj-k7.html
+http://www.cagdaskocaeli.com.tr/turkiye-k23.html
+http://www.cagdaskocaeli.com.tr/teknoloji-k25.html
+http://www.cagdaskocaeli.com.tr/h-a-k-k8.html
+http://www.cagdaskocaeli.com.tr/baykus-k28.html
+http://www.cagdaskocaeli.com.tr/videolar.html
+http://www.cagdaskocaeli.com.tr/videogaleri/haber-videolari-s20.html
+http://www.cagdaskocaeli.com.tr/videogaleri/magazin-s21.html
+http://www.cagdaskocaeli.com.tr/videogaleri/saglik-s22.html
+http://www.cagdaskocaeli.com.tr/videogaleri/studyo-programlari-s27.html
+http://www.cagdaskocaeli.com.tr/
+http://www.cagdaskocaeli.com.tr/bolgeler/basiskele.html
+http://www.cagdaskocaeli.com.tr/bolgeler/cayirova.html
+http://www.cagdaskocaeli.com.tr/bolgeler/darica.html
+http://www.cagdaskocaeli.com.tr/bolgeler/derince.html
+http://www.cagdaskocaeli.com.tr/bolgeler/dilovasi.html
+http://www.cagdaskocaeli.com.tr/bolgeler/gebze.html
+http://www.cagdaskocaeli.com.tr/bolgeler/izmit.html
+http://www.cagdaskocaeli.com.tr/bolgeler/korfez.html
+http://www.cagdaskocaeli.com.tr/bolgeler/golcuk.html
+http://www.cagdaskocaeli.com.tr/bolgeler/kandira.html
+http://www.cagdaskocaeli.com.tr/bolgeler/karamursel.html
+http://www.cagdaskocaeli.com.tr/bolgeler/kartepe.html
+
+
+
 
 #include in index;
+^https?://([a-z]+\.)?cagdaskocaeli\.com\.tr/haber/.*-h[0-9]+\.html$
+^https?://([a-z]+\.)?cagdaskocaeli\.com\.tr/videogaleri/.+/.*-v[0-9]+\.html$
+^https?://([a-z]+\.)?cagdaskocaeli\.com\.tr/.*/.*-y[0-9]+\.html$
+
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +49,12 @@ www.cagdaskocaeli.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?cagdaskocaeli\.com\.tr/videogaleri/.*/.*-v[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?cagdaskocaeli\.com\.tr/.*/.*-y[0-9]+\.html$
 
 #category patterns;
+
 
 #date elements;

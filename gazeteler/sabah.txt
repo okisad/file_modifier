@@ -1,10 +1,87 @@
 #seeds;
-www.sabah.com.tr
+http://www.sabah.com.tr/
+http://www.sabah.com.tr/gundem
+http://www.sabah.com.tr/secim
+http://www.sabah.com.tr/son-dakika-haberleri
+http://www.sabah.com.tr/yerel-haberler
+http://www.sabah.com.tr/tum-mansetler
+http://www.sabah.com.tr/spor-haberleri
+http://www.sabah.com.tr/turkiye-kupasi
+http://www.sabah.com.tr/spor/futbol
+http://www.sabah.com.tr/spor/superlig
+http://www.sabah.com.tr/spor/sampiyonlarligi
+http://www.sabah.com.tr/spor/avrupaligi
+http://www.sabah.com.tr/spor/futbolmillitakim
+http://www.sabah.com.tr/spor/basketbol
+http://www.sabah.com.tr/spor/voleybol
+http://www.sabah.com.tr/spor/tumsporlar
+http://www.sabah.com.tr/spor/transfer-haberleri
+http://www.sabah.com.tr/spor/spormagazin
+http://www.sabah.com.tr/ekonomi
+http://www.sabah.com.tr/piyasa
+http://www.sabah.com.tr/piyasa/borsagiris
+http://www.sabah.com.tr/emlak
+http://www.sabah.com.tr/iste-insan
+http://www.sabah.com.tr/yasam
+http://www.sabah.com.tr/saglik
+http://www.sabah.com.tr/teknoloji
+http://www.sabah.com.tr/turizm
+http://www.sabah.com.tr/memur
+http://www.sabah.com.tr/yesilekran
+http://www.sabah.com.tr/kadin
+http://www.sabah.com.tr/moda
+http://www.sabah.com.tr/otomobil
+http://www.sabah.com.tr/egitim
+http://www.sabah.com.tr/sinav-merkezi
+http://www.sabah.com.tr/magazin-haberleri
+http://www.sabah.com.tr/kultur_sanat
+http://www.sabah.com.tr/sinema
+http://www.sabah.com.tr/medya
+http://www.sabah.com.tr/webtv
+http://www.sabah.com.tr/webtv/diziler
+http://www.sabah.com.tr/webtv/eskiya-dunyaya-hukumdar-olmaz
+http://www.sabah.com.tr/webtv/kirgin-cicekler
+http://www.sabah.com.tr/webtv/yeter
+http://www.sabah.com.tr/webtv/aile-isi
+http://www.sabah.com.tr/webtv/eve-donus
+http://www.sabah.com.tr/webtv/evli-ve-ofkeli
+http://www.sabah.com.tr/ekler
+http://www.sabah.com.tr/cumartesi
+http://www.sabah.com.tr/pazar
+http://www.sabah.com.tr/kitap
+http://www.sabah.com.tr/bolgeler
+http://www.sabah.com.tr/ankara-baskent
+http://www.sabah.com.tr/egeli
+http://www.sabah.com.tr/akdeniz
+http://www.sabah.com.tr/guney
+http://www.sabah.com.tr/marmara
+http://www.sabah.com.tr/karadenizdoguanadolu
+http://www.sabah.com.tr/kayseri-bolge
+http://www.sabah.com.tr/yerel-haberler
+http://www.sabah.com.tr/yazarlar
+http://www.sabah.com.tr/yazarlar/spor
+http://www.sabah.com.tr/yazarlar/gunaydin
+http://www.sabah.com.tr/yazarlar/perspektif
+http://www.sabah.com.tr/yazarlar/cumartesi
+http://www.sabah.com.tr/yazarlar/pazar
+http://www.sabah.com.tr/yazarlar/bolgeler
+http://www.sabah.com.tr/yazarlar/arsiv
+http://www.sabah.com.tr/turkiye-kupasi
 
 #include in index;
 
+^https?://([a-z]+\.)?sabah\.com\.tr/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?sabah\.com\.tr/yazarlar/.*/[0-9]+/[0-9]+/[0-9]+/.*$
+^https?://([a-z]+\.)?sabah\.com\.tr/webtv/.*/.*$
+
 
 #exclude from crawl;
+
+^https?://[a-z]+\.sabah\.com\.tr/astroloji.*$
+^https?://[a-z]+\.sabah\.com\.tr/rss_bilgi.*$
+^https?://[a-z]+\.sabah\.com\.tr/[L,l]ogin.*$
+^https?://[a-z]+\.sabah\.com\.tr/Bulmaca.*$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +89,11 @@ www.sabah.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?sabah\.com\.tr/webtv/.*/.*$
 
 #column patterns;
+^https?://([a-z]+\.)?sabah\.com\.tr/yazarlar/.*/[0-9]+/[0-9]+/[0-9]+/.*$
 
 #category patterns;
-
+^https?://([a-z]+\.)?sabah\.com\.tr/(.*?)/[0-9]+/[0-9]+/[0-9]+/.*$
 #date elements;

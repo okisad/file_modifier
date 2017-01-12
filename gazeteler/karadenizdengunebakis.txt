@@ -1,10 +1,27 @@
 #seeds;
-www.gunebakis.com.tr
+http://www.gunebakis.com.tr/
+http://www.gunebakis.com.tr/haberler/guncel-haber/
+http://www.gunebakis.com.tr/haberler/nabiz/
+http://www.gunebakis.com.tr/haberler/spor/
+http://www.gunebakis.com.tr/haberler/roportaj/
+http://www.gunebakis.com.tr/haberler/saglik/
+http://www.gunebakis.com.tr/haberler/yurttan/
+http://www.gunebakis.com.tr/haberler/resmi_ilan/
+http://www.gunebakis.com.tr/haberler/diger/
+http://www.gunebakis.com.tr/video-galeri.html
+http://www.gunebakis.com.tr/yazarlar.html
+
+
 
 #include in index;
+^https?://([a-z]+\.)?gunebakis\.com\.tr/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?gunebakis\.com\.tr/kose-yazisi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?gunebakis\.com\.tr/video/[0-9]+/.*\.html$
+
 
 
 #exclude from crawl;
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +29,11 @@ www.gunebakis.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gunebakis\.com\.tr/video/[0-9]+/.*\.html$
+
 
 #column patterns;
+^https?://([a-z]+\.)?gunebakis\.com\.tr/kose-yazisi/[0-9]+/.*\.html$
 
 #category patterns;
 

@@ -1,10 +1,50 @@
 #seeds;
-www.sonsoz.com.tr
+http://sonsoz.com.tr/
+http://sonsoz.com.tr/guncel/
+http://sonsoz.com.tr/politika/
+http://sonsoz.com.tr/dunya/
+http://sonsoz.com.tr/yerel/
+http://sonsoz.com.tr/ankara/
+http://sonsoz.com.tr/yasam/
+http://sonsoz.com.tr/saglik/
+http://sonsoz.com.tr/teknoloji/
+http://sonsoz.com.tr/kultur-sanat/
+http://sonsoz.com.tr/egitim/
+http://sonsoz.com.tr/moda-ve-kadin/
+http://sonsoz.com.tr/magazin/
+http://sonsoz.com.tr/gurme/
+http://sonsoz.com.tr/ekonomi/
+http://sonsoz.com.tr/ekonomi/sirket-haber/
+http://sonsoz.com.tr/test/
+http://sonsoz.com.tr/spor/
+http://sonsoz.com.tr/spor/fenerbahce/
+http://sonsoz.com.tr/spor/besiktas/
+http://sonsoz.com.tr/spor/galatasaray/
+http://sonsoz.com.tr/spor/trabzonspor/
+http://sonsoz.com.tr/yazarlar/
+
+
 
 #include in index;
+^https?://([a-z]+\.)?sonsoz\.com\.tr/.*/$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?sonsoz\.com\.tr/kunye/.*$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/sonsoz\-gazetesi\-[0-9]+\-arsivi/.*$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/iletisim/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/abone/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/gunun-sozu-gelde-sasma/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/feed/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/resmi-ilan/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/etiket/.*$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/yazarlar-yazilari/$
+^https?://([a-z]+\.)?sonsoz\.com\.tr/author/.*$
+
+
+
 
 # generic exclusions
 .*\.pdf$

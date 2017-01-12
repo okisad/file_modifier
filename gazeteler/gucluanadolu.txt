@@ -1,10 +1,32 @@
 #seeds;
-www.gucluanadolugazetesi.com.tr
+http://www.gucluanadolugazetesi.com/
+http://www.gucluanadolugazetesi.com/kategori/siyaset
+http://www.gucluanadolugazetesi.com/kategori/ekonomi
+http://www.gucluanadolugazetesi.com/kategori/dunya
+http://www.gucluanadolugazetesi.com/kategori/yerel-haberler
+http://www.gucluanadolugazetesi.com/kategori/ozel-haber
+http://www.gucluanadolugazetesi.com/kategori/spor
+http://www.gucluanadolugazetesi.com/kategori/egitim
+http://www.gucluanadolugazetesi.com/kategori/kultur-sanat
+http://www.gucluanadolugazetesi.com/kategori/egitim
+http://www.gucluanadolugazetesi.com/video-galeri
+http://www.gucluanadolugazetesi.com/yazarlarimiz-3
+http://www.gucluanadolugazetesi.com/kategori/saglik
+http://www.gucluanadolugazetesi.com/kategori/kadin-yasam
+http://www.gucluanadolugazetesi.com/kategori/magazin
+http://www.gucluanadolugazetesi.com/kategori/bilim-teknoloji
+http://www.gucluanadolugazetesi.com/kategori/anadoludan
+
 
 #include in index;
+^https?://([a-z]+\.)?gucluanadolugazetesi\.com/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?gucluanadolugazetesi\.com/video\_galeri/.*$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gucluanadolugazetesi\.com/foto-galeri/.*.html$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,6 +34,7 @@ www.gucluanadolugazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?gucluanadolugazetesi\.com/video\_galeri/.*$
 
 #column patterns;
 

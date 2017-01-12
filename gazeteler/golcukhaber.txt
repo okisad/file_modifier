@@ -1,10 +1,28 @@
 #seeds;
-www.golcukhaber.com.tr
+http://www.golcukhaber.com.tr
+http://golcukhaber.com.tr/category/golcuk/
+http://golcukhaber.com.tr/category/degirmendere/
+http://golcukhaber.com.tr/category/kocaeli/
+http://golcukhaber.com.tr/category/spor/
+http://golcukhaber.com.tr/category/siyaset/
+http://golcukhaber.com.tr/category/dunya/
+http://golcukhaber.com.tr/category/egitim/
+http://golcukhaber.com.tr/category/ekonomi/
+http://golcukhaber.com.tr/category/magazin/
+http://golcukhaber.com.tr/category/saglik/
+http://golcukhaber.com.tr/kose-yazarlari/
+http://golcukhaber.com.tr/category/video-galeri/
+
+
 
 #include in index;
+^https?://([a-z]+\.)?golcukhaber\.com\.tr/[0-9]+/[0-9]+/.*/$
+
 
 
 #exclude from crawl;
+
+
 
 # generic exclusions
 .*\.pdf$
@@ -14,6 +32,7 @@ www.golcukhaber.com.tr
 #video patterns;
 
 #column patterns;
+
 
 #category patterns;
 
