@@ -1,7 +1,25 @@
 #seeds;
-www.kocatepegazetesi.com
+http://www.kocatepegazetesi.com/
+http://www.kocatepegazetesi.com/tr-TR/yazarlar
+http://www.kocatepegazetesi.com/tr-TR/haberler/tum-haberler
+http://www.kocatepegazetesi.com/tr-TR/video
+http://www.kocatepegazetesi.com/tr-TR/kanallar/12/dunya
+http://www.kocatepegazetesi.com/tr-TR/kanallar/3/siyaset
+http://www.kocatepegazetesi.com/tr-TR/kanallar/13/ekonomi
+http://www.kocatepegazetesi.com/tr-tr/kanallar/6/spor
+http://www.kocatepegazetesi.com/tr-TR/kanallar/14/hayatin-icinden
+http://www.kocatepegazetesi.com/tr-tr/kanallar/4/saglik
+http://www.kocatepegazetesi.com/tr-tr/kanallar/9/eglence
+http://www.kocatepegazetesi.com/tr-tr/kanallar/7/teknoloji
+http://www.kocatepegazetesi.com/tr-TR/kanallar/16/biyografi
+http://www.kocatepegazetesi.com/tr-TR/kanallar/2/egitim
+http://www.kocatepegazetesi.com/tr-TR/kanallar/18/kultur-sanat
+http://www.kocatepegazetesi.com/tr-TR/kanallar/19/tarihte-bugun
 
 #include in index;
+^https?://([a-z]+\.)?kocatepegazetesi\.com/.*/haberler/[0-9]+/.*$
+^https?://([a-z]+\.)?kocatepegazetesi\.com/.*/kose\-yazilari/[0-9]+/.*$
+^https?://([a-z]+\.)?kocatepegazetesi\.com/.*/video/[0-9]+/.*$
 
 
 #exclude from crawl;
@@ -12,9 +30,10 @@ www.kocatepegazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kocatepegazetesi\.com/.*/video/[0-9]+/.*$
 
 #column patterns;
-
+^https?://([a-z]+\.)?kocatepegazetesi\.com/.*/kose\-yazilari/[0-9]+/.*$
 #category patterns;
 
 #date elements;

@@ -1,8 +1,19 @@
 #seeds;
-www.sakaryayenigun.com.tr 
+http://www.sakaryayenigun.com.tr/
+http://www.sakaryayenigun.com.tr/1-guncel-haberler.htm
+http://www.sakaryayenigun.com.tr/2-politika-haberleri.htm
+http://www.sakaryayenigun.com.tr/3-egitim-haberleri.htm
+http://www.sakaryayenigun.com.tr/16-3-sayfa-haberleri.htm
+http://www.sakaryayenigun.com.tr/4-gundem-haberleri.htm
+http://www.sakaryayenigun.com.tr/8-spor-haberleri.htm
+http://www.sakaryayenigun.com.tr/5-magazin-haberleri.htm
+http://www.sakaryayenigun.com.tr/9-ekonomi-haberleri.htm
+http://www.sakaryayenigun.com.tr/13-saglik-haberleri.htm
 
 #include in index;
 
+^https?://([a-z]+\.)?sakaryayenigun\.com\.tr/[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?sakaryayenigun\.com\.tr/m\-.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -14,6 +25,7 @@ www.sakaryayenigun.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?sakaryayenigun\.com\.tr/m\-.*\-[0-9]+\.html$
 
 #category patterns;
 

@@ -1,0 +1,36 @@
+#seeds;
+http://www.mucadelegazete.com/
+http://www.mucadelegazete.com/kategori/son-dakika/
+http://www.mucadelegazete.com/kategori/yerel-haber/
+http://www.mucadelegazete.com/kategori/spor-haberi/
+http://www.mucadelegazete.com/kategori/manset/
+http://www.mucadelegazete.com/kategori/video-galeri/
+http://www.mucadelegazete.com/kategori/ulusal-haber/
+http://www.mucadelegazete.com/tum-yazarlar/
+http://www.mucadelegazete.com/kategori/ahmet-baskindagli/
+http://www.mucadelegazete.com/kategori/selimgunduzalp/
+
+#include in index;
+^https?://([a-z]+\.)?mucadelegazete\.com/.*/$
+
+#exclude from crawl;
+^https?://([a-z]+\.)?mucadelegazete\.com/feed/$
+^https?://([a-z]+\.)?mucadelegazete\.com/hakkimizda/$
+^https?://([a-z]+\.)?mucadelegazete\.com/iletisim-sayfasi/$
+^https?://([a-z]+\.)?mucadelegazete\.com/tum-yazarlar/$
+^https?://([a-z]+\.)?mucadelegazete\.com/kategori/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?mucadelegazete\.com/author/.*/$
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+
+#category patterns;
+
+#date elements;

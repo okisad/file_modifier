@@ -1,7 +1,32 @@
 #seeds;
-www.kayseriyenihaber.com.tr
+http://www.kayseriyenihaber.com.tr/
+http://www.kayseriyenihaber.com/
+http://www.kayseriyenihaber.com/gundem/
+http://www.kayseriyenihaber.com/asayis/
+http://www.kayseriyenihaber.com/kurum/
+http://www.kayseriyenihaber.com/ekonomi/
+http://www.kayseriyenihaber.com/super-lig/
+http://www.kayseriyenihaber.com/futbol/
+http://www.kayseriyenihaber.com/voleybol/
+http://www.kayseriyenihaber.com/basketbol/
+http://www.kayseriyenihaber.com/hentbol/
+http://www.kayseriyenihaber.com/siyaset/
+http://www.kayseriyenihaber.com/saglik/
+http://www.kayseriyenihaber.com/egitim/
+http://www.kayseriyenihaber.com/kultur-sanat/
+http://www.kayseriyenihaber.com/yasam/
+http://www.kayseriyenihaber.com/kayseri/
+http://www.kayseriyenihaber.com/videolar/
+http://www.kayseriyenihaber.com/gunun-haberleri/
+http://www.kayseriyenihaber.com/kose-yazarlari/
+http://www.kayseriyenihaber.com/videolar/
+
 
 #include in index;
+
+^https?://([a-z]+\.)?kayseriyenihaber\.com/haber/.*/[0-9]+/$
+^https?://([a-z]+\.)?kayseriyenihaber\.com/video\-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?kayseriyenihaber\.com/yazarlar/.*/.*/[0-9]+/$
 
 
 #exclude from crawl;
@@ -12,9 +37,9 @@ www.kayseriyenihaber.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?kayseriyenihaber\.com/video\-detay/.*/[0-9]+/$
 #column patterns;
-
+^https?://([a-z]+\.)?kayseriyenihaber\.com/yazarlar/.*/.*/[0-9]+/$
 #category patterns;
 
 #date elements;

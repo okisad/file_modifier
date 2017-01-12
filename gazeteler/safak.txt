@@ -1,7 +1,22 @@
 #seeds;
-www.safakgazete.com
+http://www.safakgazete.com/
+http://www.safakgazete.com/kategori/guncel
+http://www.safakgazete.com/kategori/ekonomi
+http://www.safakgazete.com/kategori/dunya
+http://www.safakgazete.com/kategori/spor
+http://www.safakgazete.com/kategori/siyaset
+http://www.safakgazete.com/kategori/saglik
+http://www.safakgazete.com/kategori/teknoloji
+http://www.safakgazete.com/yazarlarimiz-1
+http://www.safakgazete.com/yazarlarimiz-2
+http://www.safakgazete.com/yazarlarimiz-3
+http://www.safakgazete.com/video-galeri
+http://www.safakgazete.com/webtv-tasarim-2
 
 #include in index;
+
+^https?://([a-z]+\.)?safakgazete\.com/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?safakgazete\.com/video_galeri/.*$
 
 
 #exclude from crawl;
@@ -12,6 +27,7 @@ www.safakgazete.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?safakgazete\.com/video_galeri/.*$
 
 #column patterns;
 

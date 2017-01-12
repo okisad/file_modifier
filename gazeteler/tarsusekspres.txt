@@ -1,7 +1,19 @@
 #seeds;
-www.tarsusekspres.com.tr 
+http://www.tarsusekspres.com.tr/
+http://www.tarsusekspres.com.tr/guncel
+http://www.tarsusekspres.com.tr/video
+http://www.tarsusekspres.com.tr/ekonomi
+http://www.tarsusekspres.com.tr/asayis
+http://www.tarsusekspres.com.tr/siyaset
+http://www.tarsusekspres.com.tr/saglik
+http://www.tarsusekspres.com.tr/kultur-egitim
+http://www.tarsusekspres.com.tr/spor
+http://www.tarsusekspres.com.tr/magazin
+http://www.tarsusekspres.com.tr/guncel-roportaj
 
 #include in index;
+^https?://([a-z]+\.)?tarsusekspres\.com\.tr/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?tarsusekspres\.com\.tr/makale\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -14,7 +26,7 @@ www.tarsusekspres.com.tr
 #video patterns;
 
 #column patterns;
-
+^https?://([a-z]+\.)?tarsusekspres\.com\.tr/makale\-.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

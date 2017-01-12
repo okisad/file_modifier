@@ -1,10 +1,34 @@
 #seeds;
-www.yenicagri.com
+http://www.yenicagri.com/
+http://www.yenicagri.com/kose-yazarlari.html
+http://www.yenicagri.com/kategori/video-galeri
+http://www.yenicagri.com/kategori/turkiye
+http://www.yenicagri.com/kategori/dunya
+http://www.yenicagri.com/kategori/politika
+http://www.yenicagri.com/kategori/ekonomi
+http://www.yenicagri.com/kategori/yasam
+http://www.yenicagri.com/kategori/egitim
+http://www.yenicagri.com/kategori/bilim-ve-teknoloji
+http://www.yenicagri.com/kategori/saglik
+http://www.yenicagri.com/kategori/kultur-ve-sanat
+http://www.yenicagri.com/kategori/gundem
+http://www.yenicagri.com/kategori/spor
+http://www.yenicagri.com/kategori/magazin
+http://www.yenicagri.com/kategori/sinema
+http://www.yenicagri.com/kategori/asayis
+http://www.yenicagri.com/kategori/roportaj
 
 #include in index;
+^https?://([a-z]+\.)?yenicagri\.com/.*\.html$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?yenicagri\.com/iletisim\.html$
+^https?://([a-z]+\.)?yenicagri\.com/hava-durumu\.html$
+^https?://([a-z]+\.)?yenicagri\.com/kunye\.html$
+^https?://([a-z]+\.)?yenicagri\.com/sitene-ekle\.html$
+^https?://([a-z]+\.)?yenicagri\.com/astroloji\.html$
 
 # generic exclusions
 .*\.pdf$

@@ -1,10 +1,35 @@
 #seeds;
-www.sehirgazetesi.com.tr
+http://www.sehirgazetesi.com.tr/
+http://www.sehirgazetesi.com.tr/gundem/
+http://www.sehirgazetesi.com.tr/siyaset/
+http://www.sehirgazetesi.com.tr/asayis/
+http://www.sehirgazetesi.com.tr/ekonomi/
+http://www.sehirgazetesi.com.tr/spor/
+http://www.sehirgazetesi.com.tr/yasam/
+http://www.sehirgazetesi.com.tr/bolge/
+http://www.sehirgazetesi.com.tr/dunya/
+http://www.sehirgazetesi.com.tr/saglik/
+http://www.sehirgazetesi.com.tr/video-galeri/
+http://www.sehirgazetesi.com.tr/gunun-haberleri/
+http://www.sehirgazetesi.com.tr/kose-yazarlari/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/guncel/24/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/roportaj/43/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/siyaset/25/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/yasam/30/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/spor/27/
+http://www.sehirgazetesi.com.tr/video-galeri/kategori/kultur/42/
 
 #include in index;
 
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/.*/[0-9]+/$
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/yazarlar/.*/.*/[0-9]+/$
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/video\-detay/.*/[0-9]+/$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/foto\-galeri/.*/$
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/.*/sayfa/[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +37,9 @@ www.sehirgazetesi.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/video\-detay/.*/[0-9]+/$
 #column patterns;
-
+^https?://([a-z]+\.)?sehirgazetesi\.com\.tr/yazarlar/.*/.*/[0-9]+/$
 #category patterns;
 
 #date elements;

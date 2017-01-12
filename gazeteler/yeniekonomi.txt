@@ -1,10 +1,31 @@
 #seeds;
-www.yenibakis.com.tr
+http://yenibakis.com.tr/
+http://yenibakis.com.tr/category/guncel/
+http://yenibakis.com.tr/category/politika/
+http://yenibakis.com.tr/category/ekonomi/
+http://yenibakis.com.tr/category/yerel-yonetimler/
+http://yenibakis.com.tr/category/spor/
+http://yenibakis.com.tr/category/kultur-sanat/
+http://yenibakis.com.tr/category/magazin/
+http://yenibakis.com.tr/#
+http://yenibakis.com.tr/category/yazarlar/h-murat-ersoz/
+http://yenibakis.com.tr/category/yazarlar/ugur-tingur/
+http://yenibakis.com.tr/category/yazarlar/serap-dikmen-ahmetoglu/
 
 #include in index;
 
+^https?://([a-z]+\.)?yenibakis\.com\.tr/.*/$
+
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?yenibakis\.com\.tr/hakkimizda/$
+^https?://([a-z]+\.)?yenibakis\.com\.tr/iletisim/$
+^https?://([a-z]+\.)?yenibakis\.com\.tr/feed/$
+^https?://([a-z]+\.)?yenibakis\.com\.tr/kunye/$
+^https?://([a-z]+\.)?yenibakis\.com\.tr/resmi-ilanlar/$
+^https?://([a-z]+\.)?yenibakis\.com\.tr/category/.*/$
+
 
 # generic exclusions
 .*\.pdf$

@@ -1,7 +1,25 @@
 #seeds;
 http://www.yenidogus.net/
+http://www.yenidogus.net/kategori/egitim
+http://www.yenidogus.net/kategori/guncel
+http://www.yenidogus.net/kategori/ekonomi
+http://www.yenidogus.net/kategori/saglik
+http://www.yenidogus.net/kategori/siyaset
+http://www.yenidogus.net/kategori/spor
+http://www.yenidogus.net/kategori/kultur-sanat
+http://www.yenidogus.net/kategori/bolge
+http://www.yenidogus.net/Video
+http://www.yenidogus.net/Yazar
+http://www.yenidogus.net/video
+
 
 #include in index;
+^https?://([a-z]+\.)?yenidogus\.net/haber\-.*/[0-9]+$
+^https?://([a-z]+\.)?yenidogus\.net/makale.*[0-9]+$
+^https?://([a-z]+\.)?yenidogus\.net/video/.*\-[0-9]+$
+
+
+
 
 
 #exclude from crawl;

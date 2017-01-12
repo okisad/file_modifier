@@ -1,10 +1,31 @@
 #seeds;
-www.surucmesale.com
+http://surucmesale.com/
+http://surucmesale.com/haberler/suruc/
+http://surucmesale.com/haberler/sanliurfa/
+http://surucmesale.com/haberler/guncel/
+http://surucmesale.com/haberler/politika/
+http://surucmesale.com/haberler/egitim/
+http://surucmesale.com/haberler/yasam/
+http://surucmesale.com/haberler/dunya/
+http://surucmesale.com/haberler/kultur-sanat/
+http://surucmesale.com/haberler/kose-yazilari/
+http://surucmesale.com/haberler/video/
 
 #include in index;
 
+^https?://([a-z]+\.)?surucmesale\.com/.*/$
 
 #exclude from crawl;
+^https?://([a-z]+\.)?surucmesale\.com/canli-mac-sonuclari/$
+^https?://([a-z]+\.)?surucmesale\.com/kunye/$
+^https?://([a-z]+\.)?surucmesale\.com/contacts/$
+^https?://([a-z]+\.)?surucmesale\.com/hakkimizda/$
+^https?://([a-z]+\.)?surucmesale\.com/anasayfa/$
+^https?://([a-z]+\.)?surucmesale\.com/haftalik-e-gazetemiz/$
+^https?://([a-z]+\.)?surucmesale\.com/haberler/resim-galerisi/$
+^https?://([a-z]+\.)?surucmesale\.com/canli-tv-izle/$
+
+
 
 # generic exclusions
 .*\.pdf$

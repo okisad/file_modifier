@@ -1,7 +1,13 @@
 #seeds;
-www.yenihabergazetesi.net
+http://www.yenihabergazetesi.net/
+http://www.yenihabergazetesi.net/kategori/haber
+http://www.yenihabergazetesi.net/kategori/ozel-haber
+http://www.yenihabergazetesi.net/kategori/spor-haber
+http://www.yenihabergazetesi.net/kategori/video-haber
+http://www.yenihabergazetesi.net/kategori/yazarlar
 
 #include in index;
+^https?://([a-z]+\.)?yenihabergazetesi\.net/.*\.html$
 
 
 #exclude from crawl;

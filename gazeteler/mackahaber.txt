@@ -1,10 +1,35 @@
 #seeds;
-www.mackahaber.com
+http://mackahaber.com/
+http://mackahaber.com/haber/kategori/siyaset-2.html
+http://mackahaber.com/haber/kategori/guncel-5.html
+http://mackahaber.com/haber/kategori/ekonomi-3.html
+http://mackahaber.com/haber/kategori/egitim-7.html
+http://mackahaber.com/haber/kategori/teknoloji-8.html
+http://mackahaber.com/haber/kategori/giyilinebilir-teknoloji-113.html
+http://mackahaber.com/haber/kategori/yapay-zeka-114.html
+http://mackahaber.com/haber/kategori/apple-haberleri-115.html
+http://mackahaber.com/haber/kategori/microsoft-haberleri-116.html
+http://mackahaber.com/haber/kategori/tesla-teknolojileri-117.html
+http://mackahaber.com/haber/kategori/magazin-101.html
+http://mackahaber.com/haber/kategori/spor-6.html
+http://mackahaber.com/haber/kategori/finans-102.html
+http://mackahaber.com/haber/kategori/dunya-103.html
+http://mackahaber.com/haber/kategori/kultur-sanat-104.html
+http://mackahaber.com/haber/kategori/moda-105.html
+http://mackahaber.com/haber/kategori/sinema-106.html
+http://mackahaber.com/haber/kategori/yemek-107.html
+http://mackahaber.com/video-galeri/
+
 
 #include in index;
+^https?://([a-z]+\.)?mackahaber\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?mackahaber\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
+
+^https?://([a-z]+\.)?mackahaber\.com/haber/kategori/.*\.html$
+
 
 # generic exclusions
 .*\.pdf$
@@ -14,6 +39,7 @@ www.mackahaber.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?mackahaber\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

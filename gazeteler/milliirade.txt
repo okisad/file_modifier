@@ -1,8 +1,13 @@
 #seeds;
-www.milliirade.com
+http://www.milliirade.com/
+http://www.milliirade.com/?cat=12
+http://www.milliirade.com/?cat=10
+http://www.milliirade.com/?cat=9
+http://www.milliirade.com/?page_id=549
+http://www.milliirade.com/?cat=13
 
 #include in index;
-
+^https?://([a-z]+\.)?milliirade\.com/\?p\=[0-9]+$
 
 #exclude from crawl;
 

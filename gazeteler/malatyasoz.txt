@@ -1,7 +1,22 @@
 #seeds;
-www.malatyasoz.com
+http://www.malatyasoz.com/
+http://www.malatyasoz.com/kategori-gundem-15.html
+http://www.malatyasoz.com/kategori-ekonomi-3.html
+http://www.malatyasoz.com/kategori-saglik-9.html
+http://www.malatyasoz.com/kategori-yasam-8.html
+http://www.malatyasoz.com/kategori-kultur-6.html
+http://www.malatyasoz.com/kategori-spor-5.html
+http://www.malatyasoz.com/kategori-siyaset-10.html
+http://www.malatyasoz.com/videolar.html
+http://www.malatyasoz.com/roportajlar.html
+http://www.malatyasoz.com/videolar.html
+
 
 #include in index;
+
+^https?://([a-z]+\.)?malatyasoz\.com/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?malatyasoz\.com/videolar\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?malatyasoz\.com/yazar\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,8 +27,10 @@ www.malatyasoz.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?malatyasoz\.com/videolar\-.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?malatyasoz\.com/yazar\-.*\-[0-9]+\.html$
 
 #category patterns;
 

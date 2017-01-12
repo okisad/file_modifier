@@ -1,10 +1,23 @@
 #seeds;
-www.korfezgazete.com
+http://www.korfezgazete.com/
+http://www.korfezgazete.com/category/politika/
+http://www.korfezgazete.com/category/guvenlik/
+http://www.korfezgazete.com/category/ekonomi/
+http://www.korfezgazete.com/category/kose-yazilari/
+http://www.korfezgazete.com/category/genel/
+http://www.korfezgazete.com/category/saglik/
+http://www.korfezgazete.com/category/spor/
+http://www.korfezgazete.com/yazarlar/
 
 #include in index;
-
+^https?://([a-z]+\.)?korfezgazete\.com/.*/$
 
 #exclude from crawl;
+^https?://([a-z]+\.)?korfezgazete\.com/category/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?korfezgazete\.com/iletisim/$
+^https?://([a-z]+\.)?korfezgazete\.com/yazarlar/$
+^https?://([a-z]+\.)?korfezgazete\.com/author/.*$
+
 
 # generic exclusions
 .*\.pdf$

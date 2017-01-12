@@ -1,7 +1,19 @@
 #seeds;
-www.kucukmenderes.com.tr
+http://www.kucukmenderes.com.tr/
+http://kucukmenderes.com.tr/Gundem/
+http://kucukmenderes.com.tr/Siyaset/
+http://kucukmenderes.com.tr/Ekonomi/
+http://kucukmenderes.com.tr/Egitim/
+http://kucukmenderes.com.tr/Kultur-Sanat/
+http://kucukmenderes.com.tr/Saglik/
+http://kucukmenderes.com.tr/Yasam/
+http://kucukmenderes.com.tr/Spor/
+http://kucukmenderes.com.tr/Yazarlarimiz/
 
 #include in index;
+
+http://kucukmenderes.com.tr/uyelerini-fuara-goturuyor-11-01-2017
+http://kucukmenderes.com.tr/yeni-mudur-goreve-basladi-11-01-2017
 
 
 #exclude from crawl;

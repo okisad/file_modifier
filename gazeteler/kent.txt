@@ -1,7 +1,30 @@
 #seeds;
-www.kentgazetesi.com
+http://www.gazetekent.com.tr/
+http://gazetekent.com.tr/haberler/kose-yazilari/
+http://gazetekent.com.tr/haberler/siyaset/
+http://gazetekent.com.tr/haberler/asayis/
+http://gazetekent.com.tr/haberler/spor/
+http://gazetekent.com.tr/haberler/ekonomi/
+http://gazetekent.com.tr/haberler/egitim/
+http://gazetekent.com.tr/haberler/saglik/
+http://gazetekent.com.tr/haberler/kultur-sanat/
+http://gazetekent.com.tr/haberler/magazin/
+http://gazetekent.com.tr/haberler/yerel/
+http://gazetekent.com.tr/haberler/medya/
+http://gazetekent.com.tr/haberler/doga/
+http://gazetekent.com.tr/haberler/dunya/
+http://gazetekent.com.tr/haberler/teknoloji/
+http://gazetekent.com.tr/haberler/yasam/
+http://gazetekent.com.tr/haberler/diger/
+http://gazetekent.com.tr/haberler/gundem/
+http://gazetekent.com.tr/yazarlar.html
+http://gazetekent.com.tr/video-galeri.html
 
 #include in index;
+
+^https?://([a-z]+\.)?gazetekent\.com\.tr/kose\-yazisi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?gazetekent\.com\.tr/video/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?gazetekent\.com\.tr/haber/[0-9]+/.*\.html$
 
 
 #exclude from crawl;
@@ -12,9 +35,9 @@ www.kentgazetesi.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?gazetekent\.com\.tr/video/[0-9]+/.*\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?gazetekent\.com\.tr/kose\-yazisi/[0-9]+/.*\.html$
 #category patterns;
 
 #date elements;

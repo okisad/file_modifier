@@ -1,7 +1,20 @@
 #seeds;
-www.yenikiroba.com 
+http://www.yenikiroba.com/
+http://www.yenikiroba.com/category.php?ID=1
+http://www.yenikiroba.com/category.php?ID=2
+http://www.yenikiroba.com/category.php?ID=11
+http://www.yenikiroba.com/category.php?ID=4
+http://www.yenikiroba.com/category.php?ID=3
+http://www.yenikiroba.com/category.php?ID=6
+http://www.yenikiroba.com/category.php?ID=9
+http://www.yenikiroba.com/category.php?ID=8
+http://www.yenikiroba.com/category.php?ID=5
+http://www.yenikiroba.com/authors.php
 
 #include in index;
+
+^https?://([a-z]+\.)?yenikiroba\.com/post\.php\?ID\=[0-9]+$
+^https?://([a-z]+\.)?yenikiroba\.com/article\.php\?ID\=[0-9]+$
 
 
 #exclude from crawl;
@@ -14,7 +27,7 @@ www.yenikiroba.com
 #video patterns;
 
 #column patterns;
-
+^https?://([a-z]+\.)?yenikiroba\.com/article\.php\?ID\=[0-9]+$
 #category patterns;
 
 #date elements;

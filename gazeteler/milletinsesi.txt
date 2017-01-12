@@ -1,10 +1,29 @@
 #seeds;
-www.milletinsesi.com.tr
+http://www.milletinsesi.com.tr/
+http://www.milletinsesi.com.tr/category/erzurum
+http://www.milletinsesi.com.tr/category/bolge
+http://www.milletinsesi.com.tr/category/siyaset
+http://www.milletinsesi.com.tr/category/ekonomi
+http://www.milletinsesi.com.tr/category/egitim
+http://www.milletinsesi.com.tr/category/guncel
+http://www.milletinsesi.com.tr/category/saglik
+http://www.milletinsesi.com.tr/category/spor
+http://www.milletinsesi.com.tr/category/kultur-ve-sanat
+http://www.milletinsesi.com.tr/category/soylesi
+http://www.milletinsesi.com.tr/category/belediye
+http://www.milletinsesi.com.tr/category/teknoloji
 
 #include in index;
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/.*$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/category/.*$
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/\#top$
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/\#searchModal$
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/author/.*$
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/feed$
+^https?://([a-z]+\.)?milletinsesi\.com\.tr/kunye$
 
 # generic exclusions
 .*\.pdf$

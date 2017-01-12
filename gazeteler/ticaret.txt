@@ -1,10 +1,24 @@
 #seeds;
-www.ticaretgazetesi.com.tr
+http://www.ticaretgazetesi.com.tr/
+http://www.ticaretgazetesi.com.tr/indexx.php?f=3bd704e38fe839ba454b3702e36cc6b3&l=1&sayfa_id=675
+http://www.ticaretgazetesi.com.tr/indexx.php?f=3bd704e38fe839ba454b3702e36cc6b3&l=1&sayfa_id=665&id=16
+http://www.ticaretgazetesi.com.tr/indexx.php?f=3bd704e38fe839ba454b3702e36cc6b3&l=1&sayfa_id=665&id=911
+
 
 #include in index;
 
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/.*$
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/.*\-y\-.*\-[0-9]+$
+
+
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/indexx.*$
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/haberler\_tarihte\_bugun$
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/rss/.*$
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/e\-katalog/.*$
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/Arsiv\-sayfa\_id\-[0-9]+$
 
 # generic exclusions
 .*\.pdf$
@@ -14,6 +28,7 @@ www.ticaretgazetesi.com.tr
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?ticaretgazetesi\.com\.tr/.*\-y\-.*\-[0-9]+$
 
 #category patterns;
 

@@ -1,10 +1,17 @@
 #seeds;
-www.kuzeyanadolu.net
+http://kuzeyanadolu.net/
+http://kuzeyanadolu.net/kategori/haber/
+http://kuzeyanadolu.net/kategori/roportaj/
+http://kuzeyanadolu.net/kose-yazilari/
+
 
 #include in index;
 
+^https?://([a-z]+\.)?kuzeyanadolu\.net/[0-9]+/[0-9]+/[0-9]+/.*/$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?kuzeyanadolu\.net/[0-9]+/[0-9]+/[0-9]+/ihale\-ilani.*/$
 
 # generic exclusions
 .*\.pdf$

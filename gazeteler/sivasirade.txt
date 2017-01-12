@@ -1,10 +1,26 @@
 #seeds;
-www.sivasiradegzt@hotmail.com
+http://www.sivasirade.com/#
+http://www.sivasirade.com/
+http://www.sivasirade.com/haber/kategori/ekonomi-1.html
+http://www.sivasirade.com/haber/kategori/dunya-2.html
+http://www.sivasirade.com/haber/kategori/magazin-3.html
+http://www.sivasirade.com/haber/kategori/spor-4.html
+http://www.sivasirade.com/haber/kategori/gundem-5.html
+http://www.sivasirade.com/haber/kategori/medya-6.html
+http://www.sivasirade.com/haber/kategori/siyaset-7.html
+http://www.sivasirade.com/haber/kategori/yasam-8.html
+http://www.sivasirade.com/haber/kategori/saglik-9.html
+http://www.sivasirade.com/haber/kategori/egitim-10.html
+http://www.sivasirade.com/haber/kategori/polemik-11.html
+http://www.sivasirade.com/video-galeri/
 
 #include in index;
+^https?://([a-z]+\.)?sivasirade\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?sivasirade\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?sivasirade\.com/haber/kategori/[0-9]+/.*\-[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -14,6 +30,7 @@ www.sivasiradegzt@hotmail.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?sivasirade\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

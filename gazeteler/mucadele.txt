@@ -1,8 +1,51 @@
 #seeds;
-www.mucadele.com.tr
+http://www.mucadele.com.tr
+http://www.mucadele.com.tr/guncel/
+http://www.mucadele.com.tr/siyaset/
+http://www.mucadele.com.tr/ekonomi/
+http://www.mucadele.com.tr/aydin/
+http://www.mucadele.com.tr/ege/
+http://www.mucadele.com.tr/cevre/
+http://www.mucadele.com.tr/spor/
+http://www.mucadele.com.tr/magazin/
+http://www.mucadele.com.tr/kultur-sanat/
+http://www.mucadele.com.tr/#
+http://www.mucadele.com.tr/sinema/
+http://www.mucadele.com.tr/asayis/
+http://www.mucadele.com.tr/egitim/
+http://www.mucadele.com.tr/roportajlar/
+http://www.mucadele.com.tr/yasam/
+http://www.mucadele.com.tr/teknoloji/
+http://www.mucadele.com.tr/genel/
+http://www.mucadele.com.tr/#
+http://www.mucadele.com.tr/efeler/
+http://www.mucadele.com.tr/bozdogan/
+http://www.mucadele.com.tr/buharkent/
+http://www.mucadele.com.tr/cine/
+http://www.mucadele.com.tr/didim/
+http://www.mucadele.com.tr/germencik/
+http://www.mucadele.com.tr/incirliova/
+http://www.mucadele.com.tr/karacasu/
+http://www.mucadele.com.tr/karpuzlu/
+http://www.mucadele.com.tr/kocarli/
+http://www.mucadele.com.tr/kosk/
+http://www.mucadele.com.tr/kusadasi/
+http://www.mucadele.com.tr/kuyucak/
+http://www.mucadele.com.tr/nazilli/
+http://www.mucadele.com.tr/soke/
+http://www.mucadele.com.tr/sultanhisar/
+http://www.mucadele.com.tr/yenipazar/
+http://www.mucadele.com.tr/yazarlar/
+http://www.mucadele.com.tr/finans/
+http://www.mucadele.com.tr/otomobil/
+http://www.mucadele.com.tr/saglik/
+http://www.mucadele.com.tr/gazete-mansetleri/
 
 #include in index;
 
+^https?://([a-z]+\.)?mucadele\.com\.tr/.*/.*\-[0-9]+/$
+^https?://([a-z]+\.)?mucadele\.com\.tr/yazarlar/.*\-[0-9]+/$
+^https?://([a-z]+\.)?mucadele\.com\.tr/video/.*\-[0-9]+/$
 
 #exclude from crawl;
 
@@ -12,9 +55,11 @@ www.mucadele.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?mucadele\.com\.tr/video/.*\-[0-9]+/$
 
 #column patterns;
-
+^https?://([a-z]+\.)?mucadele\.com\.tr/yazarlar/.*\-[0-9]+/$
 #category patterns;
+^https?://([a-z]+\.)?mucadele\.com\.tr/(.*?)/.*\-[0-9]+/$
 
 #date elements;

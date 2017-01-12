@@ -1,7 +1,26 @@
 #seeds;
-www.sakaryagazetesi.com.tr
+http://www.sakaryagazetesi.com.tr/
+http://www.sakaryagazetesi.com.tr/gundem/
+http://www.sakaryagazetesi.com.tr/yurttan/
+http://www.sakaryagazetesi.com.tr/politika/
+http://www.sakaryagazetesi.com.tr/dunya/
+http://www.sakaryagazetesi.com.tr/ekonomi/
+http://www.sakaryagazetesi.com.tr/eskisehirspor/
+http://www.sakaryagazetesi.com.tr/yazarlar/
+http://www.sakaryagazetesi.com.tr/spor/
+http://www.sakaryagazetesi.com.tr/kultur-sanat/
+http://www.sakaryagazetesi.com.tr/egunluk/
+http://www.sakaryagazetesi.com.tr/egitim-87583/
+http://www.sakaryagazetesi.com.tr/soylesi/
+http://www.sakaryagazetesi.com.tr/magazin/
+http://www.sakaryagazetesi.com.tr/mizah/
+http://sakaryagazetesi.web.tv/
 
 #include in index;
+
+^https?://([a-z]+\.)?sakaryagazetesi\.com\.tr/.*\-n[0-9]+/$
+^https?://([a-z]+\.)?sakaryagazetesi\.com\.tr/makale/.*\-[0-9]+/$
+^https?://([a-z]+\.)?sakaryagazetesi\.web\.tv/video/.*$
 
 
 #exclude from crawl;
@@ -12,9 +31,9 @@ www.sakaryagazetesi.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?sakaryagazetesi\.web\.tv/video/.*$
 #column patterns;
-
+^https?://([a-z]+\.)?sakaryagazetesi\.com\.tr/makale/.*\-[0-9]+/$
 #category patterns;
 
 #date elements;

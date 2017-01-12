@@ -1,8 +1,21 @@
 #seeds;
-www.yoremgazete.com
+http://www.yoremgazete.com/
+http://www.yoremgazete.com/kategori/yerel
+http://www.yoremgazete.com/kategori/bursa-bolge
+http://www.yoremgazete.com/kategori/egitim
+http://www.yoremgazete.com/kategori/politika
+http://www.yoremgazete.com/kategori/saglik
+http://www.yoremgazete.com/kategori/teknoloji
+http://www.yoremgazete.com/kategori/spor
+http://www.yoremgazete.com/yazarlarimiz
+http://www.yoremgazete.com/kategori/kultur-sanat
+http://www.yoremgazete.com/kategori/magazin
+http://www.yoremgazete.com/video-galeri
 
 #include in index;
 
+^https?://([a-z]+\.)?yoremgazete\.com/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?yoremgazete\.com/video\_galeri/.*$
 
 #exclude from crawl;
 
@@ -12,6 +25,7 @@ www.yoremgazete.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?yoremgazete\.com/video\_galeri/.*$
 
 #column patterns;
 

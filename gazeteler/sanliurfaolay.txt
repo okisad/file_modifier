@@ -1,10 +1,32 @@
 #seeds;
-www.sanliurfaolay.com
+http://www.sanliurfaolay.com/
+http://www.sanliurfaolay.com/kategori/ozel-haber/29
+http://www.sanliurfaolay.com/kategori/bolge/30
+http://www.sanliurfaolay.com/kategori/sanliurfa/28
+http://www.sanliurfaolay.com/kategori/siyaset/3
+http://www.sanliurfaolay.com/kategori/ekonomi/1
+http://www.sanliurfaolay.com/kategori/spor/4
+http://www.sanliurfaolay.com/kategori/guncel/2
+http://www.sanliurfaolay.com/kategori/dunya/7
+http://www.sanliurfaolay.com/kategori/roportaj/17
+http://www.sanliurfaolay.com/kategori/saglik/8
+http://www.sanliurfaolay.com/kategori/gap-ve-tarim/12
+http://www.sanliurfaolay.com/kategori/egitim/27
+http://www.sanliurfaolay.com/kategori/medya/24
+http://www.sanliurfaolay.com/webtv
+http://www.sanliurfaolay.com/yazarlar
 
 #include in index;
 
+^https?://([a-z]+\.)?sanliurfaolay\.com/.*/.*/[0-9]+$
+^https?://([a-z]+\.)?sanliurfaolay\.com/yazarlar/.*/.*/[0-9]+$
+^https?://([a-z]+\.)?sanliurfaolay\.com/webtv/.*/.*/[0-9]+$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?sanliurfaolay\.com/kategori/[0-9]+/sayfa/[0-9]+$
+^https?://([a-z]+\.)?sanliurfaolay\.com/kategori/.*/[0-9]+/sayfa/[0-9]+$
+^https?://([a-z]+\.)?sanliurfaolay\.com/kategori/ilan/[0-9]+$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +34,9 @@ www.sanliurfaolay.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?sanliurfaolay\.com/webtv/.*/.*/[0-9]+$
 #column patterns;
-
+^https?://([a-z]+\.)?sanliurfaolay\.com/yazarlar/.*/[0-9]+$
 #category patterns;
 
 #date elements;

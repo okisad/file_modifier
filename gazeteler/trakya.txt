@@ -1,7 +1,23 @@
 #seeds;
-www.trakyagazetesi.com.tr
+http://trakyagazetesi.com.tr/
+http://www.trakyagazetesi.com.tr/genel
+http://www.trakyagazetesi.com.tr/trakya
+http://www.trakyagazetesi.com.tr/gundem
+http://www.trakyagazetesi.com.tr/siyaset
+http://www.trakyagazetesi.com.tr/spor
+http://www.trakyagazetesi.com.tr/yasam
+http://www.trakyagazetesi.com.tr/ekonomi
+http://www.trakyagazetesi.com.tr/saglik
+http://www.trakyagazetesi.com.tr/magazin
+http://www.trakyagazetesi.com.tr/teknoloji
+http://www.trakyagazetesi.com.tr/kultur-sanat
+http://www.trakyagazetesi.com.tr/video-galeri.html
+http://www.trakyagazetesi.com.tr/yazarlar.html
 
 #include in index;
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/.*\-video\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +28,10 @@ www.trakyagazetesi.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
-
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/.*\-makale\,[0-9]+\.html$
 #category patterns;
-
+^https?://([a-z]+\.)?trakyagazetesi\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 #date elements;

@@ -1,0 +1,36 @@
+#seeds;
+http://www.kentgazetesi.com/
+http://www.kentgazetesi.com/?s=2&gundem
+http://www.kentgazetesi.com/?s=6&bursa_haberleri
+http://www.kentgazetesi.com/?s=20&bursaspor_haberleri
+http://www.kentgazetesi.com/?s=5&dunya_haberleri
+http://www.kentgazetesi.com/?s=7&spor_haberleri
+http://www.kentgazetesi.com/?s=8&asayis_haberleri
+http://www.kentgazetesi.com/?s=9&siyaset_haberleri
+http://www.kentgazetesi.com/?s=14&ekonomi_haberleri
+http://www.kentgazetesi.com/?s=17&magazin_haberleri
+http://kentgazetesi.com/?s=21&video_haber
+http://www.kentgazetesi.com/?ya=0
+
+#include in index;
+
+^https?://([a-z]+\.)?kentgazetesi\.com/\?yz\=[0-9]+\&$
+^https?://www\.kentgazetesi\.com/\?h\=[0-9]+\&.*\&s\=.*$
+^https?://kentgazetesi\.com/\?h\=[0-9]+\&.*\&s\=.*$
+
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://kentgazetesi\.com/\?h\=[0-9]+\&.*\&s\=.*$
+#column patterns;
+^https?://([a-z]+\.)?kentgazetesi\.com/\?yz\=[0-9]+\&$
+
+#category patterns;
+
+#date elements;

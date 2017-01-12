@@ -1,7 +1,23 @@
 #seeds;
-www.malatyasonsöz.com.tr
+http://www.malatyasonsoz.com.tr/
+http://www.malatyasonsoz.com.tr/kategori-8-Siyaset.html
+http://www.malatyasonsoz.com.tr/kategori-10-Teknoloji.html
+http://www.malatyasonsoz.com.tr/kategori-14-Genel.html
+http://www.malatyasonsoz.com.tr/kategori-7-Saglik.html
+http://www.malatyasonsoz.com.tr/kategori-2-Egitim.html
+http://www.malatyasonsoz.com.tr/kategori-5-Kultursanat.html
+http://www.malatyasonsoz.com.tr/kategori-1-Dunya.html
+http://www.malatyasonsoz.com.tr/kategori-11-Turkiye.html
+http://www.malatyasonsoz.com.tr/kategori-3-Ekonomi.html
+http://www.malatyasonsoz.com.tr/kategori-4-Asayis.html
+http://www.malatyasonsoz.com.tr/kategori-9-Spor.html
+http://www.malatyasonsoz.com.tr/kategori-6-Malatya.html
+http://www.malatyasonsoz.com.tr/galeri.asp?i=v
 
 #include in index;
+^https?://([a-z]+\.)?malatyasonsoz\.com\.tr/haber\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?malatyasonsoz\.com\.tr/yazar\-[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?malatyasonsoz\.com\.tr/galeri\.asp?.*\&vd\=[0-9]+$
 
 
 #exclude from crawl;
@@ -12,9 +28,9 @@ www.malatyasonsöz.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?malatyasonsoz\.com\.tr/galeri\.asp?.*\&vd\=[0-9]+$
 #column patterns;
-
+^https?://([a-z]+\.)?malatyasonsoz\.com\.tr/yazar\-[0-9]+\-.*\.html$
 #category patterns;
 
 #date elements;

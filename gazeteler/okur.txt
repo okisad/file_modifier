@@ -1,10 +1,35 @@
 #seeds;
-www.okurgazetesi.com
+http://okurgazetesi.com/
+http://okurgazetesi.com/video-galeri/
+http://okurgazetesi.com/gundem/
+http://okurgazetesi.com/siyaset/
+http://okurgazetesi.com/spor/
+http://okurgazetesi.com/ekonomi/
+http://okurgazetesi.com/kultur-sanat/
+http://okurgazetesi.com/3-sayfa/
+http://okurgazetesi.com/yasam/
+http://okurgazetesi.com/saglik/
+http://okurgazetesi.com/egitim/
+http://okurgazetesi.com/dunya/
+http://okurgazetesi.com/teknoloji/
+http://okurgazetesi.com/kose-yazarlari/
+http://okurgazetesi.com/video-galeri/kategori/spor/2/
+http://okurgazetesi.com/video-galeri/kategori/haber/1/
+http://okurgazetesi.com/video-galeri/kategori/saglik/5/
+http://okurgazetesi.com/video-galeri/kategori/cocuklar/8/
+http://okurgazetesi.com/video-galeri/kategori/tv-ve-magazin/6/
+http://okurgazetesi.com/video-galeri/kategori/amator/10/
+http://okurgazetesi.com/video-galeri/kategori/sinema/3/
 
 #include in index;
+^https?://([a-z]+\.)?okurgazetesi\.com/video\-detay/.*/[0-9]+/$
+^https?://([a-z]+\.)?okurgazetesi\.com/yazarlar/.*/.*/[0-9]+/$
+^https?://([a-z]+\.)?okurgazetesi\.com/.*/[0-9]+/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?okurgazetesi\.com/.*/sayfa/[0-9]+/$
+
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +37,10 @@ www.okurgazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?okurgazetesi\.com/video\-detay/.*/[0-9]+/$
 
 #column patterns;
-
+^https?://([a-z]+\.)?okurgazetesi\.com/yazarlar/.*/.*/[0-9]+/$
 #category patterns;
 
 #date elements;

@@ -1,0 +1,38 @@
+#seeds;
+http://www.yenigungazetesi.net/
+http://www.yenigungazetesi.net/turkiye/
+http://www.yenigungazetesi.net/dunya/
+http://www.yenigungazetesi.net/siyaset/
+http://www.yenigungazetesi.net/ekonomi/
+http://www.yenigungazetesi.net/spor/
+http://www.yenigungazetesi.net/belediyeler/
+http://www.yenigungazetesi.net/kultur-sanat/
+http://www.yenigungazetesi.net/saglik/
+http://www.yenigungazetesi.net/bilim-teknoloji/
+http://www.yenigungazetesi.net/video-galeri/
+http://www.yenigungazetesi.net/kose-yazarlari/
+http://www.yenigungazetesi.net/belediyeler/
+
+
+#include in index;
+
+^https?://([a-z]+\.)?yenigungazetesi\.net/.*/[0-9]+/$
+^https?://([a-z]+\.)?yenigungazetesi\.net/yazarlar/.*/.*/[0-9]+/$
+
+
+
+#exclude from crawl;
+
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+
+#column patterns;
+^https?://([a-z]+\.)?yenigungazetesi\.net/yazarlar/.*/.*/[0-9]+/$
+#category patterns;
+
+#date elements;

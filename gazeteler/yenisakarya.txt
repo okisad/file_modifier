@@ -1,7 +1,49 @@
 #seeds;
-www.yenisakarya.com
+http://www.yenisakarya.com/
+http://www.yenisakarya.com/12-spor-haberleri.htm
+http://www.yenisakarya.com/11-roportajlar.htm
+http://www.yenisakarya.com/8-yasam-haberleri.htm
+http://www.yenisakarya.com/3-siyaset-haberleri.htm
+http://www.yenisakarya.com/2-ekonomi-haberleri.htm
+http://www.yenisakarya.com/VideoGalerileri.html
+http://www.yenisakarya.com/#
+http://www.yenisakarya.com/9-kultur-sanat-haberleri.htm
+http://www.yenisakarya.com/6-magazin-haberleri.htm
+http://www.yenisakarya.com/4-dunyadan-haberler.htm
+http://www.yenisakarya.com/1-gundem-haberleri.htm
+http://www.yenisakarya.com/5-saglik-haberleri.htm
+http://www.yenisakarya.com/7-medya-haberleri.htm
+http://www.yenisakarya.com/10-teknoloji-haberleri.htm
+http://www.yenisakarya.com/60-ibrahim-damar-makaleleri.html
+http://www.yenisakarya.com/2-zeki-aydintepe-makaleleri.html
+http://www.yenisakarya.com/30-cihat-zafer-makaleleri.html
+http://www.yenisakarya.com/33-fahri-tuna-makaleleri.html
+http://www.yenisakarya.com/38-pazar-filesi-makaleleri.html
+http://www.yenisakarya.com/16-osman-karaguzel-makaleleri.html
+http://www.yenisakarya.com/44-lutfi-salkim-makaleleri.html
+http://www.yenisakarya.com/23-hamdi-guler-makaleleri.html
+http://www.yenisakarya.com/52-selim-gunduzalp-makaleleri.html
+http://www.yenisakarya.com/17-bizim-bahce-makaleleri.html
+http://www.yenisakarya.com/55-levent-bayri-makaleleri.html
+http://www.yenisakarya.com/24-engin-arapoglu-makaleleri.html
+http://www.yenisakarya.com/10-yusuf-cinal-makaleleri.html
+http://www.yenisakarya.com/53-serhat-demirel-makaleleri.html
+http://www.yenisakarya.com/37-arda-aydintepe-makaleleri.html
+http://www.yenisakarya.com/35-sezgin-ergin-makaleleri.html
+http://www.yenisakarya.com/8-ergun-ozkan-makaleleri.html
+http://www.yenisakarya.com/36-temel-yurek-makaleleri.html
+http://www.yenisakarya.com/45-namik-oze-makaleleri.html
+http://www.yenisakarya.com/54-omer-arikan-makaleleri.html
+http://www.yenisakarya.com/49-hamdi-senoglu-makaleleri.html
+http://www.yenisakarya.com/18-salih-simsek-makaleleri.html
+http://www.yenisakarya.com/43-cavit-dereli-makaleleri.html
+http://www.yenisakarya.com/7-arzuhan-kocabas-makaleleri.html
+http://www.yenisakarya.com/41-idris-dereli-makaleleri.html
 
 #include in index;
+
+^https?://([a-z]+\.)?yenisakarya\.com/[0-9]+\-.*\-haberi\.html$
+^https?://([a-z]+\.)?yenisakarya\.com/m\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -14,6 +56,7 @@ www.yenisakarya.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?yenisakarya\.com/m\-.*\-[0-9]+\.html$
 
 #category patterns;
 

@@ -1,8 +1,27 @@
 #seeds;
-www.sivasmemleket.com
+http://www.sivasmemleket.com/
+http://www.sivasmemleket.com/#
+http://www.sivasmemleket.com/haberler/siyaset/
+http://www.sivasmemleket.com/haberler/son-dakika/
+http://www.sivasmemleket.com/haberler/gundem/
+http://www.sivasmemleket.com/haberler/yasam/
+http://www.sivasmemleket.com/haberler/spor/
+http://www.sivasmemleket.com/haberler/egitim/
+http://www.sivasmemleket.com/yazarlar/
+http://www.sivasmemleket.com/videolar/
+http://www.sivasmemleket.com/haberler/kultur-sanat/
+http://www.sivasmemleket.com/haberler/saglik/
+http://www.sivasmemleket.com/haberler/ekonomi/
+http://www.sivasmemleket.com/haberler/bilim-teknoloji/
+http://www.sivasmemleket.com/haberler/magazin/
+http://www.sivasmemleket.com/haberler/dunya/
+
 
 #include in index;
 
+^https?://([a-z]+\.)?sivasmemleket\.com/kose\-yazisi/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?sivasmemleket\.com/video/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?sivasmemleket\.com/haber/[0-9]+/.*\.html$
 
 #exclude from crawl;
 
@@ -12,8 +31,10 @@ www.sivasmemleket.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?sivasmemleket\.com/video/[0-9]+/.*\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?sivasmemleket\.com/kose\-yazisi/[0-9]+/.*\.html$
 
 #category patterns;
 

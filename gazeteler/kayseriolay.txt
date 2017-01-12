@@ -1,7 +1,19 @@
 #seeds;
-www.kayseriolay.cm
+http://www.kayseriolay.com/
+http://www.kayseriolay.com/ozel-dosya-haberleri-k1.htm
+http://www.kayseriolay.com/roportaj-haberleri-k52.htm
+http://www.kayseriolay.com/asayis-haberleri-k3.htm
+http://www.kayseriolay.com/spor-haberleri-k4.htm
+http://www.kayseriolay.com/siyaset-haberleri-k8.htm
+http://www.kayseriolay.com/ekonomi-haberleri-k6.htm
+http://www.kayseriolay.com/kultur-sanat-haberleri-k7.htm
+http://www.kayseriolay.com/saglik-haberleri-k70.htm
+http://www.kayseriolay.com/yerel-yonetimler-haberleri-k5.htm
+http://www.kayseriolay.com/son-dakika-haberleri-k72.htm
+http://www.kayseriolay.com/guncel-haberleri-k2.htm
 
 #include in index;
+^https?://([a-z]+\.)?kayseriolay\.com/.*\-h[0-9]+\.htm$
 
 
 #exclude from crawl;

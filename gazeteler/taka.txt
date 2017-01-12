@@ -1,7 +1,26 @@
 #seeds;
-www.takagazete.com.tr
+http://www.takagazete.com.tr/#
+http://www.takagazete.com.tr/
+http://www.takagazete.com.tr/yazarlar.html
+http://www.takagazete.com.tr/webtv/
+http://www.takagazete.com.tr/kategori/manset
+http://www.takagazete.com.tr/kategori/turkiye
+http://www.takagazete.com.tr/kategori/bolgemiz
+http://www.takagazete.com.tr/kategori/spor
+http://www.takagazete.com.tr/kategori/dunya
+http://www.takagazete.com.tr/kategori/roportaj
+http://www.takagazete.com.tr/kategori/kultursanat
+http://www.takagazete.com.tr/kategori/spor-yazilari
+http://www.takagazete.com.tr/kategori/politika
+http://www.takagazete.com.tr/kategori/magazin
+
+
 
 #include in index;
+
+^https?://([a-z]+\.)?takagazete\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?takagazete\.com\.tr/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?takagazete\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +31,9 @@ www.takagazete.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?takagazete\.com\.tr/.*\-video\,[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?takagazete\.com\.tr/.*\-makale\,[0-9]+\.html$
 #category patterns;
-
+^https?://([a-z]+\.)?takagazete\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 #date elements;

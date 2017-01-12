@@ -1,10 +1,31 @@
 #seeds;
-www.ofhavadis.com
+http://www.ofhavadis.com/
+http://www.ofhavadis.com/video-galeri.html
+http://www.ofhavadis.com/yazarlar.html
+http://www.ofhavadis.com/trabzon
+http://www.ofhavadis.com/kulis
+http://www.ofhavadis.com/ankara
+http://www.ofhavadis.com/havadis-ozel
+http://www.ofhavadis.com/istanbul
+http://www.ofhavadis.com/roportaj
+http://www.ofhavadis.com/dunya
+http://www.ofhavadis.com/turkiye
+http://www.ofhavadis.com/dernekpazari
+http://www.ofhavadis.com/ofspor
+http://www.ofhavadis.com/trabzonspor
+http://www.ofhavadis.com/hayrat
+http://www.ofhavadis.com/caykara
+http://www.ofhavadis.com/of
 
 #include in index;
+^https?://([a-z]+\.)?ofhavadis\.com/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?ofhavadis\.com/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?ofhavadis\.com/.*\-video\,[0-9]+\.html$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?ofhavadis\.com/ilan/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?ofhavadis\.com/vefat/.*\-h[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +33,11 @@ www.ofhavadis.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?ofhavadis\.com/.*\-video\,[0-9]+\.html$
 
 #column patterns;
-
+^https?://([a-z]+\.)?ofhavadis\.com/.*\-makale\,[0-9]+\.html$
 #category patterns;
+^https?://([a-z]+\.)?ofhavadis\.com/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

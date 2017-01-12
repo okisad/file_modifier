@@ -1,10 +1,56 @@
 #seeds;
-www.yeniadana.net
+http://www.yeniadana.net/haber/kategori/ulusal_haberler-130.html
+http://www.yeniadana.net/haber/kategori/dunya-134.html
+http://www.yeniadana.net/haber/kategori/SİYASET-131.html
+http://www.yeniadana.net/haber/kategori/ak_parti-123.html
+http://www.yeniadana.net/haber/kategori/chp-124.html
+http://www.yeniadana.net/haber/kategori/mhp-125.html
+http://www.yeniadana.net/haber/kategori/diger_partiler-129.html
+http://www.yeniadana.net/haber/kategori/ekonomi-135.html
+http://www.yeniadana.net/haber/kategori/magazin-137.html
+http://www.yeniadana.net/haber/kategori/EĞİTİM-122.html
+http://www.yeniadana.net/haber/kategori/BÖLGE-126.html
+http://www.yeniadana.net/haber/kategori/asayis-149.html
+http://www.yeniadana.net/haber/kategori/spor-132.html
+http://www.yeniadana.net/haber/kategori/amator-144.html
+http://www.yeniadana.net/haber/kategori/adanaspor-150.html
+http://www.yeniadana.net/haber/kategori/adanademirspor-152.html
+http://www.yeniadana.net/haber/kategori/sportotosuperlig-153.html
+http://www.yeniadana.net/haber/kategori/ptt1lig-155.html
+http://www.yeniadana.net/haber/kategori/boks-159.html
+http://www.yeniadana.net/haber/kategori/veleybol-161.html
+http://www.yeniadana.net/haber/kategori/basketbol-162.html
+http://www.yeniadana.net/haber/kategori/atletizm-163.html
+http://www.yeniadana.net/haber/kategori/diger-dallar-164.html
+http://www.yeniadana.net/haber/kategori/sirikla-atlama-165.html
+http://www.yeniadana.net/haber/kategori/yuzme-169.html
+http://www.yeniadana.net/haber/kategori/judo-tekvando-170.html
+http://www.yeniadana.net/haber/kategori/turizm-127.html
+http://www.yeniadana.net/haber/kategori/yasam-136.html
+http://www.yeniadana.net/haber/kategori/saglik-139.html
+http://www.yeniadana.net/haber/kategori/yerel-148.html
+http://www.yeniadana.net/haber/kategori/basyazi-147.html
+http://www.yeniadana.net/haber/kategori/cetin-remzi-yuregir-soylesi-177.html
+http://www.yeniadana.net/haber/kategori/cetin-remzi-yuregir-bas-yazi-178.html
+http://www.yeniadana.net/haber/kategori/ekonomiye-bakis-176.html
+http://www.yeniadana.net/haber/kategori/tarim-140.html
+http://www.yeniadana.net/haber/kategori/afet-166.html
+http://www.yeniadana.net/haber/kategori/tbmm-168.html
+http://www.yeniadana.net/haber/kategori/yurtta-167.html
+http://www.yeniadana.net/haber/kategori/teror-172.html
+http://www.yeniadana.net/video-galeri/
+
 
 #include in index;
 
+^https?://([a-z]+\.)?yeniadana\.net/video\-galeri/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?yeniadana\.net/haber/.*-[0-9]+\.html$
+^https?://([a-z]+\.)?yeniadana\.net/kose\-yazilari/.*-[0-9]+\.html$
+
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?yeniadana\.net/haber/kategori/.*\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +58,10 @@ www.yeniadana.net
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?yeniadana\.net/video\-galeri/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?yeniadana\.net/kose\-yazilari/.*-[0-9]+\.html$
 
 #category patterns;
 

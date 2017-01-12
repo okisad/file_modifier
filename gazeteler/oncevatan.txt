@@ -1,8 +1,32 @@
 #seeds;
-www.oncevatan.com.tr
+http://www.oncevatan.com.tr/webtv/
+http://www.oncevatan.com.tr/yazarlar/
+http://www.oncevatan.com.tr/#
+http://www.oncevatan.com.tr/
+http://www.oncevatan.com.tr/guncel/
+http://www.oncevatan.com.tr/gundem/
+http://www.oncevatan.com.tr/yurt/
+http://www.oncevatan.com.tr/istanbul/
+http://www.oncevatan.com.tr/dunya/
+http://www.oncevatan.com.tr/ekonomi/
+http://www.oncevatan.com.tr/spor/
+http://www.oncevatan.com.tr/kultur-ve-sanat/
+http://www.oncevatan.com.tr/politika/
+http://www.oncevatan.com.tr/saglik/
+http://www.oncevatan.com.tr/bilim-ve-teknoloji/
+http://www.oncevatan.com.tr/yasam/
+http://www.oncevatan.com.tr/magazin/
+http://www.oncevatan.com.tr/sinema/
+http://www.oncevatan.com.tr/amator-spor/
+http://www.oncevatan.com.tr/egitim/
+http://www.oncevatan.com.tr/roportaj/
+http://www.oncevatan.com.tr/turkiye/
+http://www.oncevatan.com.tr/genel/
 
 #include in index;
-
+^https?://([a-z]+\.)?oncevatan\.com\.tr/.*/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?oncevatan\.com\.tr/.*\-video\,[0-9]+\.html$
+^https?://([a-z]+\.)?oncevatan\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +36,12 @@ www.oncevatan.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?oncevatan\.com\.tr/.*\-video\,[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?oncevatan\.com\.tr/.*\-makale\,[0-9]+\.html$
 
 #category patterns;
+^https?://([a-z]+\.)?oncevatan\.com\.tr/(.*?)/.*\-h[0-9]+\.html$
 
 #date elements;

@@ -1,10 +1,29 @@
 #seeds;
-www.polatliistiklal.com
+http://www.polatlipostasi.com/
+http://www.polatlipostasi.com/kategori/gundem/
+http://www.polatlipostasi.com/kategori/siyaset/
+http://www.polatlipostasi.com/kategori/ekonomi/
+http://www.polatlipostasi.com/kategori/kultur-sanat/
+http://www.polatlipostasi.com/kategori/saglik/
+http://www.polatlipostasi.com/kategori/spor/
+http://www.polatlipostasi.com/all-videos/
+http://www.polatlipostasi.com/#
 
 #include in index;
 
+^https?://([a-z]+\.)?polatlipostasi\.com/.*/$
+^https?://([a-z]+\.)?polatlipostasi\.com/videos/video/.*/$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?polatlipostasi\.com/kategori/.*/$
+^https?://([a-z]+\.)?polatlipostasi\.com/author/.*/$
+^https?://([a-z]+\.)?polatlipostasi\.com/eleman-araniyor-[0-9]+/$
+^https?://([a-z]+\.)?polatlipostasi\.com/kunye/$
+^https?://([a-z]+\.)?polatlipostasi\.com/featured-videos/$
+^https?://([a-z]+\.)?polatlipostasi\.com/video-home/$
+^https?://([a-z]+\.)?polatlipostasi\.com/video-list/$
+^https?://([a-z]+\.)?polatlipostasi\.com/latest-videos/$
 
 # generic exclusions
 .*\.pdf$
@@ -12,6 +31,7 @@ www.polatliistiklal.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?polatlipostasi\.com/videos/video/.*/$
 
 #column patterns;
 

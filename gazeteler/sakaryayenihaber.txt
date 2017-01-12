@@ -1,7 +1,19 @@
 #seeds;
-www.sakaryayenihaber.com
+http://www.sakaryayenihaber.com/
+http://www.sakaryayenihaber.com/5-spor-haberleri.htm
+http://www.sakaryayenihaber.com/1-guncel-haberler.htm
+http://www.sakaryayenihaber.com/4-siyaset-haberleri.htm
+http://www.sakaryayenihaber.com/3-ekonomi-haberleri.htm
+http://www.sakaryayenihaber.com/2-ilce-haberleri.htm
+http://www.sakaryayenihaber.com/7-vatandas-ne-diyor.htm
+http://www.sakaryayenihaber.com/6-perde-arkasi-haberleri.htm
+http://www.sakaryayenihaber.com/yazarlar.html
+http://www.sakaryayenihaber.com/TumHaberVideolari.html
 
 #include in index;
+^https?://([a-z]+\.)?sakaryayenihaber\.com/[0-9]+\-.*\-haberi\.html$
+^https?://([a-z]+\.)?sakaryayenihaber\.com/video\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?sakaryayenihaber\.com/m\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +24,9 @@ www.sakaryayenihaber.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?sakaryayenihaber\.com/video\-.*\-[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?sakaryayenihaber\.com/m\-.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

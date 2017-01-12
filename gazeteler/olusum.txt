@@ -1,7 +1,16 @@
 #seeds;
-www.gaziantepolusum.com
+http://gaziantepolusum.com/
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265706
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265722
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265734
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265774
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265966
+http://www.gaziantepolusum.com/default.asp?page=haber&haber=22265976
 
 #include in index;
+^https?://([a-z]+\.)?gaziantepolusum\.com/default\.asp\?page\=haberdetay\&haber\=[0-9]+\#.*$
+^https?://([a-z]+\.)?gaziantepolusum\.com/default\.asp\?page\=yazar\&yazar\=[0-9]+$
+
 
 
 #exclude from crawl;
@@ -14,6 +23,7 @@ www.gaziantepolusum.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?gaziantepolusum\.com/default\.asp\?page\=yazar\&yazar\=[0-9]+$
 
 #category patterns;
 

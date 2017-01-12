@@ -1,7 +1,35 @@
 #seeds;
-www.medyayenigun.net
+http://www.medyayenigun.net/
+http://medyayenigun.net/haberler/guncel/
+http://medyayenigun.net/haberler/siyaset/
+http://medyayenigun.net/haberler/asayis/
+http://medyayenigun.net/haberler/dunya/
+http://medyayenigun.net/haberler/ekonomi/
+http://medyayenigun.net/haberler/saglik/
+http://medyayenigun.net/haberler/egitim/
+http://medyayenigun.net/haberler/sigortali-yasam/
+http://medyayenigun.net/haberler/roportaj/
+http://medyayenigun.net/haberler/sektor/
+http://medyayenigun.net/haberler/KOZAN/
+http://medyayenigun.net/haberler/TUFANBEYL%C4%B0/
+http://medyayenigun.net/haberler/SA%C4%B0MBEYL%C4%B0/
+http://medyayenigun.net/haberler/POZANTI/
+http://medyayenigun.net/haberler/Y%C3%9CRE%C4%9E%C4%B0R/
+http://medyayenigun.net/haberler/SEYHAN/
+http://medyayenigun.net/haberler/%C3%87UKUROVA/
+http://medyayenigun.net/haberler/%C4%B0MAMO%C4%9ELU/
+http://medyayenigun.net/haberler/ALADA%C4%9E/
+http://medyayenigun.net/haberler/KARA%C4%B0SALI/
+http://medyayenigun.net/haberler/CEYHAN/
+http://medyayenigun.net/haberler/SARI%C3%87AM/
+http://medyayenigun.net/haberler/KARATA%C5%9E/
+http://medyayenigun.net/haberler/FEKE/
+http://medyayenigun.net/haberler/YUMURTALIK/
 
 #include in index;
+
+^https?://([a-z]+\.)?medyayenigun\.net/haber/[0-9]+/.*\.html$
+^https?://([a-z]+\.)?medyayenigun\.net/kose\-yazisi/[0-9]+/.*\.html$
 
 
 #exclude from crawl;
@@ -14,6 +42,7 @@ www.medyayenigun.net
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?medyayenigun\.net/kose\-yazisi/[0-9]+/.*\.html$
 
 #category patterns;
 

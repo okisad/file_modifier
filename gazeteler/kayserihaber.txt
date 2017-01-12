@@ -13,10 +13,11 @@ http://www.kayserihaber.com.tr/haber/kategori/egitim-246.html
 http://www.kayserihaber.com.tr/haber/kategori/roportajlar-247.html
 
 #include in index;
-^https?://([a-z]+\.)?kayserihaber\.com/kose\-yazilari/.*\-[0-9]+\.html$
-^https?://([a-z]+\.)?kayserihaber\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?kayserihaber\.com\.tr/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?kayserihaber\.com\.tr/haber/.*\-[0-9]+\.html$
 
 #exclude from crawl;
+^https?://([a-z]+\.)?kayserihaber\.com\.tr/haber/kategori/[0-9]+/.*\-[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$

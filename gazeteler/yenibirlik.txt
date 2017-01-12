@@ -1,10 +1,27 @@
 #seeds;
-www.gazetebirlik.com
+http://www.gazetebirlik.com/
+http://www.gazetebirlik.com/haber/kategori/guncel/
+http://www.gazetebirlik.com/haber/kategori/turkiye/
+http://www.gazetebirlik.com/haber/kategori/dunya/
+http://www.gazetebirlik.com/haber/kategori/ekonomi/
+http://www.gazetebirlik.com/haber/kategori/spor/
+http://www.gazetebirlik.com/haber/kategori/saglik/
+http://www.gazetebirlik.com/haber/kategori/kultur-sanat/
+http://www.gazetebirlik.com/haber/kategori/teknoloji/
+http://www.gazetebirlik.com/haber/kategori/egitim/
+http://www.gazetebirlik.com/haber/kategori/turizm/
+http://www.gazetebirlik.com/haber/kategori/otomotiv/
+http://www.gazetebirlik.com/yazarlar/
+http://www.gazetebirlik.com/haber/kategori/magazin/
+http://www.gazetebirlik.com/haber/kategori/gurme/
 
 #include in index;
+^https?://([a-z]+\.)?gazetebirlik\.com/haber/.*\-[0-9]+/$
+^https?://([a-z]+\.)?gazetebirlik\.com/yazarlar/.*/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?gazetebirlik\.com/yazarlar/yazar/.*/$
 
 # generic exclusions
 .*\.pdf$
@@ -14,7 +31,7 @@ www.gazetebirlik.com
 #video patterns;
 
 #column patterns;
-
+^https?://([a-z]+\.)?gazetebirlik\.com/yazarlar/.*/$
 #category patterns;
 
 #date elements;

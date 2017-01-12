@@ -1,7 +1,25 @@
 #seeds;
-www.kayserikenthaber.com
+http://www.kayserikenthaber.com/
+http://kayserikenthaber.com/index.php/category/gundem/
+http://kayserikenthaber.com/index.php/category/ekonomi/
+http://kayserikenthaber.com/index.php/category/spor/
+http://kayserikenthaber.com/index.php/category/dunya/
+http://kayserikenthaber.com/index.php/category/kadin/
+http://kayserikenthaber.com/index.php/category/kultur-sanat/
+http://kayserikenthaber.com/index.php/category/kose-yazilari/
+http://kayserikenthaber.com/index.php/category/egitim/
+http://kayserikenthaber.com/index.php/category/saglik/
+http://kayserikenthaber.com/index.php/category/teknoloji/
+http://kayserikenthaber.com/index.php/category/yasam/
+http://kayserikenthaber.com/index.php/category/medya/
+http://kayserikenthaber.com/index.php/category/tarihten/
+http://kayserikenthaber.com/index.php/yazar
+http://kayserikenthaber.com/index.php/category/video-galeri/
 
 #include in index;
+
+^https?://([a-z]+\.)?kayserikenthaber\.com/index\.php/[0-9]+/[0-9]+/[0-9]+/.*/$
+^https?://([a-z]+\.)?kayserikenthaber\.com/index\.php/[0-9]+/[0-9]+/[0-9]+/[0-9]+/$
 
 
 #exclude from crawl;
@@ -12,6 +30,7 @@ www.kayserikenthaber.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kayserikenthaber\.com/index\.php/[0-9]+/[0-9]+/[0-9]+/[0-9]+/$
 
 #column patterns;
 

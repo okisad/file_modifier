@@ -1,7 +1,19 @@
 #seeds;
-www.canakkaleyasamgazetesi.com
+http://www.canakkaleyasamgazetesi.com/
+http://www.canakkaleyasamgazetesi.com/gundem/
+http://www.canakkaleyasamgazetesi.com/siyaset/
+http://www.canakkaleyasamgazetesi.com/spor/
+http://www.canakkaleyasamgazetesi.com/magazin/
+http://www.canakkaleyasamgazetesi.com/ekonomi/
+http://www.canakkaleyasamgazetesi.com/yazarlar/
+http://www.canakkaleyasamgazetesi.com/videogaleri/
+
 
 #include in index;
+
+^https?://([a-z]+\.)?canakkaleyasamgazetesi\.com/.*\-n[0-9]+/$
+^https?://([a-z]+\.)?canakkaleyasamgazetesi\.com/video/.*\-[0-9]+/$
+^https?://([a-z]+\.)?canakkaleyasamgazetesi\.com/makale/.*\-[0-9]+/$
 
 
 #exclude from crawl;
@@ -12,9 +24,9 @@ www.canakkaleyasamgazetesi.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?canakkaleyasamgazetesi\.com/video/.*\-[0-9]+/$
 #column patterns;
-
+^https?://([a-z]+\.)?canakkaleyasamgazetesi\.com/makale/.*\-[0-9]+/$
 #category patterns;
 
 #date elements;

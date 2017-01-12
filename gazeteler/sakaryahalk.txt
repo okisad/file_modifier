@@ -1,7 +1,15 @@
 #seeds;
-www.sakaryahalk.com
+http://www.sakaryahalk.com/
+http://www.sakaryahalk.com/haberler.html
+http://www.sakaryahalk.com/spor-haberleri.html
+http://www.sakaryahalk.com/TumHaberVideolari.html
+http://www.sakaryahalk.com/roportajlar.html
+http://www.sakaryahalk.com/#
 
 #include in index;
+
+^https?://([a-z]+\.)?sakaryahalk\.com/[0-9]+\-.*\.html$
+^https?://([a-z]+\.)?sakaryahalk\.com/m\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -14,6 +22,7 @@ www.sakaryahalk.com
 #video patterns;
 
 #column patterns;
+^https?://([a-z]+\.)?sakaryahalk\.com/m\-.*\-[0-9]+\.html$
 
 #category patterns;
 

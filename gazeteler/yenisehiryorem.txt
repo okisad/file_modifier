@@ -1,7 +1,20 @@
 #seeds;
-www.yenisehiryörem.com
+http://www.yenisehiryorem.com/
+http://www.yenisehiryorem.com/Kategori/yenisehir
+http://www.yenisehiryorem.com/Kategori/bursa
+http://www.yenisehiryorem.com/Kategori/diger-ilceler
+http://www.yenisehiryorem.com/Kategori/3-sayfa-haberleri
+http://www.yenisehiryorem.com/Kategori/Ekonomi
+http://www.yenisehiryorem.com/Kategori/Spor
+http://www.yenisehiryorem.com/Kategori/saglik
+http://www.yenisehiryorem.com/Kategori/video-haber
+http://www.yenisehiryorem.com/Kategori/egitim
+http://www.yenisehiryorem.com/yazar/
 
 #include in index;
+
+^https?://([a-z]+\.)?yenisehiryorem\.com/haber/.*/$
+^https?://([a-z]+\.)?yenisehiryorem\.com/makale/.*/$
 
 
 #exclude from crawl;
@@ -14,7 +27,7 @@ www.yenisehiryörem.com
 #video patterns;
 
 #column patterns;
-
+^https?://([a-z]+\.)?yenisehiryorem\.com/makale/.*/$
 #category patterns;
 
 #date elements;

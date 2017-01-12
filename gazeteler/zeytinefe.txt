@@ -1,10 +1,21 @@
 #seeds;
-www.zeytinefe.com 
+http://www.zeytinefe.com/
+http://www.zeytinefe.com/kategori/haberler/ekonomi
+http://www.zeytinefe.com/kategori/haberler/gundem
+http://www.zeytinefe.com/kategori/haberler/kent
+http://www.zeytinefe.com/kategori/haberler/siyaset
+http://www.zeytinefe.com/kategori/haberler/spor
+http://www.zeytinefe.com/kategori/kose-yazarlari
+http://www.zeytinefe.com/kategori/galeri/videolar
 
 #include in index;
 
+^https?://([a-z]+\.)?zeytinefe\.com/.*\.html$
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?zeytinefe\.com/gunun\-karikaturu\.html$
+
 
 # generic exclusions
 .*\.pdf$

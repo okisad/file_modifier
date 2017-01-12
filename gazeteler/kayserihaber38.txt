@@ -1,7 +1,28 @@
 #seeds;
-www.kanal38.com
+http://www.kanal38.com/
+http://www.kanal38.com/index.php
+http://www.kanal38.com/kategori_gundem_10_s_1.html
+http://www.kanal38.com/kategori_dunya_1_s_1.html
+http://www.kanal38.com/kategori_siyaset_3_s_1.html
+http://www.kanal38.com/kategori_futbol_11_s_1.html
+http://www.kanal38.com/kategori_tenis_12_s_1.html
+http://www.kanal38.com/kategori_golf_13_s_1.html
+http://www.kanal38.com/kategori_atletizm_14_s_1.html
+http://www.kanal38.com/kategori_su-sporlari_15_s_1.html
+http://www.kanal38.com/kategori_ekonomi_4_s_1.html
+http://www.kanal38.com/kategori_magazin_5_s_1.html
+http://www.kanal38.com/kategori_is-hayati_9_s_1.html
+http://www.kanal38.com/kategori_saglik_6_s_1.html
+http://www.kanal38.com/kategori_medya_7_s_1.html
+http://www.kanal38.com/kategori_diger_8_s_1.html
+http://www.kanal38.com/videogaleri.html
+http://www.kanal38.com/yazarlar.html
 
 #include in index;
+
+^https?://([a-z]+\.)?kanal38\.com/haber\_[0-9]+\_.*\.html$
+^https?://([a-z]+\.)?kanal38\.com/video\_[0-9]+\_.*\.html\#Video$
+^https?://([a-z]+\.)?kanal38\.com/m\_[0-9]+\_.*\.html$
 
 
 #exclude from crawl;
@@ -12,8 +33,10 @@ www.kanal38.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kanal38\.com/video\_[0-9]+\_.*\.html\#Video$
 
 #column patterns;
+^https?://([a-z]+\.)?kanal38\.com/m\_[0-9]+\_.*\.html$
 
 #category patterns;
 

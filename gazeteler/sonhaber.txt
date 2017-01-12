@@ -1,8 +1,16 @@
 #seeds;
-www.sonhaber.com.tr
+http://www.sonhaber.com.tr/
+http://www.sonhaber.com.tr/Kategori/spor
+http://www.sonhaber.com.tr/Kategori/kultur---sanat
+http://www.sonhaber.com.tr/Kategori/guncel
+http://www.sonhaber.com.tr/Kategori/saglik
+http://www.sonhaber.com.tr/yazar/
+http://www.sonhaber.com.tr/video/
 
 #include in index;
-
+^https?://([a-z]+\.)?sonhaber\.com\.tr/haber/.*/$
+^https?://([a-z]+\.)?sonhaber\.com\.tr/makale/.*/$
+^https?://([a-z]+\.)?sonhaber\.com\.tr/video/.*/$
 
 #exclude from crawl;
 
@@ -12,9 +20,9 @@ www.sonhaber.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?sonhaber\.com\.tr/video/.*/$
 #column patterns;
-
+^https?://([a-z]+\.)?sonhaber\.com\.tr/makale/.*/$
 #category patterns;
 
 #date elements;

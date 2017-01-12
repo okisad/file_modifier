@@ -1,8 +1,26 @@
 #seeds;
-www.kuzeyekspres.com.tr
+http://www.kuzeyekspres.com.tr/
+http://www.kuzeyekspres.com.tr/video-galeri.htm
+http://www.kuzeyekspres.com.tr/oltaya-vuranlar-haberleri-10hk.htm
+http://www.kuzeyekspres.com.tr/guncel-haberleri-1hk.htm
+http://www.kuzeyekspres.com.tr/bolge-haberleri-2hk.htm
+http://www.kuzeyekspres.com.tr/yerin-kulagi-haberleri-32hk.htm
+http://www.kuzeyekspres.com.tr/spor-haberleri-3hk.htm
+http://www.kuzeyekspres.com.tr/toplu-igne-haberleri-34hk.htm
+http://www.kuzeyekspres.com.tr/ekonomi-haberleri-5hk.htm
+http://www.kuzeyekspres.com.tr/author.php
+http://www.kuzeyekspres.com.tr/politika-haberleri-4hk.htm
+http://www.kuzeyekspres.com.tr/magazin-haberleri-33hk.htm
+http://www.kuzeyekspres.com.tr/teknoloji-haberleri-13hk.htm
+http://www.kuzeyekspres.com.tr/roportaj-haberleri-8hk.htm
+http://www.kuzeyekspres.com.tr/saglik-haberleri-12hk.htm
+http://www.kuzeyekspres.com.tr/gezi-arastirma-haberleri-9hk.htm
+http://www.kuzeyekspres.com.tr/dunya-haberleri-7hk.htm
 
 #include in index;
-
+^https?://([a-z]+\.)?kuzeyekspres\.com\.tr/.*\-[0-9]+h\.htm$
+^https?://([a-z]+\.)?kuzeyekspres\.com\.tr/.*\-[0-9]+v\.htm$
+^https?://([a-z]+\.)?kuzeyekspres\.com\.tr/.*\-[0-9]+yy\.htm$
 
 #exclude from crawl;
 
@@ -12,8 +30,10 @@ www.kuzeyekspres.com.tr
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kuzeyekspres\.com\.tr/.*\-[0-9]v\.htm$
 
 #column patterns;
+^https?://([a-z]+\.)?kuzeyekspres\.com\.tr/.*\-[0-9]yy\.htm$
 
 #category patterns;
 

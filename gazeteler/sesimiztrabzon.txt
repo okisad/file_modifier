@@ -1,10 +1,26 @@
 #seeds;
-www.turksesigazete.com
+http://www.turksesigazete.com/
+http://www.turksesigazete.com/gundem
+http://www.turksesigazete.com/spor
+http://www.turksesigazete.com/magazin
+http://www.turksesigazete.com/ekonomi
+http://www.turksesigazete.com/bolgesel
+http://www.turksesigazete.com/yasam
+http://www.turksesigazete.com/saglik
+http://www.turksesigazete.com/bilim-teknoloji
+http://www.turksesigazete.com/politika
+http://www.turksesigazete.com/dunya
+http://www.turksesigazete.com/egitim
+http://www.turksesigazete.com/kultur-sanat
+http://www.turksesigazete.com/#
 
 #include in index;
+^https?://([a-z]+\.)?turksesigazete\.com/.*/.*/[0-9]+$
+^https?://([a-z]+\.)?turksesigazete\.com/video\-haber/.*/[0-9]+$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?turksesigazete\.com/yazar/.*/[0-9]+$
 
 # generic exclusions
 .*\.pdf$
@@ -12,9 +28,10 @@ www.turksesigazete.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?turksesigazete\.com/video\-haber/.*/[0-9]+$
 
 #column patterns;
 
 #category patterns;
-
+^https?://([a-z]+\.)?turksesigazete\.com/(.*?)/.*/[0-9]+$
 #date elements;

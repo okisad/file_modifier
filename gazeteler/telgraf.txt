@@ -1,8 +1,25 @@
 #seeds;
-www.telgraf.net
+http://www.telgraf.net/
+http://www.telgraf.net/kategori/gundem-haberleri-1.html
+http://www.telgraf.net/kategori/siyaset-haberleri-2.html
+http://www.telgraf.net/kategori/ekonomi-haberleri-3.html
+http://www.telgraf.net/yazarlar.html
+http://www.telgraf.net/kategori/turkiye-haberleri-5.html
+http://www.telgraf.net/kategori/dunya-haberleri-6.html
+http://www.telgraf.net/kategori/spor-haberleri-7.html
+http://www.telgraf.net/kategori/saglik-haberleri-9.html
+http://www.telgraf.net/kategori/roportaj-haberleri-10.html
+http://www.telgraf.net/kategori/gaziantep-haberleri-11.html
+http://www.telgraf.net/kategori/teknoloji-haberleri-12.html
+http://www.telgraf.net/kategori/magazin-haberleri-13.html
+http://www.telgraf.net/kategori/kultur-sanat-haberleri-14.html
+http://www.telgraf.net/kategori/kadinaile-haberleri-15.html
+http://www.telgraf.net/webtv.html
 
 #include in index;
-
+^https?://([a-z]+\.)?telgraf\.net/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?telgraf\.net/webtv/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?telgraf\.net/koseyazisi/.*\-[0-9]+\.html$
 
 #exclude from crawl;
 
@@ -12,9 +29,9 @@ www.telgraf.net
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?telgraf\.net/webtv/.*\-[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?telgraf\.net/koseyazisi/.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

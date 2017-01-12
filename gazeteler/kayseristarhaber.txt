@@ -1,7 +1,15 @@
 #seeds;
-www.kayseristarhaber.com.tr
+http://www.kayseristarhaber.com.tr/
+http://www.kayseristarhaber.com.tr/category/son-dakika/
+http://www.kayseristarhaber.com.tr/category/gundem/
+http://www.kayseristarhaber.com.tr/category/ekonomi/
+http://www.kayseristarhaber.com.tr/category/siyaset/
+http://www.kayseristarhaber.com.tr/category/spor/
+http://www.kayseristarhaber.com.tr/category/yasam/
+http://www.kayseristarhaber.com.tr/category/yazarlar/
 
 #include in index;
+^https?://([a-z]+\.)?kayseristarhaber\.com\.tr/[0-9]+/[0-9]+/[0-9]+/.*/$
 
 
 #exclude from crawl;

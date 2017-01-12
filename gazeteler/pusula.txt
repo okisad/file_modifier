@@ -1,7 +1,17 @@
 #seeds;
-www.gazetepusula.com
+http://www.gazetepusula.com/
+http://www.gazetepusula.com/haber/ozel-haber/
+http://www.gazetepusula.com/haber/guncel/
+http://www.gazetepusula.com/haber/saglik/
+http://www.gazetepusula.com/haber/ekonomi/
+http://www.gazetepusula.com/haber/spor/
+http://www.gazetepusula.com/haber/egitim-kultur-ve-sanat/
+http://www.gazetepusula.com/haber/siyaset/
+http://www.gazetepusula.com/haber/kose-yazilari/
+http://www.gazetepusula.com/yazarlar/
 
 #include in index;
+^https?://([a-z]+\.)?gazetepusula\.com/[0-9]+/[0-9]+/.*/$
 
 
 #exclude from crawl;

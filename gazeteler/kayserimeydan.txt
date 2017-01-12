@@ -1,10 +1,24 @@
 #seeds;
-www.kayserimeydan.com.tr
+http://www.kayserimeydan.com.tr/
+http://www.kayserimeydan.com.tr/category/asayis/
+http://www.kayserimeydan.com.tr/category/genel/
+http://www.kayserimeydan.com.tr/category/kayseri/
+http://www.kayserimeydan.com.tr/category/guncel/
+http://www.kayserimeydan.com.tr/category/ozel/
+http://www.kayserimeydan.com.tr/category/roportaj/
+http://www.kayserimeydan.com.tr/category/siyaset/
+http://www.kayserimeydan.com.tr/category/spor/
 
 #include in index;
+^https?://([a-z]+\.)?kayserimeydan\.com\.tr/.*/$
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?kayserimeydan\.com\.tr/category/.*/page/[0-9]+/$
+^https?://([a-z]+\.)?kayserimeydan\.com\.tr/author/.*/$
+^https?://([a-z]+\.)?kayserimeydan\.com\.tr/page/[0-9]+/$
+^https?://([a-z]+\.)?kayserimeydan\.com\.tr/iletisim/$
+
 
 # generic exclusions
 .*\.pdf$

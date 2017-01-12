@@ -1,0 +1,48 @@
+#seeds;
+http://www.erzurumyenigun.com/
+http://www.erzurumyenigun.com/video-galeri/#&slider1=2
+http://www.erzurumyenigun.com/gunun-haberleri.html
+http://www.erzurumyenigun.com/yazarlar.html
+http://www.erzurumyenigun.com/kategori/dunya.html
+http://www.erzurumyenigun.com/kategori/siyaset.html
+http://www.erzurumyenigun.com/kategori/soylesi.html
+http://www.erzurumyenigun.com/kategori/yerel.html
+http://www.erzurumyenigun.com/kategori/turkiye.html
+http://www.erzurumyenigun.com/kategori/egitim.html
+http://www.erzurumyenigun.com/kategori/ekonomi.html
+http://www.erzurumyenigun.com/kategori/spor.html
+http://www.erzurumyenigun.com/kategori/manset.html
+http://www.erzurumyenigun.com/kategori/asayis.html
+http://www.erzurumyenigun.com/kategori/bolge.html
+http://www.erzurumyenigun.com/kategori/saglik.html
+http://www.erzurumyenigun.com/kategori/bilim-teknik.html
+http://www.erzurumyenigun.com/kategori/magazin.html
+http://www.erzurumyenigun.com/kategori/cevre.html
+http://www.erzurumyenigun.com/kategori/kultur-sanat.html
+http://www.erzurumyenigun.com/kategori/politika.html
+http://www.erzurumyenigun.com/kategori/genel.html
+http://www.erzurumyenigun.com/kategori/gundem.html
+http://www.erzurumyenigun.com/kategori/yasam.html
+http://www.erzurumyenigun.com/kategori/bilim-ve-teknoloji.html
+
+#include in index;
+
+^https?://([a-z]+\.)?erzurumyenigun\.com/.*\-[0-9]+v\.htm$
+^https?://([a-z]+\.)?erzurumyenigun\.com/.*\-n\-[0-9]+h\.htm$
+^https?://([a-z]+\.)?erzurumyenigun\.com/.*\-[0-9]+m\.htm$
+
+#exclude from crawl;
+
+# generic exclusions
+.*\.pdf$
+.*\.mp4$
+.*\.xml$
+
+#video patterns;
+^https?://([a-z]+\.)?erzurumyenigun\.com/.*\-[0-9]+v\.htm$
+#column patterns;
+^https?://([a-z]+\.)?erzurumyenigun\.com/.*\-[0-9]+m\.htm$
+
+#category patterns;
+
+#date elements;

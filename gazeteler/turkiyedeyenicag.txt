@@ -1,7 +1,30 @@
 #seeds;
-www.yenicaggazetesi.com.tr
+http://www.yenicaggazetesi.com.tr/
+http://www.yenicaggazetesi.com.tr/yazarlar.htm
+http://www.yenicaggazetesi.com.tr/siyaset-haberleri-41hk.htm
+http://www.yenicaggazetesi.com.tr/ekonomi-haberleri-39hk.htm
+http://www.yenicaggazetesi.com.tr/dunya-haberleri-43hk.htm
+http://www.yenicaggazetesi.com.tr/guncel-haberleri-40hk.htm
+http://www.yenicaggazetesi.com.tr/spor-haberleri-42hk.htm
+http://www.yenicaggazetesi.com.tr//video-galeri.htm
+http://www.yenicaggazetesi.com.tr/kitap-haberleri-56hk.htm
+http://www.yenicaggazetesi.com.tr/teknoloji-haberleri-63hk.htm
+http://www.yenicaggazetesi.com.tr/zaman-tuneli-haberleri-67hk.htm
+http://www.yenicaggazetesi.com.tr/arastirma-haberleri-55hk.htm
+http://www.yenicaggazetesi.com.tr/sinema-haberleri-58hk.htm
+http://www.yenicaggazetesi.com.tr/bilim-haberleri-68hk.htm
+http://www.yenicaggazetesi.com.tr/otomotiv-haberleri-84hk.htm
+http://www.yenicaggazetesi.com.tr/otomotiv-haberleri-84hk.htm
+http://www.yenicaggazetesi.com.tr/medya-polemik-haberleri-81hk.htm
+http://www.yenicaggazetesi.com.tr/dizi-roportaj-haberleri-44hk.htm
+http://www.yenicaggazetesi.com.tr/saglik-haberleri-61hk.htm
+http://www.yenicaggazetesi.com.tr/kultur-sanat-haberleri-86hk.htm
+http://www.yenicaggazetesi.com.tr/konuk-kalem-haberleri-85hk.htm
 
 #include in index;
+^https?://([a-z]+\.)?yenicaggazetesi\.com\.tr/.*\-[0-9]+h\.htm$
+^https?://([a-z]+\.)?yenicaggazetesi\.com\.tr/.*\-[0-9]+yy\.htm$
+^https?://([a-z]+\.)?yenicaggazetesi\.com\.tr/.*\-[0-9]+v\.htm$
 
 
 #exclude from crawl;
@@ -12,9 +35,9 @@ www.yenicaggazetesi.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?yenicaggazetesi\.com\.tr/.*\-[0-9]+v\.htm$
 #column patterns;
-
+^https?://([a-z]+\.)?yenicaggazetesi\.com\.tr/.*\-[0-9]+yy\.htm$
 #category patterns;
 
 #date elements;

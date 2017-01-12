@@ -1,7 +1,25 @@
 #seeds;
-www.yenimesaj.com.tr
+http://www.yenimesaj.com.tr/#
+http://www.yenimesaj.com.tr/
+http://www.yenimesaj.com.tr/yazarlar.html
+http://www.yenimesaj.com.tr/gundem
+http://www.yenimesaj.com.tr/ekonomi
+http://www.yenimesaj.com.tr/yasam
+http://www.yenimesaj.com.tr/dunyadan
+http://www.yenimesaj.com.tr/toplum
+http://www.yenimesaj.com.tr/saglik
+http://www.yenimesaj.com.tr/bilim-teknoloji
+http://www.yenimesaj.com.tr/kultur
+http://www.yenimesaj.com.tr/din
+http://www.yenimesaj.com.tr/spor
+http://www.yenimesaj.com.tr/otomotiv
+http://www.yenimesaj.com.tr/webtv/
 
 #include in index;
+
+^https?://([a-z]+\.)?yenimesaj\.com\.tr/.*\-h[0-9]+\.html$
+^https?://([a-z]+\.)?yenimesaj\.com\.tr/.*\-makale\,[0-9]+\.html$
+^https?://([a-z]+\.)?yenimesaj\.com\.tr/.*\-video\,[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +30,9 @@ www.yenimesaj.com.tr
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?yenimesaj\.com\.tr/.*\-video\,[0-9]+\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?yenimesaj\.com\.tr/.*\-makale\,[0-9]+\.html$
 #category patterns;
 
 #date elements;

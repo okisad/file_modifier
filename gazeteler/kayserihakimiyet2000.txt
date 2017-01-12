@@ -1,10 +1,31 @@
 #seeds;
-www.kayserihakimiyet2000.com
+http://www.kayserihakimiyet2000.com/
+http://www.kayserihakimiyet2000.com/kose-yazarlarimiz/
+http://www.kayserihakimiyet2000.com/haber/video-galerisi/
+http://www.kayserihakimiyet2000.com/haber/gundem/
+http://www.kayserihakimiyet2000.com/haber/siyaset/
+http://www.kayserihakimiyet2000.com/haber/spor/
+http://www.kayserihakimiyet2000.com/haber/saglik/
+http://www.kayserihakimiyet2000.com/haber/ekonomi/
+http://www.kayserihakimiyet2000.com/haber/kose-yazarlari/
+http://www.kayserihakimiyet2000.com/haber/genel/
+http://www.kayserihakimiyet2000.com/haber/kultur-sanat/
+http://www.kayserihakimiyet2000.com/haber/egitim/
+http://www.kayserihakimiyet2000.com/haber/yerel-haber/
 
 #include in index;
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/.*/$
+
 
 
 #exclude from crawl;
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/haber/.*/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/kose\-yazarlarimiz/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/yazar/.*/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/tarihce/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/bize\-ulasin/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/kunye/$
+^https?://([a-z]+\.)?kayserihakimiyet2000\.com/hakkimizda/$
 
 # generic exclusions
 .*\.pdf$

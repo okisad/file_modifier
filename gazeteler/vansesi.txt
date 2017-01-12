@@ -1,7 +1,33 @@
 #seeds;
-www.vansesigazete.i.com
+http://www.vansesigazetesi.com/
+http://www.vansesigazetesi.com/videolar.html
+http://www.vansesigazetesi.com/yazarlar.html
+http://www.vansesigazetesi.com/kategori-arsiv-4.html
+http://www.vansesigazetesi.com/kategori-arsiv-7.html
+http://www.vansesigazetesi.com/kategori-arsiv-10.html
+http://www.vansesigazetesi.com/kategori-arsiv-11.html
+http://www.vansesigazetesi.com/kategori-arsiv-13.html
+http://www.vansesigazetesi.com/kategori-arsiv-14.html
+http://www.vansesigazetesi.com/kategori-arsiv-15.html
+http://www.vansesigazetesi.com/kategori-arsiv-16.html
+http://www.vansesigazetesi.com/kategori-arsiv-17.html
+http://www.vansesigazetesi.com/kategori-arsiv-18.html
+http://www.vansesigazetesi.com/kategori-arsiv-22.html
+http://www.vansesigazetesi.com/kategori-arsiv-23.html
+http://www.vansesigazetesi.com/kategori-arsiv-25.html
+http://www.vansesigazetesi.com/kategori-arsiv-26.html
+http://www.vansesigazetesi.com/kategori-arsiv-27.html
+http://www.vansesigazetesi.com/kategori-arsiv-28.html
+http://www.vansesigazetesi.com/kategori-arsiv-29.html
+http://www.vansesigazetesi.com/kategori-arsiv-1.html
+http://www.vansesigazetesi.com/kategori-isinin_erbabi-34.html
+http://www.vansesigazetesi.com/kategori-halkin_ses-35.html
 
 #include in index;
+
+^https?://([a-z]+\.)?vansesigazetesi\.com/haber\-.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?vansesigazetesi\.com/videolar\-album\-.*\-[0-9]+.*\.html$
+^https?://([a-z]+\.)?vansesigazetesi\.com/yazar\-.*\-[0-9]+\.html$
 
 
 #exclude from crawl;
@@ -12,9 +38,9 @@ www.vansesigazete.i.com
 .*\.xml$
 
 #video patterns;
-
+^https?://([a-z]+\.)?vansesigazetesi\.com/videolar\-album\-.*\-[0-9]+.*\.html$
 #column patterns;
-
+^https?://([a-z]+\.)?vansesigazetesi\.com/yazar\-.*\-[0-9]+\.html$
 #category patterns;
 
 #date elements;

@@ -1,10 +1,32 @@
 #seeds;
-www.ulkergazetesikayseri.com
+http://www.kayseriulkergazetesi.com/
+http://www.kayseriulkergazetesi.com/haber/kategori/siyaset-2.html
+http://www.kayseriulkergazetesi.com/haber/kategori/guncel-5.html
+http://www.kayseriulkergazetesi.com/haber/kategori/ekonomi-3.html
+http://www.kayseriulkergazetesi.com/haber/kategori/asayis-118.html
+http://www.kayseriulkergazetesi.com/haber/kategori/egitim-7.html
+http://www.kayseriulkergazetesi.com/haber/kategori/spor-6.html
+http://www.kayseriulkergazetesi.com/haber/kategori/amator-121.html
+http://www.kayseriulkergazetesi.com/haber/kategori/SA%C4%9ELIK-102.html
+http://www.kayseriulkergazetesi.com/haber/kategori/yazarlar-120.html
+http://www.kayseriulkergazetesi.com/haber/kategori/kultur-sanat-104.html
+http://www.kayseriulkergazetesi.com/haber/kategori/teknoloji-8.html
+http://www.kayseriulkergazetesi.com/haber/kategori/giyilinebilir-teknoloji-113.html
+http://www.kayseriulkergazetesi.com/haber/kategori/yapay-zeka-114.html
+http://www.kayseriulkergazetesi.com/haber/kategori/apple-haberleri-115.html
+http://www.kayseriulkergazetesi.com/haber/kategori/microsoft-haberleri-116.html
+http://www.kayseriulkergazetesi.com/haber/kategori/tesla-teknolojileri-117.html
 
 #include in index;
 
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/haber/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/kose\-yazilari/.*\-[0-9]+\.html$
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/video\-galeri/.*\-[0-9]+\.html$
+
+
 
 #exclude from crawl;
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/haber/kategori/.*\-[0-9]+\.html$
 
 # generic exclusions
 .*\.pdf$
@@ -12,8 +34,10 @@ www.ulkergazetesikayseri.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/video\-galeri/.*\-[0-9]+\.html$
 
 #column patterns;
+^https?://([a-z]+\.)?kayseriulkergazetesi\.com/kose\-yazilari/.*\-[0-9]+\.html$
 
 #category patterns;
 

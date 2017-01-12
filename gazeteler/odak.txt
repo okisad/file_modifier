@@ -1,8 +1,21 @@
 #seeds;
-www.afyonkarahisargazetesi.com
+http://www.afyonkarahisar.com.tr/
+http://www.afyonkarahisar.com.tr/videolar.html
+http://www.afyonkarahisar.com.tr/kategori-14-afyon_yasam.html
+http://www.afyonkarahisar.com.tr/kategori-26-guncel.html
+http://www.afyonkarahisar.com.tr/kategori-25-Siyaset.html
+http://www.afyonkarahisar.com.tr/kategori-34-neler_duyduk.html
+http://www.afyonkarahisar.com.tr/kategori-13-spor.html
+http://www.afyonkarahisar.com.tr/kategori-18-saglik.html
+http://www.afyonkarahisar.com.tr/kategori-17-egitim.html
+http://www.afyonkarahisar.com.tr/kategori-15-ilceler.html
+http://www.afyonkarahisar.com.tr/kategori-27-soylesi.html
 
 #include in index;
 
+^https?://([a-z]+\.)?afyonkarahisar\.com\.tr/haber\-[0-9]+.*\.html$
+^https?://([a-z]+\.)?afyonkarahisar\.com\.tr/video\-[0-9]+.*\.html\#galeri$
+^https?://([a-z]+\.)?afyonkarahisar\.com\.tr/yazar\-[0-9]+.*\.html$
 
 #exclude from crawl;
 
@@ -12,8 +25,10 @@ www.afyonkarahisargazetesi.com
 .*\.xml$
 
 #video patterns;
+^https?://([a-z]+\.)?afyonkarahisar\.com\.tr/video\-[0-9]+.*\.html\#galeri$
 
 #column patterns;
+^https?://([a-z]+\.)?afyonkarahisar\.com\.tr/yazar\-[0-9]+.*\.html$
 
 #category patterns;
 
